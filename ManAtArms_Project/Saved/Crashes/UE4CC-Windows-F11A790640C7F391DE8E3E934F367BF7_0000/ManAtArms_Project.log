@@ -1,0 +1,762 @@
+﻿Log file open, 10/02/20 15:51:45
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: ManAtArms_Project
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.075455
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin Landmass
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogHMD: Failed initializing OVRPlugin 1.40.0
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1903) (), CPU: AMD Ryzen 7 3700X 8-Core Processor             , GPU: NVIDIA GeForce RTX 2070 SUPER
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: Z:/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.02-19.51.46:600][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.02-19.51.46:600][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.02-19.51.46:600][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
+[2020.10.02-19.51.46:600][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:1]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
+[2020.10.02-19.51.46:601][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.02-19.51.46:601][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
+[2020.10.02-19.51.46:601][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
+[2020.10.02-19.51.46:605][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.02-19.51.46:605][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.02-19.51.46:606][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.02-19.51.46:606][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.02-19.51.46:606][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.02-19.51.46:608][  0]LogHAL: Display: Platform has ~ 32 GB [34305134592 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.02-19.51.46:608][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.02-19.51.46:608][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
+[2020.10.02-19.51.46:608][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.SSR.Quality:4]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.SSGI.Quality:4]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:2]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:32.0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:8.0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:30.0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:20.0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:64]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:1]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:32]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.02-19.51.46:609][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
+[2020.10.02-19.51.46:609][  0]LogInit: Computer: HAETAE02
+[2020.10.02-19.51.46:609][  0]LogInit: User: john0
+[2020.10.02-19.51.46:609][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.10.02-19.51.46:609][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.02-19.51.46:610][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.10.02-19.51.46:610][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.02-19.51.46:610][  0]LogMemory: Process Physical Memory: 115.68 MB used, 115.68 MB peak
+[2020.10.02-19.51.46:610][  0]LogMemory: Process Virtual Memory: 107.59 MB used, 107.59 MB peak
+[2020.10.02-19.51.46:610][  0]LogMemory: Physical Memory: 20301.24 MB used,  12414.69 MB free, 32715.93 MB total
+[2020.10.02-19.51.46:610][  0]LogMemory: Virtual Memory: 5200.88 MB used,  134212528.00 MB free, 134217728.00 MB total
+[2020.10.02-19.51.46:613][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.02-19.51.46:640][  0]LogInit: Using OS detected language (en-GB).
+[2020.10.02-19.51.46:640][  0]LogInit: Using OS detected locale (en-CA).
+[2020.10.02-19.51.46:641][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.10.02-19.51.46:774][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.02-19.51.46:811][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.02-19.51.46:811][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.02-19.51.46:958][  0]LogD3D12RHI: Aftermath initialized
+[2020.10.02-19.51.46:958][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/DirectX/x64).
+[2020.10.02-19.51.46:997][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2020.10.02-19.51.47:087][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 2070 SUPER (Max supported Feature Level 12_1)
+[2020.10.02-19.51.47:087][  0]LogD3D12RHI: Adapter has 8011MB of dedicated video memory, 0MB of dedicated system memory, and 16357MB of shared system memory, 2 output[s]
+[2020.10.02-19.51.47:098][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1)
+[2020.10.02-19.51.47:098][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 16357MB of shared system memory, 0 output[s]
+[2020.10.02-19.51.47:108][  0]LogD3D12RHI: Found D3D12 adapter 2: Microsoft Basic Render Driver (Max supported Feature Level 12_1)
+[2020.10.02-19.51.47:109][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 16357MB of shared system memory, 0 output[s]
+[2020.10.02-19.51.47:109][  0]LogD3D12RHI: Forcing D3D12.AsyncDeferredDeletion=0 as a workaround for a deadlock.
+[2020.10.02-19.51.47:109][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2020.10.02-19.51.47:119][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2020.10.02-19.51.47:178][  0]LogD3D12RHI: The system supports ID3D12Device1.
+[2020.10.02-19.51.47:178][  0]LogD3D12RHI: The system supports ID3D12Device2.
+[2020.10.02-19.51.47:260][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2020.10.02-19.51.47:260][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2020.10.02-19.51.47:262][  0]LogD3D12RHI:     GPU DeviceId: 0x1e84 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.02-19.51.47:262][  0]LogWindows: EnumDisplayDevices:
+[2020.10.02-19.51.47:262][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070 SUPER' (P:1 D:1)
+[2020.10.02-19.51.47:262][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:1)
+[2020.10.02-19.51.47:262][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2020.10.02-19.51.47:262][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2020.10.02-19.51.47:262][  0]LogWindows:    4. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2020.10.02-19.51.47:263][  0]LogWindows:    5. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2020.10.02-19.51.47:263][  0]LogWindows:    6. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2020.10.02-19.51.47:263][  0]LogWindows:    7. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2020.10.02-19.51.47:263][  0]LogWindows:    8. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2020.10.02-19.51.47:264][  0]LogWindows:    9. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2020.10.02-19.51.47:264][  0]LogWindows:    10. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2020.10.02-19.51.47:264][  0]LogWindows:    11. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2020.10.02-19.51.47:264][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.10.02-19.51.47:264][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce RTX 2070 SUPER
+[2020.10.02-19.51.47:264][  0]LogD3D12RHI:   Driver Version: 456.55 (internal:27.21.14.5655, unified:456.55)
+[2020.10.02-19.51.47:264][  0]LogD3D12RHI:      Driver Date: 9-24-2020
+[2020.10.02-19.51.47:264][  0]LogRHI: Texture pool is 4289 MB (70% of 6128 MB)
+[2020.10.02-19.51.47:264][  0]LogD3D12RHI: Async texture creation enabled
+[2020.10.02-19.51.47:264][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2020.10.02-19.51.47:560][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.02-19.51.47:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.02-19.51.47:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.02-19.51.47:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.10.02-19.51.47:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.02-19.51.47:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.10.02-19.51.47:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.10.02-19.51.47:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.02-19.51.47:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.10.02-19.51.47:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.02-19.51.47:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.02-19.51.47:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.10.02-19.51.47:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.02-19.51.47:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.10.02-19.51.47:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.10.02-19.51.47:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.02-19.51.47:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.10.02-19.51.47:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.02-19.51.47:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.02-19.51.47:603][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.02-19.51.47:603][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.02-19.51.47:609][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.02-19.51.47:615][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.02-19.51.47:620][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.02-19.51.47:626][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.02-19.51.47:632][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.02-19.51.47:638][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.02-19.51.47:660][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.02-19.51.47:660][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.02-19.51.47:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.02-19.51.47:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.02-19.51.47:680][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.02-19.51.47:686][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.02-19.51.47:693][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.02-19.51.47:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.02-19.51.47:699][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.02-19.51.47:702][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.02-19.51.47:721][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../GitHub/ManAtArms/ManAtArms_Project/Intermediate/Shaders/WorkingDirectory/28412/).
+[2020.10.02-19.51.47:721][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/john0/AppData/Local/Temp/UnrealShaderWorkingDir/C4155D5B4985E507EFACC1BF2CAF4529/'.
+[2020.10.02-19.51.47:721][  0]LogXGEController: Cleaning working directory: C:/Users/john0/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.10.02-19.51.47:721][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.02-19.51.47:721][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.02-19.51.47:721][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.02-19.51.48:343][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.02-19.51.48:394][  0]LogDerivedDataCache: Loaded boot cache 0.05s 82MB C:/Users/john0/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.10.02-19.51.48:395][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/john0/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.10.02-19.51.48:395][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHub/ManAtArms/ManAtArms_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.02-19.51.48:395][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.02-19.51.48:395][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHub/ManAtArms/ManAtArms_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.02-19.51.48:395][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.02-19.51.48:404][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.02-19.51.48:404][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.02-19.51.48:404][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.02-19.51.48:405][  0]LogDerivedDataCache: Using Local data cache path C:/Users/john0/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.02-19.51.48:405][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.02-19.51.48:405][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.02-19.51.48:427][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.10.02-19.51.48:429][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.02-19.51.48:430][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.02-19.51.48:477][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2020.10.02-19.51.48:729][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.02-19.51.48:854][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.02-19.51.48:854][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.02-19.51.48:854][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.02-19.51.48:854][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.02-19.51.48:854][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.02-19.51.48:864][  0]LogNetVersion: ManAtArms_Project 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 3666147968)
+[2020.10.02-19.51.49:737][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.047529 seconds
+[2020.10.02-19.51.49:744][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.10.02-19.51.49:744][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.10.02-19.51.49:744][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.02-19.51.50:080][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.02-19.51.50:083][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.02-19.51.50:128][  0]SourceControl: Source control is disabled
+[2020.10.02-19.51.50:128][  0]SourceControl: Source control is disabled
+[2020.10.02-19.51.50:129][  0]SourceControl: Source control is disabled
+[2020.10.02-19.51.50:130][  0]SourceControl: Source control is disabled
+[2020.10.02-19.51.50:131][  0]SourceControl: Source control is disabled
+[2020.10.02-19.51.50:208][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.02-19.51.50:219][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.02-19.51.50:219][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.02-19.51.50:293][  0]LogOcInput: OculusInput pre-init called
+[2020.10.02-19.51.50:849][  0]LogEngine: Initializing Engine...
+[2020.10.02-19.51.50:902][  0]LogHMD: Failed to initialize OpenVR with code 119
+[2020.10.02-19.51.50:903][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.10.02-19.51.51:173][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.02-19.51.51:180][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.02-19.51.51:182][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.02-19.51.51:182][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.02-19.51.51:182][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.02-19.51.51:182][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.02-19.51.51:182][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.02-19.51.51:182][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.02-19.51.51:182][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.02-19.51.51:182][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.02-19.51.51:182][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.02-19.51.51:182][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.02-19.51.51:222][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.10.02-19.51.51:222][  0]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.10.02-19.51.51:222][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.10.02-19.51.51:222][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.10.02-19.51.51:222][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.10.02-19.51.51:222][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.10.02-19.51.51:222][  0]LogAudioMixer: Display: Channel Order:
+[2020.10.02-19.51.51:222][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.02-19.51.51:222][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.02-19.51.51:272][  0]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.10.02-19.51.51:277][  0]LogInit: FAudioDevice initialized.
+[2020.10.02-19.51.51:277][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.02-19.51.51:424][  0]LogDerivedDataCache: Saved boot cache 0.15s 82MB C:/Users/john0/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.10.02-19.51.51:427][  0]LogInit: Texture streaming: Enabled
+[2020.10.02-19.51.51:438][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.02-19.51.51:438][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.02-19.51.51:439][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.02-19.51.51:498][  0]LogInit: Transaction tracking system initialized
+[2020.10.02-19.51.51:508][  0]BlueprintLog: New page: Editor Load
+[2020.10.02-19.51.51:538][  0]LocalizationService: Localization service is disabled
+[2020.10.02-19.51.51:783][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.02-19.51.51:783][  0]LogFileCache: Scanning file cache for directory 'Z:/GitHub/ManAtArms/ManAtArms_Project/Content/' took 0.01s
+[2020.10.02-19.51.51:783][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.02-19.51.52:348][  0]SourceControl: Source control is disabled
+[2020.10.02-19.51.52:348][  0]Cmd: MAP LOAD FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/Scene1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.02-19.51.52:348][  0]LightingResults: New page: Lighting Build
+[2020.10.02-19.51.52:349][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.02-19.51.52:349][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.02-19.51.52:349][  0]MapCheck: New page: Map Check
+[2020.10.02-19.51.52:349][  0]LightingResults: New page: Lighting Build
+[2020.10.02-19.51.52:377][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.10.02-19.51.52:694][  0]LogAIModule: Creating AISystem for world Scene1
+[2020.10.02-19.51.52:699][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.02-19.51.52:747][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.10.02-19.51.52:748][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.02-19.51.52:748][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.118ms to complete.
+[2020.10.02-19.51.52:748][  0]LogFileHelpers: Loading map 'Scene1' took 0.400
+[2020.10.02-19.51.52:879][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.02-19.51.52:885][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.02-19.51.52:890][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.02-19.51.52:895][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.02-19.51.52:898][  0]LogCollectionManager: Loaded 0 collections in 0.000807 seconds
+[2020.10.02-19.51.52:910][  0]LogFileCache: Scanning file cache for directory 'Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Collections/' took 0.00s
+[2020.10.02-19.51.52:910][  0]LogFileCache: Scanning file cache for directory 'Z:/GitHub/ManAtArms/ManAtArms_Project/Content/Developers/john0/Collections/' took 0.00s
+[2020.10.02-19.51.52:910][  0]LogFileCache: Scanning file cache for directory 'Z:/GitHub/ManAtArms/ManAtArms_Project/Content/Collections/' took 0.00s
+[2020.10.02-19.51.52:910][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 3017 classes and 720 folders.
+[2020.10.02-19.51.52:913][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.10.02-19.51.52:964][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.02-19.51.52:968][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2020.10.02-19.51.52:975][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2020.10.02-19.51.53:029][  0]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.02-19.51.53:033][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.02-19.51.53:035][  0]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.02-19.51.53:093][  0]LogRenderer: Reallocating scene render targets to support 1068x600 Format 10 NumSamples 1 (Frame:1).
+[2020.10.02-19.51.53:350][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.02-19.51.53:350][  0]LogLoad: (Engine Initialization) Total time: 8.24 seconds
+[2020.10.02-19.51.53:350][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.02-19.51.53:404][  0]LogAssetRegistry: Asset discovery search completed in 4.9285 seconds
+[2020.10.02-19.51.53:407][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
+[2020.10.02-19.51.53:410][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2020.10.02-19.51.53:454][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.02-19.58.44:813][437]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.02-19.59.44:028][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Scene1" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/Scene1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.02-19.59.44:058][704]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2020.10.02-19.59.44:214][704]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Scene10A4E87AB41EC8A4F0EED48A1248F47DF.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/Scene1.umap'
+[2020.10.02-19.59.44:244][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Scene1_BuiltData" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/Scene1_BuiltData.uasset" SILENT=true
+[2020.10.02-19.59.44:964][704]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Scene1_BuiltDataC7D6B79D45D31A7767781EB7E10CD72C.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/Scene1_BuiltData.uasset'
+[2020.10.02-19.59.45:000][704]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.02-19.59.45:000][704]LogContentValidation: Display: Validating World /Game/MyContent/Scene1.Scene1
+[2020.10.02-19.59.45:000][704]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyContent/Scene1_BuiltData.Scene1_BuiltData
+[2020.10.02-19.59.45:693][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.10.02-19.59.47:077][781]LogSlate: Window 'Save Content' being destroyed
+[2020.10.02-19.59.47:114][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/MainMenu" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.02-19.59.47:143][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.10.02-19.59.47:149][781]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/MainMenuC0AE4CC64860BE6FF867079AF688CB34.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/MainMenu.umap'
+[2020.10.02-19.59.47:150][781]LogFileHelpers: Saving map 'MainMenu' took 0.037
+[2020.10.02-19.59.47:163][781]AssetCheck: New page: Asset Save: MainMenu
+[2020.10.02-19.59.47:163][781]LogContentValidation: Display: Validating World /Game/MyContent/MainMenu.MainMenu
+[2020.10.02-19.59.51:395][279]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MyContent/MainMenu.MainMenu
+[2020.10.02-19.59.51:432][279]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.10.02-19.59.51:433][279]Cmd: MAP LOAD FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.02-19.59.51:433][279]LightingResults: New page: Lighting Build
+[2020.10.02-19.59.51:434][279]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.10.02-19.59.51:448][279]LogWorld: UWorld::CleanupWorld for Scene1, bSessionEnded=true, bCleanupResources=true
+[2020.10.02-19.59.51:448][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.02-19.59.51:459][279]MapCheck: New page: Map Check
+[2020.10.02-19.59.51:459][279]LightingResults: New page: Lighting Build
+[2020.10.02-19.59.51:489][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.10.02-19.59.51:559][279]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.02-19.59.51:559][279]LogAIModule: Creating AISystem for world MainMenu
+[2020.10.02-19.59.51:588][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.10.02-19.59.51:612][279]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.02-19.59.51:613][279]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.096ms to complete.
+[2020.10.02-19.59.51:613][279]LogFileHelpers: Loading map 'MainMenu' took 0.181
+[2020.10.02-19.59.59:545][167]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MyContent/MainMenu.MainMenu
+[2020.10.02-19.59.59:571][167]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.10.02-19.59.59:574][167]Cmd: MAP LOAD FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.02-19.59.59:574][167]LightingResults: New page: Lighting Build
+[2020.10.02-19.59.59:574][167]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.10.02-19.59.59:574][167]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.10.02-19.59.59:574][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.02-19.59.59:575][167]MapCheck: New page: Map Check
+[2020.10.02-19.59.59:575][167]LightingResults: New page: Lighting Build
+[2020.10.02-19.59.59:602][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.10.02-19.59.59:605][167]LogAIModule: Creating AISystem for world MainMenu
+[2020.10.02-19.59.59:654][167]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.02-19.59.59:685][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.10.02-19.59.59:708][167]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.02-19.59.59:708][167]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.07ms to complete.
+[2020.10.02-19.59.59:708][167]LogFileHelpers: Loading map 'MainMenu' took 0.136
+[2020.10.02-20.01.06:497][212]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.10.02-20.01.18:476][374]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.10.02-20.01.31:016][702]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.02-20.01.45:625][400]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2020.10.02-20.01.46:754][400]LogSlate: Window 'Save Content' being destroyed
+[2020.10.02-20.01.46:775][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/BP/LobbyCharacterBP" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/BP/LobbyCharacterBP.uasset" SILENT=true
+[2020.10.02-20.01.46:786][400]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/LobbyCharacterBPDECA4C1549DF5D5140F62AB27EC5E0C1.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/BP/LobbyCharacterBP.uasset'
+[2020.10.02-20.01.46:788][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/BP/LobbyGameMode" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/BP/LobbyGameMode.uasset" SILENT=true
+[2020.10.02-20.01.46:794][400]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/LobbyGameMode9F2B75A542761EE69DEDE1BA5C07BCEB.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/BP/LobbyGameMode.uasset'
+[2020.10.02-20.01.46:795][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/MainMenu" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.02-20.01.46:823][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.10.02-20.01.46:830][400]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/MainMenu1B1D794847AC320C5F148AB2B6719D16.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/MainMenu.umap'
+[2020.10.02-20.01.46:856][400]LogFileHelpers: Saving map 'MainMenu' took 0.061
+[2020.10.02-20.01.46:875][400]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.02-20.01.46:875][400]LogContentValidation: Display: Validating Blueprint /Game/MyContent/BP/LobbyCharacterBP.LobbyCharacterBP
+[2020.10.02-20.01.46:875][400]LogContentValidation: Display: Validating Blueprint /Game/MyContent/BP/LobbyGameMode.LobbyGameMode
+[2020.10.02-20.01.46:875][400]LogContentValidation: Display: Validating World /Game/MyContent/MainMenu.MainMenu
+[2020.10.02-20.01.48:857][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/MainMenu" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.02-20.01.48:887][614]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.10.02-20.01.48:893][614]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/MainMenuC7684B1542CA2F3FE7B67D82509F23FC.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/MainMenu.umap'
+[2020.10.02-20.01.48:928][614]AssetCheck: New page: Asset Save: MainMenu
+[2020.10.02-20.01.48:928][614]LogContentValidation: Display: Validating World /Game/MyContent/MainMenu.MainMenu
+[2020.10.02-20.01.50:243][756]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/BP/LobbyCharacterBP.LobbyCharacterBP
+[2020.10.02-20.01.50:454][756]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2020.10.02-20.01.51:239][756]LogRenderer: Reallocating scene render targets to support 1068x644 Format 10 NumSamples 1 (Frame:1).
+[2020.10.02-20.01.53:149][957]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.02-20.02.10:040][837]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.10.02-20.02.45:497][597]BlueprintLog: New page: Compile LobbyCharacterBP
+[2020.10.02-20.02.45:498][597]LogBlueprint: Error: [Compiler LobbyCharacterBP] Spawn node  Create Widget  must have a class specified.
+[2020.10.02-20.02.45:727][597]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.10.02-20.03.09:590][ 34]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MyContent/BP/UI/UI_MainMenu.UI_MainMenu
+[2020.10.02-20.04.23:644][560]LogEditorTransaction: Undo Edit Horizontal Alignment
+[2020.10.02-20.04.23:669][560]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.10.02-20.04.24:196][560]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.517 s
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: === Handled ensure: ===
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: 
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: Ensure condition failed: !GIsTransacting [File:D:/Build/++UE4/Sync/Engine/Source/Editor/UnrealEd/Private/ScopedTransaction.cpp] [Line: 20]
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: 
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: Stack: 
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8c6598768 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8c5f14ecf UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff889f49445 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff889f0c0e9 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8cef2e957 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8cf010050 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8cee0f418 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8cee0fcfa UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8cedb8d05 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff88986945c UE4Editor-UMGEditor.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8898dd9c2 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8898a5e76 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff88986557b UE4Editor-UMGEditor.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8899c7c49 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8899a6e1b UE4Editor-UMGEditor.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8cdce1b59 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8b19f4d6e UE4Editor-Engine.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8c5d34ecd UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8cdce55f0 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8c59e22ad UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8c5a073b6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8c59f2d4c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8c5a8ea93 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8c5a2ec6f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8cdce25c8 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8cedb9ada UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8cedf03de UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8c620568e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8c61f3221 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8ced81041 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8cedf224d UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8cede7b0f UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8d7f84918 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8d7f7242f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8d7f87195 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8d7f6ec40 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff91ccd5c7d USER32.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff91ccd5672 USER32.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff8d7f88699 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff6370e6db0 UE4Editor.exe!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff6370fc3ec UE4Editor.exe!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff6370fc4ca UE4Editor.exe!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff63710ceae UE4Editor.exe!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff63710fcbe UE4Editor.exe!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff91c677bd4 KERNEL32.DLL!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: [Callstack] 0x00007ff91e4ece51 ntdll.dll!UnknownFunction []
+[2020.10.02-20.04.24:196][560]LogOutputDevice: Error: 
+[2020.10.02-20.04.24:200][560]LogStats:                SubmitErrorReport -  0.000 s
