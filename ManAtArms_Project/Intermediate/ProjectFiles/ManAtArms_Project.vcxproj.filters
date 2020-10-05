@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ManAtArms_Project.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{63D871BA-E307-4698-B12F-86A4F86747A5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ManAtArms_Project.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ManAtArms_ProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{DE348421-6CA9-4552-B76B-038D1446E822}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ManAtArms_Project">
+      <UniqueIdentifier>{58476A23-C984-4705-B5A8-04205F7261FC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ManAtArms_Project\ManAtArms_Project.Build.cs">
+      <Filter>Source\ManAtArms_Project</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ManAtArms_Project\ManAtArms_Project.cpp">
+      <Filter>Source\ManAtArms_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ManAtArms_Project\ManAtArms_Project.h">
+      <Filter>Source\ManAtArms_Project</Filter>
+    </ClInclude>
+    <Filter Include="Source\ManAtArms_Project\Private">
+      <UniqueIdentifier>{BFC38118-3E97-4843-B8FD-3173DC620CD3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ManAtArms_Project\Private\Tetrehedron.cpp">
+      <Filter>Source\ManAtArms_Project\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ManAtArms_Project\Public">
+      <UniqueIdentifier>{91193C83-CAE9-445A-96FF-D023E719530E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ManAtArms_Project\Public\Tetrehedron.h">
+      <Filter>Source\ManAtArms_Project\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
