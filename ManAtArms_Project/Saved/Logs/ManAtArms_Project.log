@@ -1441,3 +1441,59 @@ Script Stack (0 frames):
 [2020.10.09-20.04.16:743][213]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Scene1_Auto6A541FC71459A019E648D309422E1F51D.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/Scene1_Auto6.umap'
 [2020.10.09-20.04.16:746][213]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/Scene1' took 0.365
 [2020.10.09-20.04.16:746][213]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.365
+[2020.10.09-20.36.43:686][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/BP/BP_Salmon" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/BP/BP_Salmon.uasset" SILENT=true
+[2020.10.09-20.36.43:733][ 26]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_Salmon8DCFE3C74163E7A0586939BC85A0871A.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/BP/BP_Salmon.uasset'
+[2020.10.09-20.36.43:750][ 26]AssetCheck: New page: Asset Save: BP_Salmon
+[2020.10.09-20.36.43:750][ 26]LogContentValidation: Display: Validating Blueprint /Game/MyContent/BP/BP_Salmon.BP_Salmon
+[2020.10.09-20.36.46:921][354]LogTemp: Repeating last play command: Simulate
+[2020.10.09-20.36.46:941][354]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Scene1.Scene1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Scene1.Scene1:PersistentLevel.Scene1' with GeneratedClass '/Game/MyContent/Scene1.Scene1_C' with ClassGeneratedBy '/Game/MyContent/Scene1.Scene1:PersistentLevel.Scene1'
+[2020.10.09-20.36.46:941][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.09-20.36.46:941][354]PIE: New page: SIE session: Scene1 (Oct. 9, 2020, 12:36:46 p.m.)
+[2020.10.09-20.36.46:942][354]LogPlayLevel: Creating play world package: /Game/MyContent/UEDPIE_0_Scene1
+[2020.10.09-20.36.46:950][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008194s)
+[2020.10.09-20.36.46:951][354]LogAIModule: Creating AISystem for world Scene1
+[2020.10.09-20.36.46:951][354]LogPlayLevel: PIE: World Init took: (0.001253s)
+[2020.10.09-20.36.46:951][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Scene1.Scene1 to /Game/MyContent/UEDPIE_0_Scene1.Scene1 (0.009608s)
+[2020.10.09-20.36.46:995][354]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2020.10.09-20.36.47:001][354]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.09-20.36.47:001][354]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.09-20.36.47:001][354]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.09-20.36.47:001][354]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.09-20.36.47:001][354]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.09-20.36.47:001][354]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.09-20.36.47:001][354]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.09-20.36.47:001][354]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.09-20.36.47:002][354]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.09-20.36.47:002][354]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.09-20.36.47:038][354]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.10.09-20.36.47:038][354]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.10.09-20.36.47:038][354]LogAudioMixer: Display: Is Default: Yes
+[2020.10.09-20.36.47:038][354]LogAudioMixer: Display: Sample Rate: 48000
+[2020.10.09-20.36.47:038][354]LogAudioMixer: Display: Channel Count Used: 2
+[2020.10.09-20.36.47:038][354]LogAudioMixer: Display: Device Channel Count: 2
+[2020.10.09-20.36.47:038][354]LogAudioMixer: Display: Channel Order:
+[2020.10.09-20.36.47:038][354]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-20.36.47:038][354]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-20.36.47:053][354]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.10.09-20.36.47:054][354]LogInit: FAudioDevice initialized.
+[2020.10.09-20.36.47:066][354]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.09-20.36.47:072][354]LogWorld: Bringing World /Game/MyContent/UEDPIE_0_Scene1.Scene1 up for play (max tick rate 0) at 2020.10.09-16.36.47
+[2020.10.09-20.36.47:072][354]LogWorld: Bringing up level for play took: 0.005145
+[2020.10.09-20.36.47:072][354]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.10.09-20.36.47:074][354]PIE: Play in editor start time for /Game/MyContent/UEDPIE_0_Scene1 0.956
+[2020.10.09-20.36.47:075][354]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Scene1.Scene1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Scene1.Scene1:PersistentLevel.Scene1' with GeneratedClass '/Game/MyContent/Scene1.Scene1_C' with ClassGeneratedBy '/Game/MyContent/Scene1.Scene1:PersistentLevel.Scene1'
+[2020.10.09-20.36.59:739][866]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.10.09-20.36.59:739][866]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.10.09-20.36.59:740][866]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Scene1.Scene1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Scene1.Scene1:PersistentLevel.Scene1' with GeneratedClass '/Game/MyContent/Scene1.Scene1_C' with ClassGeneratedBy '/Game/MyContent/Scene1.Scene1:PersistentLevel.Scene1'
+[2020.10.09-20.36.59:740][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.09-20.36.59:740][866]LogWorld: BeginTearingDown for /Game/MyContent/UEDPIE_0_Scene1
+[2020.10.09-20.36.59:741][866]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.10.09-20.36.59:741][866]LogWorld: UWorld::CleanupWorld for Scene1, bSessionEnded=true, bCleanupResources=true
+[2020.10.09-20.36.59:741][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.09-20.36.59:761][866]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.09-20.36.59:762][866]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Scene1.Scene1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Scene1.Scene1:PersistentLevel.Scene1' with GeneratedClass '/Game/MyContent/Scene1.Scene1_C' with ClassGeneratedBy '/Game/MyContent/Scene1.Scene1:PersistentLevel.Scene1'
+[2020.10.09-20.36.59:767][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.09-20.36.59:805][866]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.10.09-20.36.59:808][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.09-20.36.59:812][866]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.10.09-20.36.59:855][869]LogPlayLevel: Display: Destroying online subsystem :Context_18
