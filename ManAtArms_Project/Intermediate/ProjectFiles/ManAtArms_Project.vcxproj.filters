@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ManAtArms_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{63D871BA-E307-4698-B12F-86A4F86747A5}</UniqueIdentifier>
+      <UniqueIdentifier>{52CF8A30-86D9-4607-8C62-0832C7F2A62D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ManAtArms_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{DE348421-6CA9-4552-B76B-038D1446E822}</UniqueIdentifier>
+      <UniqueIdentifier>{52D334EF-1468-412B-A53A-BE4CC23DD378}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ManAtArms_Project">
-      <UniqueIdentifier>{58476A23-C984-4705-B5A8-04205F7261FC}</UniqueIdentifier>
+      <UniqueIdentifier>{1E17BD82-A275-4A4F-AED0-0F0AB5CB0C29}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ManAtArms_Project\ManAtArms_Project.Build.cs">
       <Filter>Source\ManAtArms_Project</Filter>
@@ -42,16 +42,44 @@
       <Filter>Source\ManAtArms_Project</Filter>
     </ClInclude>
     <Filter Include="Source\ManAtArms_Project\Private">
-      <UniqueIdentifier>{BFC38118-3E97-4843-B8FD-3173DC620CD3}</UniqueIdentifier>
+      <UniqueIdentifier>{24FC359D-9F2E-42ED-BF3B-135C04ED849C}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\ManAtArms_Project\Private\Tetrehedron.cpp">
+    <ClCompile Include="..\..\Source\ManAtArms_Project\Private\MyAIBPfunctionLibrary.cpp">
+      <Filter>Source\ManAtArms_Project\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ManAtArms_Project\Private\PathfindingNode.cpp">
       <Filter>Source\ManAtArms_Project\Private</Filter>
     </ClCompile>
     <Filter Include="Source\ManAtArms_Project\Public">
-      <UniqueIdentifier>{91193C83-CAE9-445A-96FF-D023E719530E}</UniqueIdentifier>
+      <UniqueIdentifier>{FAE1325E-3960-43E3-9464-032C96644981}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Source\ManAtArms_Project\Public\Tetrehedron.h">
+    <ClInclude Include="..\..\Source\ManAtArms_Project\Public\MyAIBPfunctionLibrary.h">
       <Filter>Source\ManAtArms_Project\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\ManAtArms_Project\Public\PathfindingNode.h">
+      <Filter>Source\ManAtArms_Project\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\ManAtArms_Project\Public\PathfindingGrid.h">
+      <Filter>Source\ManAtArms_Project\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ManAtArms_Project\Public\Pathfinder.h">
+      <Filter>Source\ManAtArms_Project\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ManAtArms_Project\Public\Test.h">
+      <Filter>Source\ManAtArms_Project\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ManAtArms_Project\Private\PathfindingGrid.cpp">
+      <Filter>Source\ManAtArms_Project\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ManAtArms_Project\Private\Pathfinder.cpp">
+      <Filter>Source\ManAtArms_Project\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ManAtArms_Project\Private\Test.cpp">
+      <Filter>Source\ManAtArms_Project\Private</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
