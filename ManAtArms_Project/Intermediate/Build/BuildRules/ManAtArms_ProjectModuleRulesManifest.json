@@ -1,6 +1,7 @@
 {
 	"SourceFiles": [
 		"Z:\\GitHub\\ManAtArms\\ManAtArms_Project\\Source\\ManAtArms_Project\\ManAtArms_Project.Build.cs",
+		"Z:\\GitHub\\ManAtArms\\ManAtArms_Project\\Plugins\\TestAIPlugin\\Source\\TestAIPlugin\\TestAIPlugin.Build.cs",
 		"Z:\\GitHub\\ManAtArms\\ManAtArms_Project\\Source\\ManAtArms_Project.Target.cs",
 		"Z:\\GitHub\\ManAtArms\\ManAtArms_Project\\Source\\ManAtArms_ProjectEditor.Target.cs"
 	],

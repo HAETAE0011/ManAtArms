@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TestAIPlugin.cpp.obj": [
+			"TestActor.cpp.obj",
+			"TestAIPlugin.cpp.obj"
+		],
+		"Module.TestAIPlugin.gen.cpp.obj": [
+			"TestActor.gen.cpp.obj",
+			"TestAIPlugin.init.gen.cpp.obj"
+		]
+	}
+}

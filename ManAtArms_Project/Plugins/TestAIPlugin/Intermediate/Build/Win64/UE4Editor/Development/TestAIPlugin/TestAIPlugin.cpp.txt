@@ -1,0 +1,2 @@
+Z:\GitHub\ManAtArms\ManAtArms_Project\Plugins\TestAIPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestAIPlugin\Definitions.TestAIPlugin.h
+Z:\GitHub\ManAtArms\ManAtArms_Project\Plugins\TestAIPlugin\Source\TestAIPlugin\Public\TestAIPlugin.h
