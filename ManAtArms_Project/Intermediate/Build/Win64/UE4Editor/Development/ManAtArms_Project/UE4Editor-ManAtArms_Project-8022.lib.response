@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ManAtArms_Project-8022.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"Z:\GitHub\ManAtArms\ManAtArms_Project\Intermediate\Build\Win64\ManAtArms_ProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"Z:\GitHub\ManAtArms\ManAtArms_Project\Intermediate\Build\Win64\UE4Editor\Development\ManAtArms_Project\MyAIBPfunctionLibrary.cpp.obj"
+"Z:\GitHub\ManAtArms\ManAtArms_Project\Intermediate\Build\Win64\UE4Editor\Development\ManAtArms_Project\ManAtArms_Project.cpp.obj"
+"Z:\GitHub\ManAtArms\ManAtArms_Project\Intermediate\Build\Win64\UE4Editor\Development\ManAtArms_Project\ManAtArms_Project.init.gen.cpp.obj"
+"Z:\GitHub\ManAtArms\ManAtArms_Project\Intermediate\Build\Win64\UE4Editor\Development\ManAtArms_Project\MyAIBPfunctionLibrary.gen.cpp.obj"
+"Z:\GitHub\ManAtArms\ManAtArms_Project\Intermediate\Build\Win64\UE4Editor\Development\ManAtArms_Project\Default.rc2.res"
+/OUT:"Z:\GitHub\ManAtArms\ManAtArms_Project\Intermediate\Build\Win64\UE4Editor\Development\ManAtArms_Project\UE4Editor-ManAtArms_Project-8022.lib"
+/INCLUDE:IMPLEMENT_MODULE_ManAtArms_Project

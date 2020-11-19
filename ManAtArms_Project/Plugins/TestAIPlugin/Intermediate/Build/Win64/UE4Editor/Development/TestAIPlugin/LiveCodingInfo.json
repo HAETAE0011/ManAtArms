@@ -3,10 +3,15 @@
 	{
 		"Module.TestAIPlugin.cpp.obj": [
 			"TestActor.cpp.obj",
-			"TestAIPlugin.cpp.obj"
+			"TestAIPlugin.cpp.obj",
+			"Pathfinder.cpp.obj",
+			"PathfindingGrid.cpp.obj",
+			"PathfindingNode.cpp.obj"
 		],
 		"Module.TestAIPlugin.gen.cpp.obj": [
 			"TestActor.gen.cpp.obj",
+			"Pathfinder.gen.cpp.obj",
+			"PathfindingGrid.gen.cpp.obj",
 			"TestAIPlugin.init.gen.cpp.obj"
 		]
 	}

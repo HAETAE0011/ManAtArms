@@ -1,2 +1,0 @@
-Z:\GitHub\ManAtArms\ManAtArms_Project\Intermediate\Build\Win64\UE4Editor\Development\ManAtArms_Project\Definitions.ManAtArms_Project.h
-Z:\GitHub\ManAtArms\ManAtArms_Project\Source\ManAtArms_Project\Public\Pathfinder.h
