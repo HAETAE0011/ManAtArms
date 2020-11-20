@@ -45,6 +45,9 @@ public:
 	UPROPERTY(EditAnywhere, Category = Grid)
 		bool DebugDraw;
 
+	UPROPERTY(EditAnywhere, Category = Grid)
+		bool DrawNeighbour;
+
 	PathfindingNode* NodeFromLocation(FVector const& Loc);
 	FVector LocationFromNode(PathfindingNode* const& Node);
 	TArray<PathfindingNode*> GetNeighbourNodes(PathfindingNode* const& Node);

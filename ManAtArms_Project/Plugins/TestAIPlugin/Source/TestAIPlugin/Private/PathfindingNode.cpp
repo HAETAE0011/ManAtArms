@@ -5,10 +5,6 @@
 
 PathfindingNode::PathfindingNode(int GridXPos, int GridYPos, int GridZPos)
 {
-
-
-
-
 	GridX = GridXPos;
 	GridY = GridYPos;
 	GridZ = GridZPos;

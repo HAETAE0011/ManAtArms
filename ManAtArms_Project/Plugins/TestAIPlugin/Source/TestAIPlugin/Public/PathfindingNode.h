@@ -14,10 +14,9 @@ public:
 	~PathfindingNode();
 
 
-
 	PathfindingNode* ParentNode;
 	int GridX, GridY, GridZ;
 	int GCost = 0; // Cost so far
-	int HCost = 0; // Heuristic 
-	float FCost(); // Total cost
+	int HCost = 0; // Heuristic cost
+	float FCost(); // Total cost = GCost + HCost
 };

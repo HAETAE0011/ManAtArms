@@ -34,6 +34,11 @@ void EmptyLinkFunctionForGeneratedCodePathfindingGrid() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DrawNeighbour_MetaData[];
+#endif
+		static void NewProp_DrawNeighbour_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_DrawNeighbour;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DebugDraw_MetaData[];
 #endif
 		static void NewProp_DebugDraw_SetBit(void* Obj);
@@ -65,6 +70,17 @@ void EmptyLinkFunctionForGeneratedCodePathfindingGrid() {}
 		{ "ModuleRelativePath", "Public/PathfindingGrid.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APathfindingGrid_Statics::NewProp_DrawNeighbour_MetaData[] = {
+		{ "Category", "Grid" },
+		{ "ModuleRelativePath", "Public/PathfindingGrid.h" },
+	};
+#endif
+	void Z_Construct_UClass_APathfindingGrid_Statics::NewProp_DrawNeighbour_SetBit(void* Obj)
+	{
+		((APathfindingGrid*)Obj)->DrawNeighbour = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APathfindingGrid_Statics::NewProp_DrawNeighbour = { "DrawNeighbour", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APathfindingGrid), &Z_Construct_UClass_APathfindingGrid_Statics::NewProp_DrawNeighbour_SetBit, METADATA_PARAMS(Z_Construct_UClass_APathfindingGrid_Statics::NewProp_DrawNeighbour_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APathfindingGrid_Statics::NewProp_DrawNeighbour_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APathfindingGrid_Statics::NewProp_DebugDraw_MetaData[] = {
 		{ "Category", "Grid" },
@@ -99,6 +115,7 @@ void EmptyLinkFunctionForGeneratedCodePathfindingGrid() {}
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_APathfindingGrid_Statics::NewProp_GridSize = { "GridSize", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APathfindingGrid, GridSize), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_APathfindingGrid_Statics::NewProp_GridSize_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APathfindingGrid_Statics::NewProp_GridSize_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APathfindingGrid_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APathfindingGrid_Statics::NewProp_DrawNeighbour,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APathfindingGrid_Statics::NewProp_DebugDraw,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APathfindingGrid_Statics::NewProp_Trace,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APathfindingGrid_Statics::NewProp_Trace_Inner,
@@ -132,7 +149,7 @@ void EmptyLinkFunctionForGeneratedCodePathfindingGrid() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APathfindingGrid, 2607526413);
+	IMPLEMENT_CLASS(APathfindingGrid, 2105166792);
 	template<> TESTAIPLUGIN_API UClass* StaticClass<APathfindingGrid>()
 	{
 		return APathfindingGrid::StaticClass();

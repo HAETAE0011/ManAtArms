@@ -36,7 +36,6 @@ public:
 	UPROPERTY(VisibleAnywhere)
 		class UBillboardComponent* MyBillboardComp;
 
-	// Sets default values for this actor's properties
 	APathfinder();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Enum)
@@ -44,9 +43,6 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "AStar")
 		FVector FindPath(FVector Start, FVector End);
-
-	//UFUNCTION(BlueprintCallable, Category = "Navigation-GL")
-		//void DrawPath(TArray<PathfindingNode*> Path);
 
 	FVector RetracePath(PathfindingNode* StartNode, PathfindingNode* EndNode);
 	float GetDistance(PathfindingNode* A, PathfindingNode* B);

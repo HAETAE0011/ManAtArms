@@ -30,35 +30,24 @@ void APathfindingGrid::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	DebugGrid();
-	//UKismetSystemLibrary::DrawDebugBox(this, GetActorLocation() + FVector(x, y, z)*NodeSize, FVector::OneVector*NodeSize / 2.3f, FLinearColor::Red, FRotator::ZeroRotator, 0);
 }
 
 void APathfindingGrid::BuildGrid()
 {
-	for (int x = 0; x < GridSize.X; x++)
-	{
+	for (int x = 0; x < GridSize.X; x++) {
 		NodeGrid.Add(TArray<TArray<PathfindingNode*>>());
-		for (int y = 0; y < GridSize.Y; y++)
-		{
+		for (int y = 0; y < GridSize.Y; y++) {
 			NodeGrid[x].Add(TArray<PathfindingNode*>());
-			for (int z = 0; z < GridSize.Z; z++)
-			{
-
-
+			for (int z = 0; z < GridSize.Z; z++) {
 				bool hit;
 				hit = UKismetSystemLibrary::BoxTraceSingleForObjects(this, GetActorLocation() + FVector(x, y, z) * NodeSize, GetActorLocation() + FVector(x, y, z) * NodeSize, FVector::OneVector * NodeSize / 2, FRotator::ZeroRotator, Trace, false, ActorsToIgnore, EDrawDebugTrace::None, HitResult, true);
 				PathfindingNode* currentNode = new PathfindingNode(x, y, z);
-				if (hit)
-				{
+				if (hit) {
 					NodeGrid[x][y].Add(nullptr);
 				}
-				else
-				{
+				else {
 					NodeGrid[x][y].Add(currentNode);
 				}
-
-
-
 
 			}
 		}
@@ -68,54 +57,40 @@ void APathfindingGrid::BuildGrid()
 
 void APathfindingGrid::DebugGrid()
 {
-	if (DebugDraw)
-	{
-		for (int x = 0; x < GridSize.X; x++)
-		{
-			for (int y = 0; y < GridSize.Y; y++)
-			{
-				for (int z = 0; z < GridSize.Z; z++)
-				{
-					if (NodeGrid[x][y][z] == nullptr)
-					{
+	if (DebugDraw) {
+		for (int x = 0; x < GridSize.X; x++) {
+			for (int y = 0; y < GridSize.Y; y++) {
+				for (int z = 0; z < GridSize.Z; z++) {
+					if (NodeGrid[x][y][z] == nullptr) {
 						UKismetSystemLibrary::DrawDebugBox(this, GetActorLocation() + FVector(x, y, z) * NodeSize, FVector::OneVector * NodeSize / 2.3f, FLinearColor::Red, FRotator::ZeroRotator, 0);
 					}
-					else
-					{
+					else {
 						UKismetSystemLibrary::DrawDebugBox(this, GetActorLocation() + FVector(x, y, z) * NodeSize, FVector::OneVector * NodeSize / 2.3f, FLinearColor::Green, FRotator::ZeroRotator, 0);
 					}
 				}
 			}
 		}
-
-
 	}
-
-
 }
 
 TArray<PathfindingNode*> APathfindingGrid::GetNeighbourNodes(PathfindingNode* const& Node)
 {
-	//UKismetSystemLibrary::DrawDebugBox(this, LocationFromNode(Node), FVector::OneVector*NodeSize / 2.3f, FLinearColor::Black, FRotator::ZeroRotator, 0);
 	TArray<PathfindingNode*> Neighbours;
 
-	for (int x = 0; x < 3; x++)
-	{
-		for (int y = 0; y < 3; y++)
-		{
-			for (int z = 0; z < 3; z++)
-			{
+	for (int x = 0; x < 3; x++) {
+		for (int y = 0; y < 3; y++)	{
+			for (int z = 0; z < 3; z++)	{
 
-				if (x == 1 && y == 1 && z == 1) { continue; } // Node we came from
+				if (x == 1 && y == 1 && z == 1) {
+					continue; 
+				}
 
 				int XIndex = Node->GridX + x - 1;
 				int ZIndex = Node->GridZ + z - 1;
 				int YIndex = Node->GridY + y - 1;
 
-				if (XIndex >= 0 && XIndex <= GridSize.X - 1 && ZIndex >= 0 && ZIndex <= GridSize.Z - 1 && YIndex >= 0 && YIndex <= GridSize.Y - 1)	// Check the neighbour node is withing the array bounds
-				{
-					if (NodeGrid[XIndex][YIndex][ZIndex] != nullptr)
-					{
+				if (XIndex >= 0 && XIndex <= GridSize.X - 1 && ZIndex >= 0 && ZIndex <= GridSize.Z - 1 && YIndex >= 0 && YIndex <= GridSize.Y - 1) {
+					if (NodeGrid[XIndex][YIndex][ZIndex] != nullptr) {
 						Neighbours.Add(NodeGrid[XIndex][YIndex][ZIndex]);
 					}
 				}
@@ -123,10 +98,13 @@ TArray<PathfindingNode*> APathfindingGrid::GetNeighbourNodes(PathfindingNode* co
 			}
 		}
 	}
-	for (int i = 0; i < Neighbours.Num(); i++)
-	{
-		if (Neighbours[i] != nullptr)
-			UKismetSystemLibrary::DrawDebugBox(this, LocationFromNode(Neighbours[i]), FVector::OneVector * NodeSize / 2.3f, FLinearColor::Blue, FRotator::ZeroRotator, 0);
+	//Draw Neighbours
+	if (DrawNeighbour) {
+		for (int i = 0; i < Neighbours.Num(); i++)
+		{
+			if (Neighbours[i] != nullptr)
+				UKismetSystemLibrary::DrawDebugBox(this, LocationFromNode(Neighbours[i]), FVector::OneVector * NodeSize / 2.3f, FLinearColor::Blue, FRotator::ZeroRotator, 0);
+		}
 	}
 
 	return Neighbours;

@@ -23,7 +23,6 @@ APathfinder::APathfinder()
 void APathfinder::BeginPlay()
 {
 	Super::BeginPlay();
-	//FRunnableThread::Create(this)
 	
 }
 
@@ -36,59 +35,55 @@ void APathfinder::Tick(float DeltaTime)
 
 FVector APathfinder::FindPath(FVector Start, FVector End)
 {
-	PathfindingNode* StartNode = GridInstance->NodeFromLocation(Start);	// Start node of the agent
-	PathfindingNode* EndNode = GridInstance->NodeFromLocation(End);	// End goal node of the agent
+	PathfindingNode* StartNode = GridInstance->NodeFromLocation(Start);	// Start node
+	PathfindingNode* EndNode = GridInstance->NodeFromLocation(End);	// End node
 
 
 
 	if (StartNode == nullptr) return Start;
 
-	TArray<PathfindingNode*> OpenSet; // Nodes to be checked
-	TArray<PathfindingNode*> ClosedSet; // Nodes already checked
+	if (StartNode == EndNode) {
+		return Start;
+	}
 
-	OpenSet.Add(StartNode); // Load our intial Node into the algorithm
+	TArray<PathfindingNode*> OpenSet;
+	TArray<PathfindingNode*> ClosedSet;
 
-	while (OpenSet.Num()) // While there is still nodes to be checked keep running the algorithm
-	{
+	OpenSet.Add(StartNode);
 
-		PathfindingNode* CurrentNode = OpenSet[0]; // Run each cycle from the beginning element of the open list as the previous first element will have been processed and place into the closed list
+	while (OpenSet.Num()) {
 
-		for (int i = 0; i < OpenSet.Num(); i++)
-		{
-			if (OpenSet[i] != nullptr && OpenSet[i]->FCost() <= CurrentNode->FCost() && OpenSet[i]->HCost < CurrentNode->HCost)
-			{
-				CurrentNode = OpenSet[i]; // Set Current node to be the closest node to the target
+		PathfindingNode* CurrentNode = OpenSet[0];
+
+		for (int i = 0; i < OpenSet.Num(); i++) {
+			if (OpenSet[i] != nullptr && OpenSet[i]->FCost() <= CurrentNode->FCost() && OpenSet[i]->HCost < CurrentNode->HCost) {
+				CurrentNode = OpenSet[i];
 			}
 		}
-		//UKismetSystemLibrary::DrawDebugBox(this, GridInstance->LocationFromNode(CurrentNode), FVector::OneVector*GridInstance->NodeSize / 1, FLinearColor::Green, FRotator::ZeroRotator, 0);
-		OpenSet.Remove(CurrentNode); // Once node has been processed remove it from the OpenSet
-		ClosedSet.Add(CurrentNode); // Then add it to the closed set
+		
+		OpenSet.Remove(CurrentNode);
+		ClosedSet.Add(CurrentNode);
 
-		if (CurrentNode == EndNode)
-		{
+		if (CurrentNode == EndNode)	{
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::FromInt(1));
-			return RetracePath(StartNode, EndNode); // If the CurrentNode is also the EndNode then we have reached out destination in the algorithm
+			return RetracePath(StartNode, EndNode);
 		}
 
-		TArray<PathfindingNode*> Neighbours = GridInstance->GetNeighbourNodes(CurrentNode); // Gather CurrentNodes neighbours into the list
+		TArray<PathfindingNode*> Neighbours = GridInstance->GetNeighbourNodes(CurrentNode);
 
-		for (int i = 0; i < Neighbours.Num(); i++)
-		{
-			if (Neighbours[i] == nullptr || ClosedSet.Contains(Neighbours[i]))
-			{
+		for (int i = 0; i < Neighbours.Num(); i++) {
+			if (Neighbours[i] == nullptr || ClosedSet.Contains(Neighbours[i])) {
 				continue;
 			}
 
 			float NewMovementCostToNeighbour = CurrentNode->GCost + GetDistance(CurrentNode, Neighbours[i]);
-			//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::FromInt(NewMovementCostToNeighbour));
-			if (NewMovementCostToNeighbour < Neighbours[i]->GCost || !OpenSet.Contains(Neighbours[i]))
-			{
+			
+			if (NewMovementCostToNeighbour < Neighbours[i]->GCost || !OpenSet.Contains(Neighbours[i])) {
 				Neighbours[i]->GCost = NewMovementCostToNeighbour;
 				Neighbours[i]->HCost = GetDistance(Neighbours[i], EndNode);
 				Neighbours[i]->ParentNode = CurrentNode;
-				//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::FromInt(Neighbours[i]->GCost));
-				if (!OpenSet.Contains(Neighbours[i]))
-				{
+				
+				if (!OpenSet.Contains(Neighbours[i])) {
 					OpenSet.Add(Neighbours[i]);
 				}
 			}
@@ -98,15 +93,14 @@ FVector APathfinder::FindPath(FVector Start, FVector End)
 	}
 
 
-
-	return GridInstance->LocationFromNode(StartNode);	// No path found
+	// no path found
+	return GridInstance->LocationFromNode(StartNode);
 }
 
 float APathfinder::GetDistance(PathfindingNode* A, PathfindingNode* B)
 {
 
-	if (Heuristic == EHeuristic::Heuristic_Manhatten)
-	{
+	if (Heuristic == EHeuristic::Heuristic_Manhatten) {
 
 		FVector ALoc, BLoc, Loc;
 		ALoc = GridInstance->LocationFromNode(A);
@@ -116,8 +110,7 @@ float APathfinder::GetDistance(PathfindingNode* A, PathfindingNode* B)
 
 		return UKismetMathLibrary::Abs(Loc.X) + UKismetMathLibrary::Abs(Loc.Y) + UKismetMathLibrary::Abs(Loc.Z);
 	}
-	else if (Heuristic == EHeuristic::Heuristic_Euclidean)
-	{
+	else if (Heuristic == EHeuristic::Heuristic_Euclidean) {
 		return FVector::Distance(GridInstance->LocationFromNode(A), GridInstance->LocationFromNode(B));
 
 	}
@@ -130,8 +123,7 @@ float APathfinder::GetDistance(PathfindingNode* A, PathfindingNode* B)
 FVector APathfinder::RetracePath(PathfindingNode* StartNode, PathfindingNode* EndNode)
 {
 
-	if (StartNode == EndNode)
-	{
+	if (StartNode == EndNode) {
 		return GridInstance->LocationFromNode(StartNode);
 	}
 
@@ -139,20 +131,21 @@ FVector APathfinder::RetracePath(PathfindingNode* StartNode, PathfindingNode* En
 
 	PathfindingNode* CurrentNode = EndNode;
 
-	while (CurrentNode != StartNode)
-	{
+	while (CurrentNode != StartNode) {
 		Path.Add(CurrentNode);
 		CurrentNode = CurrentNode->ParentNode;
 
 	}
 
 	Algo::Reverse(Path);
-	for (int i = 0; i < Path.Num(); i++)
-	{
-		UKismetSystemLibrary::DrawDebugBox(this, GridInstance->LocationFromNode(Path[i]), FVector::OneVector * GridInstance->NodeSize / 2.3f, FLinearColor::Green, FRotator::ZeroRotator, 0);
-	}
 
-	//if (Debug) DrawPath(Path);
+	//Draw path
+	for (int i = 0; i < Path.Num(); i++) {
+		if (Debug) {
+			UKismetSystemLibrary::DrawDebugBox(this, GridInstance->LocationFromNode(Path[i]), FVector::OneVector * GridInstance->NodeSize / 2.3f, FLinearColor::Green, FRotator::ZeroRotator, 0);
+		}
+		
+	}
 
 	return GridInstance->LocationFromNode(Path[1]);
 }
