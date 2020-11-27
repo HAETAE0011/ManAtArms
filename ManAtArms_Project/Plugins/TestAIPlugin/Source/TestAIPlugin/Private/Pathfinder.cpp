@@ -65,7 +65,7 @@ FVector APathfinder::FindPath(FVector Start, FVector End)
 		ClosedSet.Add(CurrentNode);
 
 		if (CurrentNode == EndNode)	{
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::FromInt(1));
+			//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::FromInt(1));
 			return RetracePath(StartNode, EndNode);
 		}
 
