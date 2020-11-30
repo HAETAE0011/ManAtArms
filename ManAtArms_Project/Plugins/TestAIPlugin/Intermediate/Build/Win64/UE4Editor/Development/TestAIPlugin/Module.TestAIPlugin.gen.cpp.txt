@@ -7,6 +7,7 @@ Z:\GitHub\ManAtArms\ManAtArms_Project\Plugins\TestAIPlugin\Source\TestAIPlugin\P
 Z:\GitHub\ManAtArms\ManAtArms_Project\Plugins\TestAIPlugin\Source\TestAIPlugin\Public\PathfindingNode.h
 Z:\GitHub\ManAtArms\ManAtArms_Project\Plugins\TestAIPlugin\Intermediate\Build\Win64\UE4Editor\Inc\TestAIPlugin\PathfindingGrid.generated.h
 Z:\GitHub\ManAtArms\ManAtArms_Project\Plugins\TestAIPlugin\Intermediate\Build\Win64\UE4Editor\Inc\TestAIPlugin\Pathfinder.generated.h
+Z:/GitHub/ManAtArms/ManAtArms_Project/Plugins/TestAIPlugin/Intermediate/Build/Win64/UE4Editor/Inc/TestAIPlugin/PathfindingGrid.gen.cpp
 Z:/GitHub/ManAtArms/ManAtArms_Project/Plugins/TestAIPlugin/Intermediate/Build/Win64/UE4Editor/Inc/TestAIPlugin/TestActor.gen.cpp
 Z:\GitHub\ManAtArms\ManAtArms_Project\Plugins\TestAIPlugin\Source\TestAIPlugin/Public/TestActor.h
 Z:\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
@@ -681,3 +682,4 @@ Z:\UE_4.24\Engine\Source\Runtime\Slate\Public\Framework/Application/SlateUser.h
 Z:\UE_4.24\Engine\Source\Runtime\Slate\Public\SlateScope.h
 Z:\UE_4.24\Engine\Source\Runtime\Slate\Public\Framework/Docking/LayoutService.h
 Z:\GitHub\ManAtArms\ManAtArms_Project\Plugins\TestAIPlugin\Intermediate\Build\Win64\UE4Editor\Inc\TestAIPlugin\TestActor.generated.h
+Z:/GitHub/ManAtArms/ManAtArms_Project/Plugins/TestAIPlugin/Intermediate/Build/Win64/UE4Editor/Inc/TestAIPlugin/TestAIPlugin.init.gen.cpp

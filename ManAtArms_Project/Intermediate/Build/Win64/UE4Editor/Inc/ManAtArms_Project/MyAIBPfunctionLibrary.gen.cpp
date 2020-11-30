@@ -17,15 +17,94 @@ void EmptyLinkFunctionForGeneratedCodeMyAIBPfunctionLibrary() {}
 	MANATARMS_PROJECT_API UClass* Z_Construct_UClass_UMyAIBPfunctionLibrary();
 	ENGINE_API UClass* Z_Construct_UClass_UBlueprintFunctionLibrary();
 	UPackage* Z_Construct_UPackage__Script_ManAtArms_Project();
+	MANATARMS_PROJECT_API UFunction* Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FMatrix();
 	MANATARMS_PROJECT_API UFunction* Z_Construct_UFunction_UMyAIBPfunctionLibrary_string1();
 // End Cross Module References
 	void UMyAIBPfunctionLibrary::StaticRegisterNativesUMyAIBPfunctionLibrary()
 	{
 		UClass* Class = UMyAIBPfunctionLibrary::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "getInverse", &UMyAIBPfunctionLibrary::execgetInverse },
 			{ "string1", &UMyAIBPfunctionLibrary::execstring1 },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics
+	{
+		struct FMatrix
+		{
+			FPlane XPlane;
+			FPlane YPlane;
+			FPlane ZPlane;
+			FPlane WPlane;
+		};
+
+		struct MyAIBPfunctionLibrary_eventgetInverse_Parms
+		{
+			float x1;
+			float x2;
+			float x3;
+			float y1;
+			float y2;
+			float y3;
+			float z1;
+			float z2;
+			float z3;
+			FMatrix ReturnValue;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_z3;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_z2;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_z1;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_y3;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_y2;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_y1;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_x3;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_x2;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_x1;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyAIBPfunctionLibrary_eventgetInverse_Parms, ReturnValue), Z_Construct_UScriptStruct_FMatrix, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_z3 = { "z3", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyAIBPfunctionLibrary_eventgetInverse_Parms, z3), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_z2 = { "z2", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyAIBPfunctionLibrary_eventgetInverse_Parms, z2), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_z1 = { "z1", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyAIBPfunctionLibrary_eventgetInverse_Parms, z1), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_y3 = { "y3", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyAIBPfunctionLibrary_eventgetInverse_Parms, y3), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_y2 = { "y2", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyAIBPfunctionLibrary_eventgetInverse_Parms, y2), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_y1 = { "y1", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyAIBPfunctionLibrary_eventgetInverse_Parms, y1), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_x3 = { "x3", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyAIBPfunctionLibrary_eventgetInverse_Parms, x3), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_x2 = { "x2", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyAIBPfunctionLibrary_eventgetInverse_Parms, x2), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_x1 = { "x1", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyAIBPfunctionLibrary_eventgetInverse_Parms, x1), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_z3,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_z2,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_z1,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_y3,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_y2,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_y1,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_x3,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_x2,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::NewProp_x1,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/MyAIBPfunctionLibrary.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyAIBPfunctionLibrary, nullptr, "getInverse", nullptr, nullptr, sizeof(MyAIBPfunctionLibrary_eventgetInverse_Parms), Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04842401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_UMyAIBPfunctionLibrary_string1_Statics
 	{
@@ -86,6 +165,7 @@ void EmptyLinkFunctionForGeneratedCodeMyAIBPfunctionLibrary() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ManAtArms_Project,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UMyAIBPfunctionLibrary_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse, "getInverse" }, // 2849900378
 		{ &Z_Construct_UFunction_UMyAIBPfunctionLibrary_string1, "string1" }, // 453036727
 	};
 #if WITH_METADATA
@@ -122,7 +202,7 @@ void EmptyLinkFunctionForGeneratedCodeMyAIBPfunctionLibrary() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyAIBPfunctionLibrary, 2733679865);
+	IMPLEMENT_CLASS(UMyAIBPfunctionLibrary, 2132582708);
 	template<> MANATARMS_PROJECT_API UClass* StaticClass<UMyAIBPfunctionLibrary>()
 	{
 		return UMyAIBPfunctionLibrary::StaticClass();
