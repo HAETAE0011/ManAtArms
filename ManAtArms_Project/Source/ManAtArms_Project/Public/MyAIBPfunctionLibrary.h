@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "Math/Matrix.h"
+#include "StateStruct.h"
+#include "Misc/OutputDeviceNull.h"
 #include "MyAIBPfunctionLibrary.generated.h"
 
 /**
@@ -20,5 +22,8 @@ class MANATARMS_PROJECT_API UMyAIBPfunctionLibrary : public UBlueprintFunctionLi
 	UFUNCTION(BlueprintCallable)
 		static FMatrix getInverse (float x1, float x2, float x3, float y1, float y2, float y3, float z1, float z2, float z3);
 
-	
+	UFUNCTION(BlueprintCallable, Category = "DecisionMaking")
+		static void CheckStates(int currentState_, TArray<FStateStruct> states, UObject* decisionMaker_);
+
+
 };

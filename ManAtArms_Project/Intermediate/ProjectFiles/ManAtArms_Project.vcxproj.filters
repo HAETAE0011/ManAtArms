@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ManAtArms_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E01E3B9C-CB4B-43CC-A5CE-6ED528648E50}</UniqueIdentifier>
+      <UniqueIdentifier>{7DA1C4EE-D02C-4ACB-8AA4-304C175B21F4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ManAtArms_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A8189129-97D8-4FB0-9C2F-B1E79A2DD3B3}</UniqueIdentifier>
+      <UniqueIdentifier>{6A42F782-C9C7-4057-BEEC-5394A1321F33}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,23 +30,29 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{565A5262-F649-4BF9-A9E8-FCB221A9AD0A}</UniqueIdentifier>
+      <UniqueIdentifier>{208A0072-BA8A-45A7-A655-722E0674C1B4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\TestAIPlugin">
-      <UniqueIdentifier>{B4F5CC8F-1761-4F7D-B01F-0AC84F33DC74}</UniqueIdentifier>
+      <UniqueIdentifier>{C49FB225-734E-454F-9D68-599FB453018F}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\TestAIPlugin\Source">
-      <UniqueIdentifier>{F8D29369-03C9-4612-A392-598F546D5DC9}</UniqueIdentifier>
+      <UniqueIdentifier>{62294498-FFDA-4731-854F-A0496EE876E7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\TestAIPlugin\Source\TestAIPlugin">
-      <UniqueIdentifier>{532D4EDC-4944-421A-83F9-8F1960EA3F6E}</UniqueIdentifier>
+      <UniqueIdentifier>{1823AE84-C449-4887-86A6-B0C5428F43C0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\TestAIPlugin\Source\TestAIPlugin\TestAIPlugin.Build.cs">
       <Filter>Plugins\TestAIPlugin\Source\TestAIPlugin</Filter>
     </None>
     <Filter Include="Plugins\TestAIPlugin\Source\TestAIPlugin\Private">
-      <UniqueIdentifier>{481433C2-1AD8-4AF3-A527-82D238C784D3}</UniqueIdentifier>
+      <UniqueIdentifier>{9E4876AF-A751-4BE2-9EAE-3ECFE1CEC3C8}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Plugins\TestAIPlugin\Source\TestAIPlugin\Private\Pathfinder.cpp">
+      <Filter>Plugins\TestAIPlugin\Source\TestAIPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\TestAIPlugin\Source\TestAIPlugin\Private\PathfindingGrid.cpp">
+      <Filter>Plugins\TestAIPlugin\Source\TestAIPlugin\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Plugins\TestAIPlugin\Source\TestAIPlugin\Private\PathfindingNode.cpp">
       <Filter>Plugins\TestAIPlugin\Source\TestAIPlugin\Private</Filter>
     </ClCompile>
@@ -57,8 +63,14 @@
       <Filter>Plugins\TestAIPlugin\Source\TestAIPlugin\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\TestAIPlugin\Source\TestAIPlugin\Public">
-      <UniqueIdentifier>{40C1274F-2803-4FD9-99DA-E49E45966A5E}</UniqueIdentifier>
+      <UniqueIdentifier>{FAC1CEC4-2587-4305-9FE8-682231C42381}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Plugins\TestAIPlugin\Source\TestAIPlugin\Public\Pathfinder.h">
+      <Filter>Plugins\TestAIPlugin\Source\TestAIPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\TestAIPlugin\Source\TestAIPlugin\Public\PathfindingGrid.h">
+      <Filter>Plugins\TestAIPlugin\Source\TestAIPlugin\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Plugins\TestAIPlugin\Source\TestAIPlugin\Public\PathfindingNode.h">
       <Filter>Plugins\TestAIPlugin\Source\TestAIPlugin\Public</Filter>
     </ClInclude>
@@ -72,13 +84,13 @@
       <Filter>Plugins\TestAIPlugin</Filter>
     </None>
     <Filter Include="Plugins\TestAIPlugin\Resources">
-      <UniqueIdentifier>{17462677-04DD-431B-9F51-78E947F2AF47}</UniqueIdentifier>
+      <UniqueIdentifier>{76ED38D9-36A5-4208-B028-C1C581C49BC8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\TestAIPlugin\Resources\Icon128.png">
       <Filter>Plugins\TestAIPlugin\Resources</Filter>
     </None>
     <Filter Include="Source\ManAtArms_Project">
-      <UniqueIdentifier>{6C8B77FA-81C8-4E93-9A83-C79A9832B8DE}</UniqueIdentifier>
+      <UniqueIdentifier>{2DF13BB1-BAB0-45A1-921F-F3EBD8E7F546}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ManAtArms_Project\ManAtArms_Project.Build.cs">
       <Filter>Source\ManAtArms_Project</Filter>
@@ -90,32 +102,31 @@
       <Filter>Source\ManAtArms_Project</Filter>
     </ClInclude>
     <Filter Include="Source\ManAtArms_Project\Private">
-      <UniqueIdentifier>{6B97E3F7-550F-4DD0-86CA-A7D9DD499988}</UniqueIdentifier>
+      <UniqueIdentifier>{DF60F007-F50B-466E-B09A-2FF76137C966}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ManAtArms_Project\Private\DecisionMaker.cpp">
+      <Filter>Source\ManAtArms_Project\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\ManAtArms_Project\Private\MyAIBPfunctionLibrary.cpp">
       <Filter>Source\ManAtArms_Project\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\ManAtArms_Project\Private\StateMachine.cpp">
+      <Filter>Source\ManAtArms_Project\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\ManAtArms_Project\Public">
-      <UniqueIdentifier>{D86793C8-A284-4890-8FA6-4B9D7F55E2D8}</UniqueIdentifier>
+      <UniqueIdentifier>{3194FC69-55C5-4AB4-8FFF-2EA8D9100BCE}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\ManAtArms_Project\Public\DecisionMaker.h">
+      <Filter>Source\ManAtArms_Project\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\ManAtArms_Project\Public\MyAIBPfunctionLibrary.h">
       <Filter>Source\ManAtArms_Project\Public</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Plugins\TestAIPlugin\Source\TestAIPlugin\Public\PathfindingGrid.h">
-      <Filter>Plugins\TestAIPlugin\Source\TestAIPlugin\Public</Filter>
+    <ClInclude Include="..\..\Source\ManAtArms_Project\Public\StateMachine.h">
+      <Filter>Source\ManAtArms_Project\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\TestAIPlugin\Source\TestAIPlugin\Public\Pathfinder.h">
-      <Filter>Plugins\TestAIPlugin\Source\TestAIPlugin\Public</Filter>
+    <ClInclude Include="..\..\Source\ManAtArms_Project\Public\StateStruct.h">
+      <Filter>Source\ManAtArms_Project\Public</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Plugins\TestAIPlugin\Source\TestAIPlugin\Private\PathfindingGrid.cpp">
-      <Filter>Plugins\TestAIPlugin\Source\TestAIPlugin\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Plugins\TestAIPlugin\Source\TestAIPlugin\Private\Pathfinder.cpp">
-      <Filter>Plugins\TestAIPlugin\Source\TestAIPlugin\Private</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

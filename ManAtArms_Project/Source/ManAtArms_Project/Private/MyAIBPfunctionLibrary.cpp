@@ -20,3 +20,18 @@ FMatrix UMyAIBPfunctionLibrary::getInverse(float x1, float x2, float x3, float y
 	return mat.Inverse();
 }
 
+void UMyAIBPfunctionLibrary::CheckStates(int currentState_, TArray<FStateStruct> states, UObject* decisionMaker_)
+{
+	FOutputDeviceNull ar;
+
+	if (states.IsValidIndex(currentState_)) {
+		for (int i = 0; i <= (states[currentState_].conditions.Num() - 1); i++) {
+			FString cmd = FString("Condition ");
+			FString num = FString::FromInt(states[currentState_].conditions[i]);
+
+			cmd.Append(num);
+			//FString cmd = FString::Printf(TEXT("TestFun HelloWorld"));
+			decisionMaker_->CallFunctionByNameWithArguments(*cmd, ar, NULL, true);
+		}
+	}
+}

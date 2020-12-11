@@ -8,14 +8,27 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FStateStruct;
+class UObject;
 struct FMatrix;
 #ifdef MANATARMS_PROJECT_MyAIBPfunctionLibrary_generated_h
 #error "MyAIBPfunctionLibrary.generated.h already included, missing '#pragma once' in MyAIBPfunctionLibrary.h"
 #endif
 #define MANATARMS_PROJECT_MyAIBPfunctionLibrary_generated_h
 
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_SPARSE_DATA
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_RPC_WRAPPERS \
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_SPARSE_DATA
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execCheckStates) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_currentState_); \
+		P_GET_TARRAY(FStateStruct,Z_Param_states); \
+		P_GET_OBJECT(UObject,Z_Param_decisionMaker_); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		UMyAIBPfunctionLibrary::CheckStates(Z_Param_currentState_,Z_Param_states,Z_Param_decisionMaker_); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execgetInverse) \
 	{ \
@@ -45,7 +58,18 @@ struct FMatrix;
 	}
 
 
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCheckStates) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_currentState_); \
+		P_GET_TARRAY(FStateStruct,Z_Param_states); \
+		P_GET_OBJECT(UObject,Z_Param_decisionMaker_); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		UMyAIBPfunctionLibrary::CheckStates(Z_Param_currentState_,Z_Param_states,Z_Param_decisionMaker_); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execgetInverse) \
 	{ \
@@ -75,7 +99,7 @@ struct FMatrix;
 	}
 
 
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_INCLASS_NO_PURE_DECLS \
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMyAIBPfunctionLibrary(); \
 	friend struct Z_Construct_UClass_UMyAIBPfunctionLibrary_Statics; \
@@ -84,7 +108,7 @@ public: \
 	DECLARE_SERIALIZER(UMyAIBPfunctionLibrary)
 
 
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_INCLASS \
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesUMyAIBPfunctionLibrary(); \
 	friend struct Z_Construct_UClass_UMyAIBPfunctionLibrary_Statics; \
@@ -93,7 +117,7 @@ public: \
 	DECLARE_SERIALIZER(UMyAIBPfunctionLibrary)
 
 
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_STANDARD_CONSTRUCTORS \
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyAIBPfunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyAIBPfunctionLibrary) \
@@ -106,7 +130,7 @@ private: \
 public:
 
 
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_ENHANCED_CONSTRUCTORS \
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyAIBPfunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -119,28 +143,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMyAIBPfunctionLibrary); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyAIBPfunctionLibrary)
 
 
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_PRIVATE_PROPERTY_OFFSET
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_13_PROLOG
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_GENERATED_BODY_LEGACY \
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_PRIVATE_PROPERTY_OFFSET
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_15_PROLOG
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_PRIVATE_PROPERTY_OFFSET \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_SPARSE_DATA \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_RPC_WRAPPERS \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_INCLASS \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_STANDARD_CONSTRUCTORS \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_PRIVATE_PROPERTY_OFFSET \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_SPARSE_DATA \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_RPC_WRAPPERS \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_INCLASS \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_GENERATED_BODY \
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_PRIVATE_PROPERTY_OFFSET \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_SPARSE_DATA \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_INCLASS_NO_PURE_DECLS \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_16_ENHANCED_CONSTRUCTORS \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_PRIVATE_PROPERTY_OFFSET \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_SPARSE_DATA \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_INCLASS_NO_PURE_DECLS \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -17,6 +17,9 @@ void EmptyLinkFunctionForGeneratedCodeMyAIBPfunctionLibrary() {}
 	MANATARMS_PROJECT_API UClass* Z_Construct_UClass_UMyAIBPfunctionLibrary();
 	ENGINE_API UClass* Z_Construct_UClass_UBlueprintFunctionLibrary();
 	UPackage* Z_Construct_UPackage__Script_ManAtArms_Project();
+	MANATARMS_PROJECT_API UFunction* Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
+	MANATARMS_PROJECT_API UScriptStruct* Z_Construct_UScriptStruct_FStateStruct();
 	MANATARMS_PROJECT_API UFunction* Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FMatrix();
 	MANATARMS_PROJECT_API UFunction* Z_Construct_UFunction_UMyAIBPfunctionLibrary_string1();
@@ -25,10 +28,55 @@ void EmptyLinkFunctionForGeneratedCodeMyAIBPfunctionLibrary() {}
 	{
 		UClass* Class = UMyAIBPfunctionLibrary::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "CheckStates", &UMyAIBPfunctionLibrary::execCheckStates },
 			{ "getInverse", &UMyAIBPfunctionLibrary::execgetInverse },
 			{ "string1", &UMyAIBPfunctionLibrary::execstring1 },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates_Statics
+	{
+		struct MyAIBPfunctionLibrary_eventCheckStates_Parms
+		{
+			int32 currentState_;
+			TArray<FStateStruct> states;
+			UObject* decisionMaker_;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_decisionMaker_;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_states;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_states_Inner;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_currentState_;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates_Statics::NewProp_decisionMaker_ = { "decisionMaker_", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyAIBPfunctionLibrary_eventCheckStates_Parms, decisionMaker_), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates_Statics::NewProp_states = { "states", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyAIBPfunctionLibrary_eventCheckStates_Parms, states), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates_Statics::NewProp_states_Inner = { "states", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FStateStruct, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates_Statics::NewProp_currentState_ = { "currentState_", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyAIBPfunctionLibrary_eventCheckStates_Parms, currentState_), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates_Statics::NewProp_decisionMaker_,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates_Statics::NewProp_states,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates_Statics::NewProp_states_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates_Statics::NewProp_currentState_,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates_Statics::Function_MetaDataParams[] = {
+		{ "Category", "DecisionMaking" },
+		{ "ModuleRelativePath", "Public/MyAIBPfunctionLibrary.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyAIBPfunctionLibrary, nullptr, "CheckStates", nullptr, nullptr, sizeof(MyAIBPfunctionLibrary_eventCheckStates_Parms), Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04042401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse_Statics
 	{
@@ -165,6 +213,7 @@ void EmptyLinkFunctionForGeneratedCodeMyAIBPfunctionLibrary() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ManAtArms_Project,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UMyAIBPfunctionLibrary_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates, "CheckStates" }, // 1274748085
 		{ &Z_Construct_UFunction_UMyAIBPfunctionLibrary_getInverse, "getInverse" }, // 2849900378
 		{ &Z_Construct_UFunction_UMyAIBPfunctionLibrary_string1, "string1" }, // 453036727
 	};
@@ -202,7 +251,7 @@ void EmptyLinkFunctionForGeneratedCodeMyAIBPfunctionLibrary() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyAIBPfunctionLibrary, 2132582708);
+	IMPLEMENT_CLASS(UMyAIBPfunctionLibrary, 2906506427);
 	template<> MANATARMS_PROJECT_API UClass* StaticClass<UMyAIBPfunctionLibrary>()
 	{
 		return UMyAIBPfunctionLibrary::StaticClass();
