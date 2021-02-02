@@ -2,6 +2,6 @@
 	"BuildId": "10570792",
 	"Modules": 
 	{
-		"TestAIPlugin": "UE4Editor-TestAIPlugin-0109.dll"
+		"TestAIPlugin": "UE4Editor-TestAIPlugin.dll"
 	}
 }
