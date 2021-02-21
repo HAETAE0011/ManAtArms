@@ -67,12 +67,6 @@ public:
 		bool cooldownDone;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Customer")
-		bool orderSuccess;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Customer")
-		bool turnEnd;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Customer")
 		int customerBonus;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Customer")
@@ -125,6 +119,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cooking")
 		int drinkReady = 0;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GamePlay")
+		float money;
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
