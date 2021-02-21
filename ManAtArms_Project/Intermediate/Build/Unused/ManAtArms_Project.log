@@ -1,39 +1,16 @@
-﻿  Cleaning ManAtArms_ProjectEditor and UnrealHeaderTool binaries...
-UnrealBuildTool : warning : The 'Developer' module type has been deprecated in 4.24. Use 'DeveloperTool' for modules that can be loaded by game/client/server targets in non-shipping configurations, or 'UncookedOnly' for modules that should only be loaded by uncooked editor and program targets (eg. modules containing blueprint nodes)
-Z:\UE_4.24\Engine\Plugins\VolumetricClouds\VolumetricClouds.uplugin : warning : The 'Developer' module type has been deprecated in 4.24.
-  Using 'git status' to determine working set for adaptive non-unity build (Z:\GitHub\ManAtArms).
-  Creating makefile for ManAtArms_ProjectEditor (no existing makefile)
-UnrealBuildTool : warning : The 'Developer' module type has been deprecated in 4.24. Use 'DeveloperTool' for modules that can be loaded by game/client/server targets in non-shipping configurations, or 'UncookedOnly' for modules that should only be loaded by uncooked editor and program targets (eg. modules containing blueprint nodes)
-Z:\UE_4.24\Engine\Plugins\VolumetricClouds\VolumetricClouds.uplugin : warning : The 'Developer' module type has been deprecated in 4.24.
-  Parsing headers for ManAtArms_ProjectEditor
-    Running UnrealHeaderTool "Z:\GitHub\ManAtArms\ManAtArms_Project\ManAtArms_Project.uproject" "Z:\GitHub\ManAtArms\ManAtArms_Project\Intermediate\Build\Win64\ManAtArms_ProjectEditor\Development\ManAtArms_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ManAtArms_ProjectEditor in 4.9654819 seconds
+﻿  Using 'git status' to determine working set for adaptive non-unity build (Z:\GitHub\ManAtArms).
   Building ManAtArms_ProjectEditor...
   Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 20 actions with 16 processes...
-    [1/20] Default.rc2
-    [2/20] Default.rc2
-    [3/20] SharedPCH.Engine.ShadowErrors.cpp
-    [4/20] ManAtArms_Project.cpp
-    [5/20] Customer.cpp
-    [6/20] StateStruct.cpp
-    [7/20] DecisionMaker.cpp
-    [8/20] StateMachine.cpp
-    [9/20] ManAtArms_Project.init.gen.cpp
-    [10/20] StateMachine.gen.cpp
-    [11/20] MyAIBPfunctionLibrary.cpp
-    [12/20] MyAIBPfunctionLibrary.gen.cpp
-    [13/20] StateStruct.gen.cpp
-    [14/20] UE4Editor-ManAtArms_Project.lib
-       Creating library Z:\GitHub\ManAtArms\ManAtArms_Project\Intermediate\Build\Win64\UE4Editor\Development\ManAtArms_Project\UE4Editor-ManAtArms_Project.lib and object Z:\GitHub\ManAtArms\ManAtArms_Project\Intermediate\Build\Win64\UE4Editor\Development\ManAtArms_Project\UE4Editor-ManAtArms_Project.exp
-    [15/20] UE4Editor-ManAtArms_Project.dll
-       Creating library Z:\GitHub\ManAtArms\ManAtArms_Project\Intermediate\Build\Win64\UE4Editor\Development\ManAtArms_Project\UE4Editor-ManAtArms_Project.suppressed.lib and object Z:\GitHub\ManAtArms\ManAtArms_Project\Intermediate\Build\Win64\UE4Editor\Development\ManAtArms_Project\UE4Editor-ManAtArms_Project.suppressed.exp
-    [16/20] Module.TestAIPlugin.cpp
-    [17/20] Module.TestAIPlugin.gen.cpp
-    [18/20] UE4Editor-TestAIPlugin.lib
-       Creating library Z:\GitHub\ManAtArms\ManAtArms_Project\Plugins\TestAIPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestAIPlugin\UE4Editor-TestAIPlugin.lib and object Z:\GitHub\ManAtArms\ManAtArms_Project\Plugins\TestAIPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestAIPlugin\UE4Editor-TestAIPlugin.exp
-    [19/20] UE4Editor-TestAIPlugin.dll
-       Creating library Z:\GitHub\ManAtArms\ManAtArms_Project\Plugins\TestAIPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestAIPlugin\UE4Editor-TestAIPlugin.suppressed.lib and object Z:\GitHub\ManAtArms\ManAtArms_Project\Plugins\TestAIPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestAIPlugin\UE4Editor-TestAIPlugin.suppressed.exp
-    [20/20] ManAtArms_ProjectEditor.target
-  Total time in Parallel executor: 23.30 seconds
-  Total execution time: 30.13 seconds
+  Building 6 actions with 16 processes...
+    [1/6] UE4Editor-TestAIPlugin-0027.lib
+       Creating library Z:\GitHub\ManAtArms\ManAtArms_Project\Plugins\TestAIPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestAIPlugin\UE4Editor-TestAIPlugin-0027.lib and object Z:\GitHub\ManAtArms\ManAtArms_Project\Plugins\TestAIPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestAIPlugin\UE4Editor-TestAIPlugin-0027.exp
+    [2/6] VNPlayer_parent.cpp
+    [3/6] UE4Editor-TestAIPlugin-0027.dll
+       Creating library Z:\GitHub\ManAtArms\ManAtArms_Project\Plugins\TestAIPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestAIPlugin\UE4Editor-TestAIPlugin-0027.suppressed.lib and object Z:\GitHub\ManAtArms\ManAtArms_Project\Plugins\TestAIPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestAIPlugin\UE4Editor-TestAIPlugin-0027.suppressed.exp
+    [4/6] UE4Editor-ManAtArms_Project-0027.lib
+       Creating library Z:\GitHub\ManAtArms\ManAtArms_Project\Intermediate\Build\Win64\UE4Editor\Development\ManAtArms_Project\UE4Editor-ManAtArms_Project-0027.lib and object Z:\GitHub\ManAtArms\ManAtArms_Project\Intermediate\Build\Win64\UE4Editor\Development\ManAtArms_Project\UE4Editor-ManAtArms_Project-0027.exp
+    [5/6] UE4Editor-ManAtArms_Project-0027.dll
+       Creating library Z:\GitHub\ManAtArms\ManAtArms_Project\Intermediate\Build\Win64\UE4Editor\Development\ManAtArms_Project\UE4Editor-ManAtArms_Project-0027.suppressed.lib and object Z:\GitHub\ManAtArms\ManAtArms_Project\Intermediate\Build\Win64\UE4Editor\Development\ManAtArms_Project\UE4Editor-ManAtArms_Project-0027.suppressed.exp
+    [6/6] ManAtArms_ProjectEditor.target
+  Total time in Parallel executor: 1.21 seconds
+  Total execution time: 1.96 seconds

@@ -13,10 +13,11 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeMyAIBPfunctionLibrary() {}
 // Cross Module References
+	MANATARMS_PROJECT_API UEnum* Z_Construct_UEnum_ManAtArms_Project_TurnType_c();
+	UPackage* Z_Construct_UPackage__Script_ManAtArms_Project();
 	MANATARMS_PROJECT_API UClass* Z_Construct_UClass_UMyAIBPfunctionLibrary_NoRegister();
 	MANATARMS_PROJECT_API UClass* Z_Construct_UClass_UMyAIBPfunctionLibrary();
 	ENGINE_API UClass* Z_Construct_UClass_UBlueprintFunctionLibrary();
-	UPackage* Z_Construct_UPackage__Script_ManAtArms_Project();
 	MANATARMS_PROJECT_API UFunction* Z_Construct_UFunction_UMyAIBPfunctionLibrary_CheckStates();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
 	MANATARMS_PROJECT_API UScriptStruct* Z_Construct_UScriptStruct_FStateStruct();
@@ -24,6 +25,79 @@ void EmptyLinkFunctionForGeneratedCodeMyAIBPfunctionLibrary() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FMatrix();
 	MANATARMS_PROJECT_API UFunction* Z_Construct_UFunction_UMyAIBPfunctionLibrary_string1();
 // End Cross Module References
+	static UEnum* TurnType_c_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_ManAtArms_Project_TurnType_c, Z_Construct_UPackage__Script_ManAtArms_Project(), TEXT("TurnType_c"));
+		}
+		return Singleton;
+	}
+	template<> MANATARMS_PROJECT_API UEnum* StaticEnum<TurnType_c>()
+	{
+		return TurnType_c_StaticEnum();
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_TurnType_c(TurnType_c_StaticEnum, TEXT("/Script/ManAtArms_Project"), TEXT("TurnType_c"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_ManAtArms_Project_TurnType_c_Hash() { return 3786583272U; }
+	UEnum* Z_Construct_UEnum_ManAtArms_Project_TurnType_c()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_ManAtArms_Project();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("TurnType_c"), 0, Get_Z_Construct_UEnum_ManAtArms_Project_TurnType_c_Hash(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "CustomerTurn", (int64)CustomerTurn },
+				{ "PlayerTurn", (int64)PlayerTurn },
+				{ "StoryTurn", (int64)StoryTurn },
+				{ "WaitTurn", (int64)WaitTurn },
+				{ "MainMenuTurn", (int64)MainMenuTurn },
+				{ "OptionTurn", (int64)OptionTurn },
+				{ "ResultTurn", (int64)ResultTurn },
+				{ "Opening", (int64)Opening },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "BlueprintType", "true" },
+				{ "CustomerTurn.DisplayName", "CustomerTurn" },
+				{ "CustomerTurn.Name", "CustomerTurn" },
+				{ "MainMenuTurn.DisplayName", "MainMenuTurn" },
+				{ "MainMenuTurn.Name", "MainMenuTurn" },
+				{ "ModuleRelativePath", "Public/MyAIBPfunctionLibrary.h" },
+				{ "Opening.DisplayName", "Opening" },
+				{ "Opening.Name", "Opening" },
+				{ "OptionTurn.DisplayName", "OptionTurn" },
+				{ "OptionTurn.Name", "OptionTurn" },
+				{ "PlayerTurn.DisplayName", "PlayerTurn" },
+				{ "PlayerTurn.Name", "PlayerTurn" },
+				{ "ResultTurn.DisplayName", "ResultTurn" },
+				{ "ResultTurn.Name", "ResultTurn" },
+				{ "StoryTurn.DisplayName", "StoryTurn" },
+				{ "StoryTurn.Name", "StoryTurn" },
+				{ "WaitTurn.DisplayName", "WaitTurn" },
+				{ "WaitTurn.Name", "WaitTurn" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_ManAtArms_Project,
+				nullptr,
+				"TurnType_c",
+				"TurnType_c",
+				Enumerators,
+				UE_ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::Regular,
+				METADATA_PARAMS(Enum_MetaDataParams, UE_ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
 	void UMyAIBPfunctionLibrary::StaticRegisterNativesUMyAIBPfunctionLibrary()
 	{
 		UClass* Class = UMyAIBPfunctionLibrary::StaticClass();

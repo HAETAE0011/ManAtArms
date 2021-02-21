@@ -175,4 +175,13 @@ template<> MANATARMS_PROJECT_API UClass* StaticClass<class UMyAIBPfunctionLibrar
 #define CURRENT_FILE_ID ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h
 
 
+#define FOREACH_ENUM_TURNTYPE_C(op) \
+	op(CustomerTurn) \
+	op(PlayerTurn) \
+	op(StoryTurn) \
+	op(WaitTurn) \
+	op(MainMenuTurn) \
+	op(OptionTurn) \
+	op(ResultTurn) \
+	op(Opening) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

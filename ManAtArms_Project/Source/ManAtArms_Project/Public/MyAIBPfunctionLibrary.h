@@ -16,6 +16,7 @@ UCLASS()
 class MANATARMS_PROJECT_API UMyAIBPfunctionLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
+
 		UFUNCTION(BlueprintCallable)
 		static int string1(int a, int b);
 
@@ -25,5 +26,19 @@ class MANATARMS_PROJECT_API UMyAIBPfunctionLibrary : public UBlueprintFunctionLi
 	UFUNCTION(BlueprintCallable, Category = "DecisionMaking")
 		static void CheckStates(int currentState_, TArray<FStateStruct> states, UObject* decisionMaker_);
 
+
+};
+
+UENUM(BlueprintType)
+enum TurnType_c
+{
+	CustomerTurn     UMETA(DisplayName = "CustomerTurn"),
+	PlayerTurn      UMETA(DisplayName = "PlayerTurn"),
+	StoryTurn   UMETA(DisplayName = "StoryTurn"),
+	WaitTurn   UMETA(DisplayName = "WaitTurn"),
+	MainMenuTurn   UMETA(DisplayName = "MainMenuTurn"),
+	OptionTurn   UMETA(DisplayName = "OptionTurn"),
+	ResultTurn   UMETA(DisplayName = "ResultTurn"),
+	Opening   UMETA(DisplayName = "Opening"),
 
 };
