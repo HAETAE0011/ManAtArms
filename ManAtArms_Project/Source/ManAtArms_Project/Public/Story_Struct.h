@@ -22,5 +22,9 @@ struct MANATARMS_PROJECT_API FStory_Struct : public FTableRowBase
         TEnumAsByte<CharacterList> Speaker;
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
         FText Text;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+        int CameraMove;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+        int Motion;
 
 };

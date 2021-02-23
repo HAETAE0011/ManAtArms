@@ -47,6 +47,14 @@ static struct FScriptStruct_ManAtArms_Project_StaticRegisterNativesFStory_Struct
 #endif
 		static void* NewStructOps();
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Motion_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Motion;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraMove_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_CameraMove;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Text_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FTextPropertyParams NewProp_Text;
@@ -69,6 +77,20 @@ static struct FScriptStruct_ManAtArms_Project_StaticRegisterNativesFStory_Struct
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FStory_Struct>();
 	}
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FStory_Struct_Statics::NewProp_Motion_MetaData[] = {
+		{ "Category", "Story_Struct" },
+		{ "ModuleRelativePath", "Public/Story_Struct.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UScriptStruct_FStory_Struct_Statics::NewProp_Motion = { "Motion", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FStory_Struct, Motion), METADATA_PARAMS(Z_Construct_UScriptStruct_FStory_Struct_Statics::NewProp_Motion_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStory_Struct_Statics::NewProp_Motion_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FStory_Struct_Statics::NewProp_CameraMove_MetaData[] = {
+		{ "Category", "Story_Struct" },
+		{ "ModuleRelativePath", "Public/Story_Struct.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UScriptStruct_FStory_Struct_Statics::NewProp_CameraMove = { "CameraMove", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FStory_Struct, CameraMove), METADATA_PARAMS(Z_Construct_UScriptStruct_FStory_Struct_Statics::NewProp_CameraMove_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStory_Struct_Statics::NewProp_CameraMove_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FStory_Struct_Statics::NewProp_Text_MetaData[] = {
 		{ "Category", "Story_Struct" },
 		{ "ModuleRelativePath", "Public/Story_Struct.h" },
@@ -83,6 +105,8 @@ static struct FScriptStruct_ManAtArms_Project_StaticRegisterNativesFStory_Struct
 #endif
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FStory_Struct_Statics::NewProp_Speaker = { "Speaker", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FStory_Struct, Speaker), Z_Construct_UEnum_ManAtArms_Project_CharacterList, METADATA_PARAMS(Z_Construct_UScriptStruct_FStory_Struct_Statics::NewProp_Speaker_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStory_Struct_Statics::NewProp_Speaker_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FStory_Struct_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FStory_Struct_Statics::NewProp_Motion,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FStory_Struct_Statics::NewProp_CameraMove,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FStory_Struct_Statics::NewProp_Text,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FStory_Struct_Statics::NewProp_Speaker,
 	};
@@ -114,7 +138,7 @@ static struct FScriptStruct_ManAtArms_Project_StaticRegisterNativesFStory_Struct
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FStory_Struct_Hash() { return 3345726482U; }
+	uint32 Get_Z_Construct_UScriptStruct_FStory_Struct_Hash() { return 3806219172U; }
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)
