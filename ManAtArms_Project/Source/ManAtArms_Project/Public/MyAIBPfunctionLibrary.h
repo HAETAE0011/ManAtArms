@@ -42,3 +42,15 @@ enum TurnType_c
 	Opening   UMETA(DisplayName = "Opening"),
 
 };
+
+UENUM(BlueprintType)
+enum CharacterList
+{
+	Narrator     UMETA(DisplayName = "Narrator"),
+	Naidan      UMETA(DisplayName = "Naidan"),
+	Agent1      UMETA(DisplayName = "Agent1"),
+	Agent2      UMETA(DisplayName = "Agent2"),
+	NONAMED      UMETA(DisplayName = "NONAMED")
+	
+
+};

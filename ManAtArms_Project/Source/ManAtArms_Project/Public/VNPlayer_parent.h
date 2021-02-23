@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "Engine/Engine.h"
 #include "Customer_struct.h"
+#include "Story_Struct.h"
 #include "MyAIBPfunctionLibrary.h"
 #include "VNPlayer_parent.generated.h"
 
@@ -104,8 +105,8 @@ public:
 	/*
 		0 = none
 		1 = Water
-		2 = Beer
-		3 = Coke
+		2 = Coke
+		3 = Beer
 		4 = Whiskey
 		5 = Vodka
 	*/
@@ -121,6 +122,18 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GamePlay")
 		float money;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Story")
+		TArray<FStory_Struct> story_day1_opening;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Story")
+		TArray<FStory_Struct> story_day1;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Story")
+		TArray<FStory_Struct> story_day2;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Story")
+		TArray<FStory_Struct> story_day3;
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -142,6 +155,12 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Customer")
 	void AddCustomer(FString name_, int food_, int drink_);
+
+	UFUNCTION(BlueprintCallable, Category = "Manage")
+	void costMoney(float moneyToTakeOff);
+
+	UFUNCTION(BlueprintCallable, Category = "Manage")
+	void getMoney(float moneyToGet);
 
 };
 

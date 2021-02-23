@@ -158,5 +158,15 @@ void AVNPlayer_parent::AddCustomer(FString name_, int food_, int drink_)
 
 }
 
+void AVNPlayer_parent::costMoney(float moneyToTakeOff)
+{
+	money = money - moneyToTakeOff;
+}
+
+void AVNPlayer_parent::getMoney(float moneyToGet)
+{
+	money = money + moneyToGet;
+}
+
 
 

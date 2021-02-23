@@ -13,8 +13,9 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeMyAIBPfunctionLibrary() {}
 // Cross Module References
-	MANATARMS_PROJECT_API UEnum* Z_Construct_UEnum_ManAtArms_Project_TurnType_c();
+	MANATARMS_PROJECT_API UEnum* Z_Construct_UEnum_ManAtArms_Project_CharacterList();
 	UPackage* Z_Construct_UPackage__Script_ManAtArms_Project();
+	MANATARMS_PROJECT_API UEnum* Z_Construct_UEnum_ManAtArms_Project_TurnType_c();
 	MANATARMS_PROJECT_API UClass* Z_Construct_UClass_UMyAIBPfunctionLibrary_NoRegister();
 	MANATARMS_PROJECT_API UClass* Z_Construct_UClass_UMyAIBPfunctionLibrary();
 	ENGINE_API UClass* Z_Construct_UClass_UBlueprintFunctionLibrary();
@@ -25,6 +26,70 @@ void EmptyLinkFunctionForGeneratedCodeMyAIBPfunctionLibrary() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FMatrix();
 	MANATARMS_PROJECT_API UFunction* Z_Construct_UFunction_UMyAIBPfunctionLibrary_string1();
 // End Cross Module References
+	static UEnum* CharacterList_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_ManAtArms_Project_CharacterList, Z_Construct_UPackage__Script_ManAtArms_Project(), TEXT("CharacterList"));
+		}
+		return Singleton;
+	}
+	template<> MANATARMS_PROJECT_API UEnum* StaticEnum<CharacterList>()
+	{
+		return CharacterList_StaticEnum();
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_CharacterList(CharacterList_StaticEnum, TEXT("/Script/ManAtArms_Project"), TEXT("CharacterList"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_ManAtArms_Project_CharacterList_Hash() { return 3485967841U; }
+	UEnum* Z_Construct_UEnum_ManAtArms_Project_CharacterList()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_ManAtArms_Project();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("CharacterList"), 0, Get_Z_Construct_UEnum_ManAtArms_Project_CharacterList_Hash(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "Narrator", (int64)Narrator },
+				{ "Naidan", (int64)Naidan },
+				{ "Agent1", (int64)Agent1 },
+				{ "Agent2", (int64)Agent2 },
+				{ "NONAMED", (int64)NONAMED },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "Agent1.DisplayName", "Agent1" },
+				{ "Agent1.Name", "Agent1" },
+				{ "Agent2.DisplayName", "Agent2" },
+				{ "Agent2.Name", "Agent2" },
+				{ "BlueprintType", "true" },
+				{ "ModuleRelativePath", "Public/MyAIBPfunctionLibrary.h" },
+				{ "Naidan.DisplayName", "Naidan" },
+				{ "Naidan.Name", "Naidan" },
+				{ "Narrator.DisplayName", "Narrator" },
+				{ "Narrator.Name", "Narrator" },
+				{ "NONAMED.DisplayName", "NONAMED" },
+				{ "NONAMED.Name", "NONAMED" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_ManAtArms_Project,
+				nullptr,
+				"CharacterList",
+				"CharacterList",
+				Enumerators,
+				UE_ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::Regular,
+				METADATA_PARAMS(Enum_MetaDataParams, UE_ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
 	static UEnum* TurnType_c_StaticEnum()
 	{
 		static UEnum* Singleton = nullptr;

@@ -19,9 +19,12 @@ void EmptyLinkFunctionForGeneratedCodeVNPlayer_parent() {}
 	UPackage* Z_Construct_UPackage__Script_ManAtArms_Project();
 	MANATARMS_PROJECT_API UFunction* Z_Construct_UFunction_AVNPlayer_parent_AddCustomer();
 	MANATARMS_PROJECT_API UFunction* Z_Construct_UFunction_AVNPlayer_parent_CookNoodle();
+	MANATARMS_PROJECT_API UFunction* Z_Construct_UFunction_AVNPlayer_parent_costMoney();
 	MANATARMS_PROJECT_API UFunction* Z_Construct_UFunction_AVNPlayer_parent_DoThing();
+	MANATARMS_PROJECT_API UFunction* Z_Construct_UFunction_AVNPlayer_parent_getMoney();
 	MANATARMS_PROJECT_API UFunction* Z_Construct_UFunction_AVNPlayer_parent_HandleCooldown();
 	MANATARMS_PROJECT_API UFunction* Z_Construct_UFunction_AVNPlayer_parent_ResetServed();
+	MANATARMS_PROJECT_API UScriptStruct* Z_Construct_UScriptStruct_FStory_Struct();
 	MANATARMS_PROJECT_API UScriptStruct* Z_Construct_UScriptStruct_FCustomer_struct();
 // End Cross Module References
 	void AVNPlayer_parent::StaticRegisterNativesAVNPlayer_parent()
@@ -30,7 +33,9 @@ void EmptyLinkFunctionForGeneratedCodeVNPlayer_parent() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "AddCustomer", &AVNPlayer_parent::execAddCustomer },
 			{ "CookNoodle", &AVNPlayer_parent::execCookNoodle },
+			{ "costMoney", &AVNPlayer_parent::execcostMoney },
 			{ "DoThing", &AVNPlayer_parent::execDoThing },
+			{ "getMoney", &AVNPlayer_parent::execgetMoney },
 			{ "HandleCooldown", &AVNPlayer_parent::execHandleCooldown },
 			{ "ResetServed", &AVNPlayer_parent::execResetServed },
 		};
@@ -100,6 +105,39 @@ void EmptyLinkFunctionForGeneratedCodeVNPlayer_parent() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AVNPlayer_parent_costMoney_Statics
+	{
+		struct VNPlayer_parent_eventcostMoney_Parms
+		{
+			float moneyToTakeOff;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_moneyToTakeOff;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AVNPlayer_parent_costMoney_Statics::NewProp_moneyToTakeOff = { "moneyToTakeOff", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(VNPlayer_parent_eventcostMoney_Parms, moneyToTakeOff), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AVNPlayer_parent_costMoney_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AVNPlayer_parent_costMoney_Statics::NewProp_moneyToTakeOff,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AVNPlayer_parent_costMoney_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Manage" },
+		{ "ModuleRelativePath", "Public/VNPlayer_parent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AVNPlayer_parent_costMoney_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AVNPlayer_parent, nullptr, "costMoney", nullptr, nullptr, sizeof(VNPlayer_parent_eventcostMoney_Parms), Z_Construct_UFunction_AVNPlayer_parent_costMoney_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AVNPlayer_parent_costMoney_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AVNPlayer_parent_costMoney_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AVNPlayer_parent_costMoney_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AVNPlayer_parent_costMoney()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AVNPlayer_parent_costMoney_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AVNPlayer_parent_DoThing_Statics
 	{
 #if WITH_METADATA
@@ -120,6 +158,39 @@ void EmptyLinkFunctionForGeneratedCodeVNPlayer_parent() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AVNPlayer_parent_DoThing_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AVNPlayer_parent_getMoney_Statics
+	{
+		struct VNPlayer_parent_eventgetMoney_Parms
+		{
+			float moneyToGet;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_moneyToGet;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AVNPlayer_parent_getMoney_Statics::NewProp_moneyToGet = { "moneyToGet", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(VNPlayer_parent_eventgetMoney_Parms, moneyToGet), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AVNPlayer_parent_getMoney_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AVNPlayer_parent_getMoney_Statics::NewProp_moneyToGet,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AVNPlayer_parent_getMoney_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Manage" },
+		{ "ModuleRelativePath", "Public/VNPlayer_parent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AVNPlayer_parent_getMoney_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AVNPlayer_parent, nullptr, "getMoney", nullptr, nullptr, sizeof(VNPlayer_parent_eventgetMoney_Parms), Z_Construct_UFunction_AVNPlayer_parent_getMoney_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AVNPlayer_parent_getMoney_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AVNPlayer_parent_getMoney_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AVNPlayer_parent_getMoney_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AVNPlayer_parent_getMoney()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AVNPlayer_parent_getMoney_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -190,6 +261,26 @@ void EmptyLinkFunctionForGeneratedCodeVNPlayer_parent() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_story_day3_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_story_day3;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_story_day3_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_story_day2_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_story_day2;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_story_day2_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_story_day1_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_story_day1;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_story_day1_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_story_day1_opening_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_story_day1_opening;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_story_day1_opening_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_money_MetaData[];
 #endif
@@ -304,7 +395,9 @@ void EmptyLinkFunctionForGeneratedCodeVNPlayer_parent() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_AVNPlayer_parent_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AVNPlayer_parent_AddCustomer, "AddCustomer" }, // 1216049953
 		{ &Z_Construct_UFunction_AVNPlayer_parent_CookNoodle, "CookNoodle" }, // 2576192035
+		{ &Z_Construct_UFunction_AVNPlayer_parent_costMoney, "costMoney" }, // 2704851351
 		{ &Z_Construct_UFunction_AVNPlayer_parent_DoThing, "DoThing" }, // 3915902325
+		{ &Z_Construct_UFunction_AVNPlayer_parent_getMoney, "getMoney" }, // 1689665546
 		{ &Z_Construct_UFunction_AVNPlayer_parent_HandleCooldown, "HandleCooldown" }, // 3957996394
 		{ &Z_Construct_UFunction_AVNPlayer_parent_ResetServed, "ResetServed" }, // 3272733505
 	};
@@ -315,6 +408,38 @@ void EmptyLinkFunctionForGeneratedCodeVNPlayer_parent() {}
 		{ "ModuleRelativePath", "Public/VNPlayer_parent.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day3_MetaData[] = {
+		{ "Category", "Story" },
+		{ "ModuleRelativePath", "Public/VNPlayer_parent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day3 = { "story_day3", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVNPlayer_parent, story_day3), METADATA_PARAMS(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day3_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day3_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day3_Inner = { "story_day3", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FStory_Struct, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day2_MetaData[] = {
+		{ "Category", "Story" },
+		{ "ModuleRelativePath", "Public/VNPlayer_parent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day2 = { "story_day2", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVNPlayer_parent, story_day2), METADATA_PARAMS(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day2_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day2_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day2_Inner = { "story_day2", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FStory_Struct, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day1_MetaData[] = {
+		{ "Category", "Story" },
+		{ "ModuleRelativePath", "Public/VNPlayer_parent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day1 = { "story_day1", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVNPlayer_parent, story_day1), METADATA_PARAMS(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day1_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day1_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day1_Inner = { "story_day1", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FStory_Struct, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day1_opening_MetaData[] = {
+		{ "Category", "Story" },
+		{ "ModuleRelativePath", "Public/VNPlayer_parent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day1_opening = { "story_day1_opening", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVNPlayer_parent, story_day1_opening), METADATA_PARAMS(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day1_opening_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day1_opening_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day1_opening_Inner = { "story_day1_opening", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FStory_Struct, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_money_MetaData[] = {
 		{ "Category", "GamePlay" },
@@ -339,9 +464,9 @@ void EmptyLinkFunctionForGeneratedCodeVNPlayer_parent() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_ServingDrink_MetaData[] = {
 		{ "Category", "Cooking" },
-		{ "Comment", "/*\n\x09\x09""0 = none\n\x09\x09""1 = Water\n\x09\x09""2 = Beer\n\x09\x09""3 = Coke\n\x09\x09""4 = Whiskey\n\x09\x09""5 = Vodka\n\x09*/" },
+		{ "Comment", "/*\n\x09\x09""0 = none\n\x09\x09""1 = Water\n\x09\x09""2 = Coke\n\x09\x09""3 = Beer\n\x09\x09""4 = Whiskey\n\x09\x09""5 = Vodka\n\x09*/" },
 		{ "ModuleRelativePath", "Public/VNPlayer_parent.h" },
-		{ "ToolTip", "0 = none\n1 = Water\n2 = Beer\n3 = Coke\n4 = Whiskey\n5 = Vodka" },
+		{ "ToolTip", "0 = none\n1 = Water\n2 = Coke\n3 = Beer\n4 = Whiskey\n5 = Vodka" },
 	};
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_ServingDrink = { "ServingDrink", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVNPlayer_parent, ServingDrink), METADATA_PARAMS(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_ServingDrink_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_ServingDrink_MetaData)) };
@@ -504,6 +629,14 @@ void EmptyLinkFunctionForGeneratedCodeVNPlayer_parent() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_donothing = { "donothing", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AVNPlayer_parent), &Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_donothing_SetBit, METADATA_PARAMS(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_donothing_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_donothing_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AVNPlayer_parent_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day3,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day3_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day2,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day2_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day1,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day1_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day1_opening,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_story_day1_opening_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_money,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_drinkReady,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_foodReady,
@@ -558,7 +691,7 @@ void EmptyLinkFunctionForGeneratedCodeVNPlayer_parent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AVNPlayer_parent, 3875865623);
+	IMPLEMENT_CLASS(AVNPlayer_parent, 336327666);
 	template<> MANATARMS_PROJECT_API UClass* StaticClass<AVNPlayer_parent>()
 	{
 		return AVNPlayer_parent::StaticClass();

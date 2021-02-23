@@ -175,6 +175,12 @@ template<> MANATARMS_PROJECT_API UClass* StaticClass<class UMyAIBPfunctionLibrar
 #define CURRENT_FILE_ID ManAtArms_Project_Source_ManAtArms_Project_Public_MyAIBPfunctionLibrary_h
 
 
+#define FOREACH_ENUM_CHARACTERLIST(op) \
+	op(Narrator) \
+	op(Naidan) \
+	op(Agent1) \
+	op(Agent2) \
+	op(NONAMED) 
 #define FOREACH_ENUM_TURNTYPE_C(op) \
 	op(CustomerTurn) \
 	op(PlayerTurn) \

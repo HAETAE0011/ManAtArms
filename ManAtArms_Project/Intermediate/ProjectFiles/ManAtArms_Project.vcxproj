@@ -295,6 +295,7 @@
     <ClCompile Include="..\..\Source\ManAtArms_Project\Private\MyAIBPfunctionLibrary.cpp"/>
     <ClCompile Include="..\..\Source\ManAtArms_Project\Private\StateMachine.cpp"/>
     <ClCompile Include="..\..\Source\ManAtArms_Project\Private\StateStruct.cpp"/>
+    <ClCompile Include="..\..\Source\ManAtArms_Project\Private\Story_Struct.cpp"/>
     <ClCompile Include="..\..\Source\ManAtArms_Project\Private\VNPlayer_parent.cpp"/>
     <ClInclude Include="..\..\Source\ManAtArms_Project\Public\Customer.h"/>
     <ClInclude Include="..\..\Source\ManAtArms_Project\Public\Customer_struct.h"/>
@@ -302,6 +303,7 @@
     <ClInclude Include="..\..\Source\ManAtArms_Project\Public\MyAIBPfunctionLibrary.h"/>
     <ClInclude Include="..\..\Source\ManAtArms_Project\Public\StateMachine.h"/>
     <ClInclude Include="..\..\Source\ManAtArms_Project\Public\StateStruct.h"/>
+    <ClInclude Include="..\..\Source\ManAtArms_Project\Public\Story_Struct.h"/>
     <ClInclude Include="..\..\Source\ManAtArms_Project\Public\VNPlayer_parent.h"/>
   </ItemGroup>
   <PropertyGroup>

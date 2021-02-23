@@ -13,8 +13,26 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MANATARMS_PROJECT_VNPlayer_parent_generated_h
 
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_SPARSE_DATA
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_RPC_WRAPPERS \
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_SPARSE_DATA
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execgetMoney) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_moneyToGet); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->getMoney(Z_Param_moneyToGet); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execcostMoney) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_moneyToTakeOff); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->costMoney(Z_Param_moneyToTakeOff); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execAddCustomer) \
 	{ \
@@ -61,7 +79,25 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execgetMoney) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_moneyToGet); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->getMoney(Z_Param_moneyToGet); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execcostMoney) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_moneyToTakeOff); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->costMoney(Z_Param_moneyToTakeOff); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execAddCustomer) \
 	{ \
@@ -108,7 +144,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_INCLASS_NO_PURE_DECLS \
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAVNPlayer_parent(); \
 	friend struct Z_Construct_UClass_AVNPlayer_parent_Statics; \
@@ -117,7 +153,7 @@ public: \
 	DECLARE_SERIALIZER(AVNPlayer_parent)
 
 
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_INCLASS \
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAVNPlayer_parent(); \
 	friend struct Z_Construct_UClass_AVNPlayer_parent_Statics; \
@@ -126,7 +162,7 @@ public: \
 	DECLARE_SERIALIZER(AVNPlayer_parent)
 
 
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_STANDARD_CONSTRUCTORS \
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AVNPlayer_parent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AVNPlayer_parent) \
@@ -139,7 +175,7 @@ private: \
 public:
 
 
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_ENHANCED_CONSTRUCTORS \
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AVNPlayer_parent(AVNPlayer_parent&&); \
@@ -150,28 +186,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AVNPlayer_parent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AVNPlayer_parent)
 
 
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_PRIVATE_PROPERTY_OFFSET
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_12_PROLOG
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_GENERATED_BODY_LEGACY \
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_PRIVATE_PROPERTY_OFFSET
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_13_PROLOG
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_PRIVATE_PROPERTY_OFFSET \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_SPARSE_DATA \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_RPC_WRAPPERS \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_INCLASS \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_STANDARD_CONSTRUCTORS \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_PRIVATE_PROPERTY_OFFSET \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_SPARSE_DATA \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_RPC_WRAPPERS \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_INCLASS \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_GENERATED_BODY \
+#define ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_PRIVATE_PROPERTY_OFFSET \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_SPARSE_DATA \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_INCLASS_NO_PURE_DECLS \
-	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_15_ENHANCED_CONSTRUCTORS \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_PRIVATE_PROPERTY_OFFSET \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_SPARSE_DATA \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_INCLASS_NO_PURE_DECLS \
+	ManAtArms_Project_Source_ManAtArms_Project_Public_VNPlayer_parent_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
