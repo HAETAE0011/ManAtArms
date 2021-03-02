@@ -1204,3 +1204,359 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.02-21.37.33:055][920]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/wall2.wall2
 [2021.03.02-21.37.33:055][920]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/wall_100x100.wall_100x100
 [2021.03.02-21.37.33:055][920]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/wall_250x250.wall_250x250
+[2021.03.02-21.38.57:799][725]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2021.03.02-21.39.06:253][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (3_1_panel)
+[2021.03.02-21.39.12:158][297]LogEditorViewport: Clicking on Actor (LMB): DecalActor (MI_Pond9)
+[2021.03.02-21.39.12:913][362]Cmd: DELETE
+[2021.03.02-21.39.12:913][362]Cmd: ACTOR DELETE
+[2021.03.02-21.39.12:918][362]LogEditorActor: Deleted Actor: DecalActor
+[2021.03.02-21.39.12:949][362]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2021.03.02-21.39.12:955][362]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2021.03.02-21.39.16:299][760]LogEditorViewport: Clicking on Actor (LMB): DecalActor (MI_Pond11)
+[2021.03.02-21.39.16:908][829]Cmd: DELETE
+[2021.03.02-21.39.16:908][829]Cmd: ACTOR DELETE
+[2021.03.02-21.39.16:912][829]LogEditorActor: Deleted Actor: DecalActor
+[2021.03.02-21.39.16:943][829]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2021.03.02-21.39.16:943][829]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2021.03.02-21.39.19:583][118]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2021.03.02-21.39.19:945][118]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv12743FC314DAE0E3C05163296C3C888AD.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.02-21.39.20:010][118]AssetCheck: New page: Asset Save: Map_VN_lv1
+[2021.03.02-21.39.20:010][118]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.02-21.41.34:237][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:ReceiveBeginPlay' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:ReceiveTick' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:heightSuggestion' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:height' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:floorHeight' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:NumberOfFloors' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:CeilingMaterial' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:vector1' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:Stream' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:MeshLength' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:Mesh List' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:ForwardAxis' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:LengthPerEachSpline' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:ShowSplineMesh' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:Mesh' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:Multiple Mesh?' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:Refresh' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:DefaultSceneRoot1' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:Arrow' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:Spline' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:Ceiling' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C:UserConstructionScript' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.SKEL_BP_Building_C' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:heightSuggestion' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:height' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:floorHeight' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:NumberOfFloors' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:CeilingMaterial' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:vector1' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:Stream' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:MeshLength' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:Mesh List' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:ForwardAxis' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:LengthPerEachSpline' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:ShowSplineMesh' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:Mesh' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:Multiple Mesh?' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:Refresh' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:DefaultSceneRoot1' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:Arrow' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:Spline' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:Ceiling' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:238][131]LogMetaData: Removing '/Game/MyContent/VN/BP/BP_Building.BP_Building_C:UserConstructionScript' ref from Metadata '/Game/MyContent/BP/BP_Building.PackageMetaData'
+[2021.03.02-21.41.34:347][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/BP_Building" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_Building.uasset" SILENT=true
+[2021.03.02-21.41.34:447][131]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_Building61B5F6824E7A1E879A1DA19645E06B5D.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_Building.uasset'
+[2021.03.02-21.41.34:664][131]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2021.03.02-21.41.34:706][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2021.03.02-21.41.34:734][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2021.03.02-21.41.34:829][131]AssetCheck: New page: Asset Save: BP_Building
+[2021.03.02-21.41.34:829][131]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/BP_Building.BP_Building
+[2021.03.02-21.41.52:010][984]LogEditorViewport: Clicking on Actor (LMB): BP_Building_C (BP_Building)
+[2021.03.02-21.41.58:466][737]LogEditorViewport: Clicking on Actor (LMB): BP_Building_C (BP_Building)
+[2021.03.02-21.43.17:964][183]LogAssetTools: Warning: Failed to import 'Z:\GitHub\VN_project\Content\MyContent\VN\Mesh\Materials\Mat_RandomTile.uasset'. Unknown extension 'uasset'.
+[2021.03.02-21.43.17:969][183]LogAssetTools: Warning: Failed to import 'Z:\GitHub\VN_project\Content\MyContent\VN\Mesh\Materials\MatF_Random.uasset'. Unknown extension 'uasset'.
+[2021.03.02-21.47.53:621][491]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2021.03.02-21.47.54:001][491]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1D78C12BC40F8AF760874FF8DB34E662F.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.02-21.47.54:066][491]AssetCheck: New page: Asset Save: Map_VN_lv1
+[2021.03.02-21.47.54:066][491]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.02-21.47.54:713][547]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2021.03.02-21.48.44:708][119]LogLinker: Warning: While loading '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset' failed to load '/Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_BaseColor': Can't find file.
+[2021.03.02-21.48.44:708][119]LogLinker: Warning: While loading '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset' failed to load '/Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_BaseColor': Can't find file.
+[2021.03.02-21.48.44:708][119]LogLinker: Warning: While loading '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset' failed to load '/Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_Normal': Can't find file.
+[2021.03.02-21.48.44:708][119]LogLinker: Warning: While loading '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset' failed to load '/Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_Normal': Can't find file.
+[2021.03.02-21.48.44:708][119]LogLinker: Warning: While loading '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset' failed to load '/Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_OcclusionRoughnessMetallic': Can't find file.
+[2021.03.02-21.48.44:708][119]LogLinker: Warning: While loading '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset' failed to load '/Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_OcclusionRoughnessMetallic': Can't find file.
+[2021.03.02-21.48.44:709][119]LogLinker: Warning: While loading '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset' failed to load '/Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_BaseColor': Can't find file.
+[2021.03.02-21.48.44:709][119]LogLinker: Warning: While loading '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset' failed to load '/Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_BaseColor': Can't find file.
+[2021.03.02-21.48.44:709][119]LogLinker: Warning: While loading '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset' failed to load '/Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_Normal': Can't find file.
+[2021.03.02-21.48.44:709][119]LogLinker: Warning: While loading '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset' failed to load '/Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_Normal': Can't find file.
+[2021.03.02-21.48.44:709][119]LogLinker: Warning: While loading '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset' failed to load '/Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_OcclusionRoughnessMetallic': Can't find file.
+[2021.03.02-21.48.44:709][119]LogLinker: Warning: While loading '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset' failed to load '/Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_OcclusionRoughnessMetallic': Can't find file.
+[2021.03.02-21.48.44:710][119]LogLinker: Warning: While loading '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset' failed to load '/Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_BaseColor': Can't find file.
+[2021.03.02-21.48.44:710][119]LoadErrors: Failed to load /Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_BaseColor.plane_Mat_BaseColor Referenced by MaterialExpressionTextureSample_0
+[2021.03.02-21.48.44:710][119]LogLinker: Warning: While loading '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset' failed to load '/Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_BaseColor': Can't find file.
+[2021.03.02-21.48.44:711][119]LogLinker: Warning: While loading '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset' failed to load '/Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_Normal': Can't find file.
+[2021.03.02-21.48.44:711][119]LoadErrors: Failed to load /Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_Normal.plane_Mat_Normal Referenced by MaterialExpressionTextureSample_1
+[2021.03.02-21.48.44:711][119]LogLinker: Warning: While loading '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset' failed to load '/Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_Normal': Can't find file.
+[2021.03.02-21.48.44:711][119]LogLinker: Warning: While loading '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset' failed to load '/Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_OcclusionRoughnessMetallic': Can't find file.
+[2021.03.02-21.48.44:711][119]LoadErrors: Failed to load /Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_OcclusionRoughnessMetallic.plane_Mat_OcclusionRoughnessMetallic Referenced by MaterialExpressionTextureSample_2
+[2021.03.02-21.48.44:711][119]LogLinker: Warning: While loading '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset' failed to load '/Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_OcclusionRoughnessMetallic': Can't find file.
+[2021.03.02-21.48.44:728][119]LogMaterial: Display: Missing cached shader map for material Mat_RandomTile, compiling. 
+[2021.03.02-21.48.44:743][119]LogMaterial: Warning: Z:\GitHub\ManAtArms\ManAtArms_Project\Content\MyContent\VN\Mesh\Materials\Mat_RandomTile.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.03.02-21.48.44:743][119]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.03.02-21.48.44:772][119]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Mat_RandomTile_Inst.Mat_RandomTile_Inst
+[2021.03.02-21.48.44:974][119]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.03.02-21.48.45:012][119]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2021.03.02-21.48.45:012][119]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2021.03.02-21.48.45:012][119]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2021.03.02-21.48.45:013][119]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.03.02-21.48.53:866][ 14]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/MyContent/VN/Mesh/Materials/Mat_RandomTile.Mat_RandomTile
+[2021.03.02-21.48.53:871][ 14]LogMaterial: Display: Missing cached shader map for material Mat_RandomTile, compiling. 
+[2021.03.02-21.48.53:871][ 14]LogMaterial: Warning: /Engine/Transient.Mat_RandomTile (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.03.02-21.48.53:871][ 14]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.03.02-21.48.53:941][ 14]LogSlate: Warning: The tab "MaterialEditor_Stats" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2021.03.02-21.48.53:996][ 14]LogMaterial: Display: Missing cached shader map for material Mat_RandomTile, compiling. 
+[2021.03.02-21.48.53:997][ 14]LogMaterial: Warning: /Engine/Transient.Mat_RandomTile (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.03.02-21.48.53:997][ 14]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.03.02-21.48.54:001][ 14]LogMaterial: Display: Missing cached shader map for material Mat_RandomTile, compiling. 
+[2021.03.02-21.48.54:002][ 14]LogMaterial: Warning: /Engine/Transient.Mat_RandomTile (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.03.02-21.48.54:002][ 14]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.03.02-21.48.54:009][ 14]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2021.03.02-21.48.54:013][ 14]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2021.03.02-21.48.54:016][ 14]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2021.03.02-21.48.54:029][ 14]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2021.03.02-21.48.54:029][ 14]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2021.03.02-21.48.54:029][ 14]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2021.03.02-21.48.54:029][ 14]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.03.02-21.48.54:029][ 14]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2021.03.02-21.48.54:038][ 14]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFloor_0, compiling. 
+[2021.03.02-21.48.54:047][ 14]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDivide_0, compiling. 
+[2021.03.02-21.48.54:057][ 14]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 8
+[2021.03.02-21.48.54:057][ 14]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 7
+[2021.03.02-21.48.54:057][ 14]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 6
+[2021.03.02-21.48.54:057][ 14]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 5
+[2021.03.02-21.48.54:057][ 14]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 4
+[2021.03.02-21.48.54:057][ 14]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 3
+[2021.03.02-21.48.54:057][ 14]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 2
+[2021.03.02-21.48.54:057][ 14]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 1
+[2021.03.02-21.48.54:057][ 14]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.03.02-21.48.54:061][ 14]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_3, compiling. 
+[2021.03.02-21.48.54:071][ 14]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSubtract_0, compiling. 
+[2021.03.02-21.48.54:075][ 14]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionOneMinus_0, compiling. 
+[2021.03.02-21.48.54:080][ 14]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_0, compiling. 
+[2021.03.02-21.48.54:084][ 14]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2021.03.02-21.48.54:247][ 14]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2021.03.02-21.48.54:338][ 14]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 12
+[2021.03.02-21.48.54:361][ 14]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 11
+[2021.03.02-21.48.54:608][ 15]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 10
+[2021.03.02-21.48.54:608][ 15]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 9
+[2021.03.02-21.48.54:661][ 16]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 8
+[2021.03.02-21.48.54:661][ 16]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 7
+[2021.03.02-21.48.54:672][ 16]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 6
+[2021.03.02-21.48.54:672][ 16]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 5
+[2021.03.02-21.48.54:702][ 17]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2021.03.02-21.48.54:743][ 18]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 3
+[2021.03.02-21.48.54:744][ 18]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 2
+[2021.03.02-21.48.54:744][ 18]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1
+[2021.03.02-21.48.59:461][391]LogSlate: Window 'Stats' being destroyed
+[2021.03.02-21.48.59:468][391]LogSlate: Window 'Stats' being destroyed
+[2021.03.02-21.52.57:849][635]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\john0\Desktop\Capstone\environment\texture\plane_Mat_OcclusionRoughnessMetallic.png)
+[2021.03.02-21.52.57:914][635]LogTexture: Display: Building textures: plane_Mat_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2021.03.02-21.52.58:023][635]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\john0\Desktop\Capstone\environment\texture\plane_Mat_BaseColor.png)
+[2021.03.02-21.52.58:085][635]LogTexture: Display: Building textures: plane_Mat_BaseColor (AutoDXT, 2048X2048)
+[2021.03.02-21.52.58:190][635]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\john0\Desktop\Capstone\environment\texture\plane_Mat_Normal.png)
+[2021.03.02-21.52.58:261][635]LogTexture: Display: Building textures: plane_Mat_Normal (BC5, 2048X2048)
+[2021.03.02-21.53.00:884][643]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_OcclusionRoughnessMetallic.plane_Mat_OcclusionRoughnessMetallic
+[2021.03.02-21.53.02:211][753]LogTexture: Display: Building textures: plane_Mat_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2021.03.02-21.53.04:304][926]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/plane_Mat_OcclusionRoughnessMeta6BCBA2FD47EF7436D5B2E1AE35575FF7.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/textures/plane_Mat_OcclusionRoughnessMetallic.uasset'
+[2021.03.02-21.53.04:343][926]AssetCheck: New page: Asset Save: plane_Mat_OcclusionRoughnessMetallic
+[2021.03.02-21.53.04:343][926]LogContentValidation: Display: Validating Texture2D /Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_OcclusionRoughnessMetallic.plane_Mat_OcclusionRoughnessMetallic
+[2021.03.02-21.53.09:112][273]LogMaterial: Display: Missing cached shader map for material Mat_RandomTile, compiling. 
+[2021.03.02-21.53.09:113][273]LogMaterial: Warning: /Engine/Transient.Mat_RandomTile (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.03.02-21.53.09:113][273]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.03.02-21.53.09:135][273]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.03.02-21.53.09:152][273]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2021.03.02-21.53.09:152][273]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2021.03.02-21.53.09:152][273]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2021.03.02-21.53.09:152][273]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.03.02-21.53.09:156][273]LogMaterial: Display: Missing cached shader map for material Mat_RandomTile, compiling. 
+[2021.03.02-21.53.09:156][273]LogMaterial: Warning: /Engine/Transient.Mat_RandomTile (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.03.02-21.53.09:156][273]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.03.02-21.53.11:339][433]LogMaterial: Display: Missing cached shader map for material Mat_RandomTile, compiling. 
+[2021.03.02-21.53.11:339][433]LogMaterial: Warning: /Engine/Transient.Mat_RandomTile (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.03.02-21.53.11:339][433]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.03.02-21.53.11:349][433]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2021.03.02-21.53.11:360][433]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2021.03.02-21.53.11:360][433]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2021.03.02-21.53.11:360][433]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2021.03.02-21.53.11:360][433]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.03.02-21.53.11:360][433]LogMaterial: Display: Missing cached shader map for material Mat_RandomTile, compiling. 
+[2021.03.02-21.53.11:360][433]LogMaterial: Warning: /Engine/Transient.Mat_RandomTile (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.03.02-21.53.11:360][433]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.03.02-21.53.13:268][566]LogMaterial: Display: Missing cached shader map for material Mat_RandomTile, compiling. 
+[2021.03.02-21.53.13:309][566]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 11
+[2021.03.02-21.53.13:309][566]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 10
+[2021.03.02-21.53.13:309][566]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 9
+[2021.03.02-21.53.13:309][566]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 8
+[2021.03.02-21.53.13:309][566]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 7
+[2021.03.02-21.53.13:310][566]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 6
+[2021.03.02-21.53.13:310][566]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 5
+[2021.03.02-21.53.13:310][566]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
+[2021.03.02-21.53.13:310][566]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 3
+[2021.03.02-21.53.13:310][566]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 2
+[2021.03.02-21.53.13:310][566]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 1
+[2021.03.02-21.53.13:314][566]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2021.03.02-21.53.13:326][566]LogMaterial: Display: Missing cached shader map for material Mat_RandomTile, compiling. 
+[2021.03.02-21.53.13:402][566]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 15
+[2021.03.02-21.53.13:888][580]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 14
+[2021.03.02-21.53.13:920][581]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 13
+[2021.03.02-21.53.13:948][582]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 12
+[2021.03.02-21.53.13:972][583]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 11
+[2021.03.02-21.53.13:972][583]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 10
+[2021.03.02-21.53.13:994][584]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 9
+[2021.03.02-21.53.14:014][585]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 8
+[2021.03.02-21.53.14:034][586]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 7
+[2021.03.02-21.53.14:093][589]LogMaterialEditor: Applying material Mat_RandomTile
+[2021.03.02-21.53.14:705][589]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 6
+[2021.03.02-21.53.14:705][589]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
+[2021.03.02-21.53.14:705][589]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2021.03.02-21.53.14:705][589]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.03.02-21.53.14:705][589]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 2
+[2021.03.02-21.53.14:705][589]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2021.03.02-21.53.14:715][589]LogMaterial: Display: Missing cached shader map for material Mat_RandomTile, compiling. 
+[2021.03.02-21.53.14:746][589]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 11
+[2021.03.02-21.53.14:746][589]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 10
+[2021.03.02-21.53.14:746][589]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 9
+[2021.03.02-21.53.14:746][589]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 8
+[2021.03.02-21.53.14:746][589]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 7
+[2021.03.02-21.53.14:746][589]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 6
+[2021.03.02-21.53.14:746][589]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 5
+[2021.03.02-21.53.14:746][589]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
+[2021.03.02-21.53.14:746][589]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 3
+[2021.03.02-21.53.14:746][589]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 2
+[2021.03.02-21.53.14:746][589]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 1
+[2021.03.02-21.53.14:862][589]LogMaterial: Display: Missing cached shader map for material Mat_RandomTile, compiling. 
+[2021.03.02-21.53.14:939][589]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 45
+[2021.03.02-21.53.15:080][589]LogUObjectHash: Compacting FUObjectHashTables data took   7.57ms
+[2021.03.02-21.53.15:103][589]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.02-21.53.15:455][589]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 43
+[2021.03.02-21.53.15:456][589]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 42
+[2021.03.02-21.53.15:456][589]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 41
+[2021.03.02-21.53.15:456][589]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 37
+[2021.03.02-21.53.15:456][589]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 33
+[2021.03.02-21.53.15:456][589]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 30
+[2021.03.02-21.53.15:456][589]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 27
+[2021.03.02-21.53.15:456][589]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 24
+[2021.03.02-21.53.15:456][589]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 21
+[2021.03.02-21.53.15:456][589]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 19
+[2021.03.02-21.53.15:456][589]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 17
+[2021.03.02-21.53.15:456][589]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 15
+[2021.03.02-21.53.15:456][589]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 13
+[2021.03.02-21.53.15:460][589]TextureStreamingBuild: Display: Compiling optional shaders took 0.370 seconds.
+[2021.03.02-21.53.15:541][589]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2021.03.02-21.53.16:143][595]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 11
+[2021.03.02-21.53.16:186][596]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 10
+[2021.03.02-21.53.16:193][596]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 9
+[2021.03.02-21.53.16:229][597]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.03.02-21.53.16:344][600]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 7
+[2021.03.02-21.53.16:476][603]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 6
+[2021.03.02-21.53.16:526][604]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 5
+[2021.03.02-21.53.16:603][606]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 4
+[2021.03.02-21.53.16:603][606]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 3
+[2021.03.02-21.53.16:644][607]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2021.03.02-21.53.16:660][607]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 1
+[2021.03.02-21.53.17:145][626]MaterialEditorStats: Base pass shader: 143 instructions
+[2021.03.02-21.53.17:145][626]MaterialEditorStats: Base pass shader with Surface Lightmap: 174 instructions
+[2021.03.02-21.53.17:145][626]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 221 instructions
+[2021.03.02-21.53.17:145][626]MaterialEditorStats: Base pass vertex shader: 47 instructions
+[2021.03.02-21.53.17:145][626]MaterialEditorStats: Texture samplers: 7/16
+[2021.03.02-21.53.17:145][626]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2021.03.02-21.53.17:145][626]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.03.02-21.53.18:217][709]LogMaterialEditor: Saving and Compiling material Mat_RandomTile
+[2021.03.02-21.53.18:258][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/Materials/Mat_RandomTile" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset" SILENT=true
+[2021.03.02-21.53.18:282][709]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_RandomTile90446BFE41E35A76C484DC93BA0797A3.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile.uasset'
+[2021.03.02-21.53.18:311][709]AssetCheck: New page: Asset Save: Mat_RandomTile
+[2021.03.02-21.53.18:311][709]LogContentValidation: Display: Validating Material /Game/MyContent/VN/Mesh/Materials/Mat_RandomTile.Mat_RandomTile
+[2021.03.02-21.53.19:600][820]LogEditorViewport: Clicking on Actor (LMB): BP_Building_C (BP_Building)
+[2021.03.02-21.53.22:717][ 21]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/MyContent/Mesh/wall1.wall1
+[2021.03.02-21.53.26:097][179]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2021.03.02-21.53.26:110][179]TextureStreamingBuild: Display: Compiling optional shaders took 0.011 seconds.
+[2021.03.02-21.53.26:145][179]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.03.02-21.53.26:175][179]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_RandomTile_Inst46F18EB34A74D1DFA9CD4781E0C2BA32.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile_Inst.uasset'
+[2021.03.02-21.53.26:190][179]AssetCheck: New page: Asset Save: Mat_RandomTile_Inst
+[2021.03.02-21.53.26:190][179]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Mat_RandomTile_Inst.Mat_RandomTile_Inst
+[2021.03.02-21.53.47:393][955]LogEditorViewport: Clicking on Actor (LMB): BP_Building_C (BP_Building2)
+[2021.03.02-21.54.04:672][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2021.03.02-21.54.05:787][184]LogSlate: Window 'Delete Assets' being destroyed
+[2021.03.02-21.54.05:912][184]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2021.03.02-21.54.05:951][184]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2021.03.02-21.54.05:983][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2021.03.02-21.54.32:534][287]LogEditorViewport: Clicking on Actor (LMB): BP_Building_C (BP_Building2)
+[2021.03.02-21.54.50:294][829]LogEditorViewport: Clicking on Actor (LMB): BP_Building_C (BP_Building)
+[2021.03.02-21.54.53:664][116]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/VN/BP/BP_Building.BP_Building
+[2021.03.02-21.54.55:581][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/BP_Building" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_Building.uasset" SILENT=true
+[2021.03.02-21.54.55:690][180]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_Building62644E054695C1A3D5A22995C3E45D79.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_Building.uasset'
+[2021.03.02-21.54.55:711][180]AssetCheck: New page: Asset Save: BP_Building
+[2021.03.02-21.54.55:711][180]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/BP_Building.BP_Building
+[2021.03.02-21.54.56:204][205]BlueprintLog: New page: Compile BP_Building
+[2021.03.02-21.54.56:593][205]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2021.03.02-21.55.02:812][489]BlueprintLog: New page: Compile BP_Building
+[2021.03.02-21.55.03:183][489]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2021.03.02-21.55.03:598][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/BP_Building" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_Building.uasset" SILENT=true
+[2021.03.02-21.55.03:688][495]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_Building7BFE9B8A4785F3B1DC7271B511BADFBD.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_Building.uasset'
+[2021.03.02-21.55.03:709][495]AssetCheck: New page: Asset Save: BP_Building
+[2021.03.02-21.55.03:709][495]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/BP_Building.BP_Building
+[2021.03.02-21.55.04:542][533]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-21.55.04:542][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-21.55.05:731][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Mesh/wall1" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/Mesh/wall1.uasset" SILENT=true
+[2021.03.02-21.55.05:752][619]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/wall181A46C8D4EA82E189C071E8223207C49.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/Mesh/wall1.uasset'
+[2021.03.02-21.55.05:768][619]AssetCheck: New page: Asset Save: wall1
+[2021.03.02-21.55.05:768][619]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/Mesh/wall1.wall1
+[2021.03.02-21.55.08:013][836]LogEditorViewport: Clicking on Actor (LMB): BP_Building_C (BP_Building2)
+[2021.03.02-21.55.35:636][732]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2021.03.02-21.55.36:081][732]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv165D2BB724319EEC69B8814B365DEDDAE.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.02-21.55.36:151][732]AssetCheck: New page: Asset Save: Map_VN_lv1
+[2021.03.02-21.55.36:151][732]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.02-21.55.51:277][752]BlueprintLog: New page: Compile BP_ProceduralWire
+[2021.03.02-21.55.51:642][752]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2021.03.02-21.55.52:115][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/BP_ProceduralWire" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralWire.uasset" SILENT=true
+[2021.03.02-21.55.52:247][754]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralWire7A14020D4657E2BAF643859356EDD05A.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralWire.uasset'
+[2021.03.02-21.55.52:263][754]AssetCheck: New page: Asset Save: BP_ProceduralWire
+[2021.03.02-21.55.52:263][754]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/BP_ProceduralWire.BP_ProceduralWire
+[2021.03.02-21.57.43:563][879]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_ProceduralWire.BP_ProceduralWire
+[2021.03.02-21.57.54:047][411]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-21.57.54:047][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-21.57.56:088][586]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2021.03.02-21.57.57:288][586]LogSlate: Window 'Delete Assets' being destroyed
+[2021.03.02-21.57.58:106][586]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BP_ProceduralWire.BP_ProceduralWire
+[2021.03.02-21.57.59:508][586]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.03.02-21.57.59:837][586]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2021.03.02-21.57.59:874][586]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2021.03.02-21.57.59:906][586]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.03.02-21.58.13:213][627]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_ProceduralWire_2021-03-02-15-35-09.BP_ProceduralWire
+[2021.03.02-21.58.22:856][162]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-21.58.22:856][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-21.58.25:673][428]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2021.03.02-21.58.27:246][428]LogSlate: Window 'Delete Assets' being destroyed
+[2021.03.02-21.58.28:047][428]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BP_ProceduralWire_2021-03-02-15-35-09.BP_ProceduralWire
+[2021.03.02-21.58.28:392][428]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2021.03.02-21.58.28:714][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2021.03.02-21.58.28:747][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.03.02-21.58.28:780][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.03.02-21.59.00:710][105]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.03.02-21.59.02:353][105]LogSlate: Window 'Save Content' being destroyed
+[2021.03.02-21.59.02:454][105]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.03.02-21.59.02:473][105]TextureStreamingBuild: Display: Compiling optional shaders took 0.018 seconds.
+[2021.03.02-21.59.02:505][105]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2021.03.02-21.59.02:525][105]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_RandomTile_Inst5F42533344AC9D154F3993B3ECA55AEB.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_RandomTile_Inst.uasset'
+[2021.03.02-21.59.02:653][105]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/plane_Mat_BaseColor23262E9B4841249DAD082A902611B864.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/textures/plane_Mat_BaseColor.uasset'
+[2021.03.02-21.59.02:819][105]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/plane_Mat_Normal8723ECD54CAD45975DA3A0A894273B58.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/textures/plane_Mat_Normal.uasset'
+[2021.03.02-21.59.02:848][105]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.02-21.59.02:848][105]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Mat_RandomTile_Inst.Mat_RandomTile_Inst
+[2021.03.02-21.59.02:848][105]LogContentValidation: Display: Validating Texture2D /Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_BaseColor.plane_Mat_BaseColor
+[2021.03.02-21.59.02:848][105]LogContentValidation: Display: Validating Texture2D /Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_Normal.plane_Mat_Normal
