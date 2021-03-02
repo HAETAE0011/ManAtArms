@@ -2140,3 +2140,139 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.02-22.18.57:469][688]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1E14F8D7542201C8D4A9C1FA08131039F.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
 [2021.03.02-22.18.57:534][688]AssetCheck: New page: Asset Save: Map_VN_lv1
 [2021.03.02-22.18.57:534][688]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.02-22.20.46:217][508]LogSlate: Window 'Color Picker' being destroyed
+[2021.03.02-22.20.59:738][770]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2021.03.02-22.21.00:184][770]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1ECEB6BEC453C7EC218357687029A7941.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.02-22.21.00:248][770]AssetCheck: New page: Asset Save: Map_VN_lv1
+[2021.03.02-22.21.00:248][770]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.02-22.21.10:983][484]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MyContent/VN/UI/UI_VN_Story.UI_VN_Story
+[2021.03.02-22.23.23:917][938]LogSlate: Window 'Color Picker' being destroyed
+[2021.03.02-22.23.27:412][189]LogSlate: Window 'Color Picker' being destroyed
+[2021.03.02-22.23.42:173][315]LogEditorTransaction: Undo Move Widget
+[2021.03.02-22.23.46:053][530]LogEditorTransaction: Undo Move Widget
+[2021.03.02-22.24.39:015][822]BlueprintLog: New page: Compile UI_VN_Story
+[2021.03.02-22.24.39:115][822]LogUObjectHash: Compacting FUObjectHashTables data took   6.13ms
+[2021.03.02-22.24.39:579][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/UI/UI_VN_Story" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/UI/UI_VN_Story.uasset" SILENT=true
+[2021.03.02-22.24.39:651][848]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/UI_VN_Story08A1DF40497E83C18498DA98918C0A7B.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/UI/UI_VN_Story.uasset'
+[2021.03.02-22.24.39:684][848]AssetCheck: New page: Asset Save: UI_VN_Story
+[2021.03.02-22.24.39:684][848]LogContentValidation: Display: Validating WidgetBlueprint /Game/MyContent/VN/UI/UI_VN_Story.UI_VN_Story
+[2021.03.02-22.24.40:763][918]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.02-22.24.40:795][918]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1' with GeneratedClass '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1_C' with ClassGeneratedBy '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1'
+[2021.03.02-22.24.40:795][918]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.02-22.24.40:795][918]PIE: New page: PIE session: Map_VN_lv1 (Mar. 2, 2021, 12:24:40 p.m.)
+[2021.03.02-22.24.40:795][918]LogPlayLevel: Creating play world package: /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1
+[2021.03.02-22.24.40:853][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058188s)
+[2021.03.02-22.24.40:854][918]LogAIModule: Creating AISystem for world Map_VN_lv1
+[2021.03.02-22.24.40:854][918]LogPlayLevel: PIE: World Init took: (0.001256s)
+[2021.03.02-22.24.40:855][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1 to /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1.Map_VN_lv1 (0.059629s)
+[2021.03.02-22.24.40:901][918]LogUObjectHash: Compacting FUObjectHashTables data took   5.24ms
+[2021.03.02-22.24.40:903][918]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.02-22.24.40:903][918]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.02-22.24.40:903][918]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.02-22.24.40:903][918]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.02-22.24.40:903][918]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.02-22.24.40:903][918]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.02-22.24.40:903][918]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.02-22.24.40:903][918]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.02-22.24.40:903][918]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.02-22.24.40:903][918]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.02-22.24.40:932][918]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.02-22.24.40:932][918]LogAudioMixer: Display: Name: Speakers (Logitech G430 Gaming Headset)
+[2021.03.02-22.24.40:932][918]LogAudioMixer: Display: Is Default: Yes
+[2021.03.02-22.24.40:932][918]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.02-22.24.40:932][918]LogAudioMixer: Display: Channel Count Used: 8
+[2021.03.02-22.24.40:932][918]LogAudioMixer: Display: Device Channel Count: 8
+[2021.03.02-22.24.40:932][918]LogAudioMixer: Display: Channel Order:
+[2021.03.02-22.24.40:932][918]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.02-22.24.40:932][918]LogAudioMixer: Display: 1: FrontRight
+[2021.03.02-22.24.40:932][918]LogAudioMixer: Display: 2: FrontCenter
+[2021.03.02-22.24.40:932][918]LogAudioMixer: Display: 3: LowFrequency
+[2021.03.02-22.24.40:932][918]LogAudioMixer: Display: 4: BackLeft
+[2021.03.02-22.24.40:932][918]LogAudioMixer: Display: 5: BackRight
+[2021.03.02-22.24.40:932][918]LogAudioMixer: Display: 6: SideLeft
+[2021.03.02-22.24.40:932][918]LogAudioMixer: Display: 7: SideRight
+[2021.03.02-22.24.40:941][918]LogAudioMixer: Display: Using Audio Device Speakers (Logitech G430 Gaming Headset)
+[2021.03.02-22.24.40:942][918]LogInit: FAudioDevice initialized.
+[2021.03.02-22.24.40:996][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.02-22.24.40:996][918]LogLoad: Game class is 'VNGameMode_C'
+[2021.03.02-22.24.41:003][918]LogWorld: Bringing World /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1.Map_VN_lv1 up for play (max tick rate 0) at 2021.03.02-17.24.41
+[2021.03.02-22.24.41:003][918]LogWorld: Bringing up level for play took: 0.006262
+[2021.03.02-22.24.41:003][918]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.03.02-22.24.41:023][918]PIE: Play in editor start time for /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1 1.107
+[2021.03.02-22.24.41:023][918]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1' with GeneratedClass '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1_C' with ClassGeneratedBy '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1'
+[2021.03.02-22.24.41:970][964]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2021.03.02-22.24.50:714][532]LogSlate: Window 'ManAtArms_Project Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.03.02-22.24.50:727][532]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1' with GeneratedClass '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1_C' with ClassGeneratedBy '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1'
+[2021.03.02-22.24.50:728][532]LogWorld: BeginTearingDown for /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1
+[2021.03.02-22.24.50:728][532]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.02-22.24.50:728][532]LogWorld: UWorld::CleanupWorld for Map_VN_lv1, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-22.24.50:729][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.24.50:796][532]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.02-22.24.50:796][532]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1' with GeneratedClass '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1_C' with ClassGeneratedBy '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1'
+[2021.03.02-22.24.50:803][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.24.50:840][532]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.02-22.24.50:849][532]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2021.03.02-22.24.50:921][533]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.03.02-22.24.52:594][681]LogEditorViewport: Clicking on Actor (LMB): BP_VN_GameManager_C (BP_VN_GameManager)
+[2021.03.02-22.24.56:171][950]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.02-22.24.56:203][950]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1' with GeneratedClass '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1_C' with ClassGeneratedBy '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1'
+[2021.03.02-22.24.56:203][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.02-22.24.56:203][950]PIE: New page: PIE session: Map_VN_lv1 (Mar. 2, 2021, 12:24:56 p.m.)
+[2021.03.02-22.24.56:203][950]LogPlayLevel: Creating play world package: /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1
+[2021.03.02-22.24.56:261][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058356s)
+[2021.03.02-22.24.56:262][950]LogAIModule: Creating AISystem for world Map_VN_lv1
+[2021.03.02-22.24.56:313][950]LogPlayLevel: PIE: World Init took: (0.052133s)
+[2021.03.02-22.24.56:313][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1 to /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1.Map_VN_lv1 (0.110651s)
+[2021.03.02-22.24.56:352][950]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2021.03.02-22.24.56:355][950]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.02-22.24.56:355][950]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.02-22.24.56:355][950]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.02-22.24.56:355][950]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.02-22.24.56:355][950]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.02-22.24.56:355][950]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.02-22.24.56:355][950]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.02-22.24.56:355][950]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.02-22.24.56:356][950]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.02-22.24.56:356][950]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.02-22.24.56:381][950]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.02-22.24.56:381][950]LogAudioMixer: Display: Name: Speakers (Logitech G430 Gaming Headset)
+[2021.03.02-22.24.56:381][950]LogAudioMixer: Display: Is Default: Yes
+[2021.03.02-22.24.56:381][950]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.02-22.24.56:381][950]LogAudioMixer: Display: Channel Count Used: 8
+[2021.03.02-22.24.56:381][950]LogAudioMixer: Display: Device Channel Count: 8
+[2021.03.02-22.24.56:381][950]LogAudioMixer: Display: Channel Order:
+[2021.03.02-22.24.56:381][950]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.02-22.24.56:381][950]LogAudioMixer: Display: 1: FrontRight
+[2021.03.02-22.24.56:381][950]LogAudioMixer: Display: 2: FrontCenter
+[2021.03.02-22.24.56:381][950]LogAudioMixer: Display: 3: LowFrequency
+[2021.03.02-22.24.56:381][950]LogAudioMixer: Display: 4: BackLeft
+[2021.03.02-22.24.56:381][950]LogAudioMixer: Display: 5: BackRight
+[2021.03.02-22.24.56:381][950]LogAudioMixer: Display: 6: SideLeft
+[2021.03.02-22.24.56:381][950]LogAudioMixer: Display: 7: SideRight
+[2021.03.02-22.24.56:389][950]LogAudioMixer: Display: Using Audio Device Speakers (Logitech G430 Gaming Headset)
+[2021.03.02-22.24.56:390][950]LogInit: FAudioDevice initialized.
+[2021.03.02-22.24.56:445][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.02-22.24.56:445][950]LogLoad: Game class is 'VNGameMode_C'
+[2021.03.02-22.24.56:452][950]LogWorld: Bringing World /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1.Map_VN_lv1 up for play (max tick rate 0) at 2021.03.02-17.24.56
+[2021.03.02-22.24.56:452][950]LogWorld: Bringing up level for play took: 0.006195
+[2021.03.02-22.24.56:452][950]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.03.02-22.24.56:458][950]PIE: Play in editor start time for /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1 0.543
+[2021.03.02-22.24.56:458][950]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1' with GeneratedClass '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1_C' with ClassGeneratedBy '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1'
+[2021.03.02-22.24.57:385][995]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2021.03.02-22.25.12:449][992]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2021.03.02-22.25.22:449][623]LogSlate: Window 'ManAtArms_Project Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.03.02-22.25.22:458][623]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1' with GeneratedClass '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1_C' with ClassGeneratedBy '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1'
+[2021.03.02-22.25.22:458][623]LogWorld: BeginTearingDown for /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1
+[2021.03.02-22.25.22:458][623]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.02-22.25.22:459][623]LogWorld: UWorld::CleanupWorld for Map_VN_lv1, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-22.25.22:460][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.25.22:468][623]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.02-22.25.22:468][623]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1' with GeneratedClass '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1_C' with ClassGeneratedBy '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1'
+[2021.03.02-22.25.22:476][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.25.22:511][623]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.02-22.25.22:521][623]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2021.03.02-22.25.22:569][624]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.03.02-22.25.23:332][681]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2021.03.02-22.25.23:824][681]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv19E804C8040FF5841D05D329B9710BFBE.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.02-22.25.23:892][681]AssetCheck: New page: Asset Save: Map_VN_lv1
+[2021.03.02-22.25.23:892][681]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
