@@ -2276,3 +2276,41 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.02-22.25.23:824][681]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv19E804C8040FF5841D05D329B9710BFBE.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
 [2021.03.02-22.25.23:892][681]AssetCheck: New page: Asset Save: Map_VN_lv1
 [2021.03.02-22.25.23:892][681]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.02-22.25.43:860][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/BP_ProceduralWire" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralWire.uasset" SILENT=true
+[2021.03.02-22.25.44:007][ 34]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralWireDB849B594BF4348D83674A94A1D3CA80.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralWire.uasset'
+[2021.03.02-22.25.44:029][ 34]AssetCheck: New page: Asset Save: BP_ProceduralWire
+[2021.03.02-22.25.44:029][ 34]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/BP_ProceduralWire.BP_ProceduralWire
+[2021.03.02-22.25.45:361][133]LogSlate: Window 'UI_VN_Story' being destroyed
+[2021.03.02-22.25.45:367][133]LogSlate: Window 'UI_VN_Story' being destroyed
+[2021.03.02-22.25.45:397][133]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.03.02-22.25.45:397][133]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-22.25.45:397][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.25.45:654][133]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-22.25.45:654][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.25.45:683][133]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-22.25.45:683][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.25.46:447][188]LogUObjectHash: Compacting FUObjectHashTables data took   5.03ms
+[2021.03.02-22.25.47:459][188]LogSlate: Window 'Save Content' being destroyed
+[2021.03.02-22.25.47:511][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/Materials/Mat_Master" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_Master.uasset" SILENT=true
+[2021.03.02-22.25.47:532][188]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_Master233758584D2F84223FDCA8B4AF92FB67.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_Master.uasset'
+[2021.03.02-22.25.47:547][188]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_pipe65132F3C465E4DBCAB6182B8190DD2E3.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_pipe.uasset'
+[2021.03.02-22.25.47:742][188]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/fence_mesh_Mat_BaseColor52E4B77C4BCDDDC731A6EFB6A36A7650.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/textures/fence_mesh_Mat_BaseColor.uasset'
+[2021.03.02-22.25.47:855][188]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/fence_mesh_Mat_Normal41A28422453F12D7AEC4E5A05DB8E1CC.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/textures/fence_mesh_Mat_Normal.uasset'
+[2021.03.02-22.25.48:119][188]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/pipe_Mat_BaseColor5472A3F5491A5B3A1E87ADAC39090D57.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/textures/pipe_Mat_BaseColor.uasset'
+[2021.03.02-22.25.48:294][188]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/pipe_Mat_NormalFF2ED501412D126DE5DD0185429D29AE.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/textures/pipe_Mat_Normal.uasset'
+[2021.03.02-22.25.48:484][188]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/pipefixer_Mat_BaseColor2C7091944553A189FC7616994DAAB9B3.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_BaseColor.uasset'
+[2021.03.02-22.25.48:660][188]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/pipefixer_Mat_Normal00E0ADEA4F58C54A0993ACA5A1A1AB56.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_Normal.uasset'
+[2021.03.02-22.25.48:720][188]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.02-22.25.48:720][188]LogContentValidation: Display: Validating Material /Game/MyContent/VN/Mesh/Materials/Mat_Master.Mat_Master
+[2021.03.02-22.25.48:720][188]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_pipe.Mat_pipe
+[2021.03.02-22.25.48:720][188]LogContentValidation: Display: Validating Texture2D /Game/MyContent/VN/Mesh/Materials/textures/fence_mesh_Mat_BaseColor.fence_mesh_Mat_BaseColor
+[2021.03.02-22.25.48:720][188]LogContentValidation: Display: Validating Texture2D /Game/MyContent/VN/Mesh/Materials/textures/fence_mesh_Mat_Normal.fence_mesh_Mat_Normal
+[2021.03.02-22.25.48:720][188]LogContentValidation: Display: Validating Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_BaseColor.pipe_Mat_BaseColor
+[2021.03.02-22.25.48:720][188]LogContentValidation: Display: Validating Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_Normal.pipe_Mat_Normal
+[2021.03.02-22.25.48:720][188]LogContentValidation: Display: Validating Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_BaseColor.pipefixer_Mat_BaseColor
+[2021.03.02-22.25.48:720][188]LogContentValidation: Display: Validating Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_Normal.pipefixer_Mat_Normal
+[2021.03.02-22.26.04:109][353]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2021.03.02-22.26.04:888][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2021.03.02-22.26.05:280][431]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv14B1BD78C45FA22FE86F8ECBFD1E20BF5.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.02-22.26.05:345][431]AssetCheck: New page: Asset Save: Map_VN_lv1
+[2021.03.02-22.26.05:345][431]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
