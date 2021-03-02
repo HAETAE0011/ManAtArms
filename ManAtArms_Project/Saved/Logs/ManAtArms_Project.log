@@ -1560,3 +1560,583 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.02-21.59.02:848][105]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Mat_RandomTile_Inst.Mat_RandomTile_Inst
 [2021.03.02-21.59.02:848][105]LogContentValidation: Display: Validating Texture2D /Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_BaseColor.plane_Mat_BaseColor
 [2021.03.02-21.59.02:848][105]LogContentValidation: Display: Validating Texture2D /Game/MyContent/VN/Mesh/Materials/textures/plane_Mat_Normal.plane_Mat_Normal
+[2021.03.02-21.59.53:653][777]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/MyContent/VN/Mesh/pipe.pipe
+[2021.03.02-21.59.57:692][ 46]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/MyContent/VN/Mesh/fence_mesh.fence_mesh
+[2021.03.02-21.59.58:875][100]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/MyContent/VN/Mesh/pipe_fixer.pipe_fixer
+[2021.03.02-22.00.23:655][787]LogD3D12RHI: Warning: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2021.03.02-22.00.38:666][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Bar_Stove4E519AA84A09E322193A5FB72177451A.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Bar_Stove.uasset'
+[2021.03.02-22.00.38:687][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Cloud_Inst53AECC334A4338252127CC92D8A402D7.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Cloud_Inst.uasset'
+[2021.03.02-22.00.38:689][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/Materials/Cloud_Inst" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Cloud_Inst.uasset" SILENT=true
+[2021.03.02-22.00.38:698][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Cloud_Inst6738D9474F1669E0536ABBB6DAD30546.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Cloud_Inst.uasset'
+[2021.03.02-22.00.38:720][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_AirconD771A62E4C17F0E56DE67E85E3B346B3.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_Aircon.uasset'
+[2021.03.02-22.00.38:744][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_bar_buildingEFE86D0C41FE653C55A6E691BD55E76F.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_bar_building.uasset'
+[2021.03.02-22.00.38:768][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_bar_ceilingE789F58C40700948C2248282B6654496.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_bar_ceiling.uasset'
+[2021.03.02-22.00.38:791][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_bar_exterior10C74D34D497CF5B93AFDA9B87A7894A9.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_bar_exterior1.uasset'
+[2021.03.02-22.00.38:812][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_counter17B0395124F6B85E11AF8E9B9DB9DAA16.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_counter1.uasset'
+[2021.03.02-22.00.38:834][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_counter2AB1391B3464E42D39078DB8323AA5858.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_counter2.uasset'
+[2021.03.02-22.00.38:892][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_counter33514FA144E919193D5D7F9A159DF4758.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_counter3.uasset'
+[2021.03.02-22.00.38:915][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_dishRackFF5F600741CD81AEF1137FB2704112B2.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_dishRack.uasset'
+[2021.03.02-22.00.38:938][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_door587F5759477AC84463B3948D88D72069.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_door.uasset'
+[2021.03.02-22.00.38:961][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_freezer92DA43BF4CF0ABD9BDCAC79006555AA2.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_freezer.uasset'
+[2021.03.02-22.00.38:983][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_frontLight712E3CAC4A23F12822F5C081E013A2C5.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_frontLight.uasset'
+[2021.03.02-22.00.39:006][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_hood1A63006DC4EDBED715566C0B195021699.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_hood1.uasset'
+[2021.03.02-22.00.39:030][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_hood2C17BCF7A41D22229FECEE0B9AB079A84.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_hood2.uasset'
+[2021.03.02-22.00.39:052][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_hood3CEBE3AF6403A5313B7BA55B036868518.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_hood3.uasset'
+[2021.03.02-22.00.39:074][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_Light30A6BA7045A99F4DCAFBD4BDBDDB7CB5.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_Light.uasset'
+[2021.03.02-22.00.39:099][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_Prop184A7034E4704C3737B21AFA89C2D0ED1.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_Prop1.uasset'
+[2021.03.02-22.00.39:121][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_RandomTile_InstF64BFE8F48A3D3E1358CC694F9B71B34.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_RandomTile_Inst.uasset'
+[2021.03.02-22.00.39:143][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_roof04C4249244D5D7B7D0FF0794E8B67F56.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_roof.uasset'
+[2021.03.02-22.00.39:165][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_Shelf14D8FB5D44137C8F0D4F8C6BBF8AA64CF.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_Shelf1.uasset'
+[2021.03.02-22.00.39:187][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_shelf_metalE33EA8F64EBA91E149DFB286B8D3CEF9.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_shelf_metal.uasset'
+[2021.03.02-22.00.39:209][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_sideWalk2C033C5A47BD97A9C28B46B660E7A585.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_sideWalk.uasset'
+[2021.03.02-22.00.39:231][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_sideWalk_edge687CECC54B72D46D4FFC549B74110287.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_sideWalk_edge.uasset'
+[2021.03.02-22.00.39:252][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_sink3AF4B62F4F7DB04DAF62BAA1149152B6.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_sink.uasset'
+[2021.03.02-22.00.39:276][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_sink22080623A4A9F85376FEFBB9421B52A59.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_sink2.uasset'
+[2021.03.02-22.00.39:300][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_sink3889BF66A4285E475C5F6239E32A646AA.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_sink3.uasset'
+[2021.03.02-22.00.39:322][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_wall_inside3CFA565B4C5D30EAF06494AD40493CBD.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_wall_inside.uasset'
+[2021.03.02-22.00.39:343][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/MI_Coil2AB02A6943D3CF04AE1FF28678707F34.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/MI_Coil.uasset'
+[2021.03.02-22.00.39:344][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/Materials/MI_Coil" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/MI_Coil.uasset" SILENT=true
+[2021.03.02-22.00.39:354][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/MI_Coil943DCA3941FD4A3C20BD43949DA8916B.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/MI_Coil.uasset'
+[2021.03.02-22.00.39:377][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/MI_Glass_Dark7EBC9B95433EAECD835199A4299BE585.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/MI_Glass_Dark.uasset'
+[2021.03.02-22.00.39:398][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/MI_Liquid1329477341AA34717BDD81B0AA5404DE.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/MI_Liquid.uasset'
+[2021.03.02-22.00.39:421][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/MI_Neon13FFF8FAD425BE102504A6CB9C386D5E0.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/MI_Neon1.uasset'
+[2021.03.02-22.00.39:422][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/Materials/MI_Neon1" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/MI_Neon1.uasset" SILENT=true
+[2021.03.02-22.00.39:431][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/MI_Neon1FF909CBA49A5FE5A1D03049A03C5E53A.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/MI_Neon1.uasset'
+[2021.03.02-22.00.39:453][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/MI_Neon_barCode155DC72A46877FCE99AD83B6B759D126.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/MI_Neon_barCode.uasset'
+[2021.03.02-22.00.39:464][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/MI_Neon_barCode53BEF6584CE6FEF4555A28BDE59D7D2C.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/MI_Neon_barCode.uasset'
+[2021.03.02-22.00.39:488][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/MI_Pond34E7B71924507F12CB17DFFB7AAC0A9AA.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/MI_Pond3.uasset'
+[2021.03.02-22.00.39:489][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/Materials/MI_Pond3" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/MI_Pond3.uasset" SILENT=true
+[2021.03.02-22.00.39:501][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/MI_Pond376AB51D244BF2DC93C50F38A12F64920.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/MI_Pond3.uasset'
+[2021.03.02-22.00.39:523][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/MI_roadLine1FA63DDD04EFD93BDF5D5B3AD3DACEA39.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/MI_roadLine1.uasset'
+[2021.03.02-22.00.39:524][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/Materials/MI_roadLine1" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/MI_roadLine1.uasset" SILENT=true
+[2021.03.02-22.00.39:533][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/MI_roadLine13CD71BF247371DB1525F91BBAE6664D1.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/MI_roadLine1.uasset'
+[2021.03.02-22.00.43:757][555]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2021.03.02-22.00.43:798][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.03.02-22.00.43:831][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2021.03.02-22.00.43:863][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2021.03.02-22.00.43:895][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2021.03.02-22.00.43:929][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2021.03.02-22.00.43:964][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2021.03.02-22.00.43:995][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2021.03.02-22.00.44:027][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2021.03.02-22.00.44:061][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2021.03.02-22.00.44:092][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2021.03.02-22.00.44:126][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2021.03.02-22.00.44:159][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2021.03.02-22.00.44:195][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.03.02-22.00.44:228][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.03.02-22.00.44:260][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.03.02-22.00.44:294][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.03.02-22.00.44:328][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2021.03.02-22.00.44:358][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.03.02-22.00.44:392][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2021.03.02-22.00.44:427][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.03.02-22.00.44:460][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2021.03.02-22.00.44:492][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.03.02-22.00.44:522][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.03.02-22.00.44:552][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.03.02-22.00.44:582][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.03.02-22.00.44:613][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.03.02-22.00.44:647][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2021.03.02-22.00.44:680][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2021.03.02-22.00.44:726][555]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.03.02-22.00.44:761][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2021.03.02-22.00.44:800][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/bar_stove" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_stove.uasset" SILENT=true
+[2021.03.02-22.00.44:828][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/bar_stoveDEAC61B242CD5D1E32EBFC928FDD92A0.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_stove.uasset'
+[2021.03.02-22.00.44:837][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/Props/AirCon_Out" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Props/AirCon_Out.uasset" SILENT=true
+[2021.03.02-22.00.44:858][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/AirCon_OutE689276947C92B63B4C0CBB0CFFA1C78.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Props/AirCon_Out.uasset'
+[2021.03.02-22.00.44:858][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/bar_building" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_building.uasset" SILENT=true
+[2021.03.02-22.00.44:872][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/bar_buildingE061044649AA551FA6CD399EA363113C.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_building.uasset'
+[2021.03.02-22.00.44:881][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/bar_ceiling" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_ceiling.uasset" SILENT=true
+[2021.03.02-22.00.44:899][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/bar_ceiling053AA4AC42735D0646204B8E84C5515E.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_ceiling.uasset'
+[2021.03.02-22.00.44:907][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Mesh/bar_pillar" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/Mesh/bar_pillar.uasset" SILENT=true
+[2021.03.02-22.00.44:926][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/bar_pillar82845C3E464A1DD87432A8ADF2BFF8A4.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/Mesh/bar_pillar.uasset'
+[2021.03.02-22.00.44:934][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Mesh/roof" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/Mesh/roof.uasset" SILENT=true
+[2021.03.02-22.00.44:952][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/roofF07A298C46F1DBB3B16DD2AFBD72A366.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/Mesh/roof.uasset'
+[2021.03.02-22.00.44:953][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/Bar_Counter" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Bar_Counter.uasset" SILENT=true
+[2021.03.02-22.00.44:987][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Bar_CounterF69807B34A40F647F368148C7BA3F7A1.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Bar_Counter.uasset'
+[2021.03.02-22.00.44:995][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/Props/dishRack" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Props/dishRack.uasset" SILENT=true
+[2021.03.02-22.00.45:023][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/dishRackCC102E9E4C6F41A574F26EAF66CCAC7E.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Props/dishRack.uasset'
+[2021.03.02-22.00.45:031][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/bar_Door" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_Door.uasset" SILENT=true
+[2021.03.02-22.00.45:052][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/bar_Door9A66733E4C89EED9025C9F951E44B463.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_Door.uasset'
+[2021.03.02-22.00.45:060][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/Bar_Freezer" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Bar_Freezer.uasset" SILENT=true
+[2021.03.02-22.00.45:078][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Bar_FreezerEE0AED564CD0D91931ECADBC2EE213F2.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Bar_Freezer.uasset'
+[2021.03.02-22.00.45:087][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/bar_frontLight" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_frontLight.uasset" SILENT=true
+[2021.03.02-22.00.45:107][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/bar_frontLight2BBBABE74CD021FBDD8168949222043C.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_frontLight.uasset'
+[2021.03.02-22.00.45:116][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/bar_hood1" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_hood1.uasset" SILENT=true
+[2021.03.02-22.00.45:137][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/bar_hood1C113097F40DD659D22772D818F6EB58C.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_hood1.uasset'
+[2021.03.02-22.00.45:146][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/bar_hood2" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_hood2.uasset" SILENT=true
+[2021.03.02-22.00.45:201][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/bar_hood2A1E261674E693CC5AF4AEEAD0B829DDC.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_hood2.uasset'
+[2021.03.02-22.00.45:211][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/bar_hood3" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_hood3.uasset" SILENT=true
+[2021.03.02-22.00.45:234][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/bar_hood37CB3A9724B247508664F399D5E045939.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_hood3.uasset'
+[2021.03.02-22.00.45:243][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Mesh/bar_light" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/Mesh/bar_light.uasset" SILENT=true
+[2021.03.02-22.00.45:266][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/bar_light158D55D640C2D937D78050B6BB848AAB.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/Mesh/bar_light.uasset'
+[2021.03.02-22.00.45:296][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/PropSet_1_O_chopstickHolderA5926B534F52B83D15D8EBBB4F03AE94.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Props/PropSet_1_O_chopstickHolder.uasset'
+[2021.03.02-22.00.45:305][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/Props/PropSet_1_O_dish_1" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Props/PropSet_1_O_dish_1.uasset" SILENT=true
+[2021.03.02-22.00.45:343][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/PropSet_1_O_dish_1D4E7D1DA439A15B2A239F597318DA505.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Props/PropSet_1_O_dish_1.uasset'
+[2021.03.02-22.00.45:370][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/PropSet_1_O_paperdish_noodle8AF08CFD4A43816DBEF47A92BA50DC6B.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Props/PropSet_1_O_paperdish_noodle.uasset'
+[2021.03.02-22.00.45:407][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/PropSet_1_O_paperdish_skewer38667628437735D30C0287A30A81EAAF.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Props/PropSet_1_O_paperdish_skewer.uasset'
+[2021.03.02-22.00.45:416][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/Props/PropSet_1_O_pot_1" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Props/PropSet_1_O_pot_1.uasset" SILENT=true
+[2021.03.02-22.00.45:437][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/PropSet_1_O_pot_17C50770A40352C42E3E1F9BB35CFBFE6.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Props/PropSet_1_O_pot_1.uasset'
+[2021.03.02-22.00.45:445][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/Props/PropSet_1_O_pot_2" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Props/PropSet_1_O_pot_2.uasset" SILENT=true
+[2021.03.02-22.00.45:468][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/PropSet_1_O_pot_259DFC543436944FBA761EE876A068A0C.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Props/PropSet_1_O_pot_2.uasset'
+[2021.03.02-22.00.45:498][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/PropSet_1_O_pot_lid935820B1441E4CF1084805906A52430F.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Props/PropSet_1_O_pot_lid.uasset'
+[2021.03.02-22.00.45:498][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Mesh/wall1" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/Mesh/wall1.uasset" SILENT=true
+[2021.03.02-22.00.45:510][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/wall1CBF78C14485AAC22A6C1B59C0E81B48D.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/Mesh/wall1.uasset'
+[2021.03.02-22.00.45:511][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/roof" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/roof.uasset" SILENT=true
+[2021.03.02-22.00.45:522][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/roof8CE0468B4FCCD34D3988C99CC8A85A6C.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/roof.uasset'
+[2021.03.02-22.00.45:530][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/bar_shelf1" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_shelf1.uasset" SILENT=true
+[2021.03.02-22.00.45:551][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/bar_shelf105AE56F64B29B176D3CF98A5E84CED4E.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_shelf1.uasset'
+[2021.03.02-22.00.45:560][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/bar_shelf_metal" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_shelf_metal.uasset" SILENT=true
+[2021.03.02-22.00.45:578][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/bar_shelf_metalCDFAEA8F4CC9FE8F7772698C7C278262.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_shelf_metal.uasset'
+[2021.03.02-22.00.45:587][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/sidewalk_100x100" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/sidewalk_100x100.uasset" SILENT=true
+[2021.03.02-22.00.45:608][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/sidewalk_100x100A2E9864348F3016E5C2482852D75130E.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/sidewalk_100x100.uasset'
+[2021.03.02-22.00.45:617][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/sidewalkEdge_100x5" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/sidewalkEdge_100x5.uasset" SILENT=true
+[2021.03.02-22.00.45:638][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/sidewalkEdge_100x5348C07754F6B5FB9866407BD5084CFDC.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/sidewalkEdge_100x5.uasset'
+[2021.03.02-22.00.45:665][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/sidewalkEdge_mirror_100x574DD78B14341975436570A9C1C58465F.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/sidewalkEdge_mirror_100x5.uasset'
+[2021.03.02-22.00.45:673][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/Bar_Sink" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Bar_Sink.uasset" SILENT=true
+[2021.03.02-22.00.45:695][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Bar_SinkFE035DA24744F9DCF2BAAEB530D8F389.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Bar_Sink.uasset'
+[2021.03.02-22.00.45:704][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/bar_sink2" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_sink2.uasset" SILENT=true
+[2021.03.02-22.00.45:722][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/bar_sink2AB6F647248465E7073102B97F2ED961E.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_sink2.uasset'
+[2021.03.02-22.00.45:730][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/bar_table_3" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_table_3.uasset" SILENT=true
+[2021.03.02-22.00.45:750][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/bar_table_393602F5647134B9C02F7008D349F8416.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_table_3.uasset'
+[2021.03.02-22.00.45:758][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/bar_wall_Inside" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_wall_Inside.uasset" SILENT=true
+[2021.03.02-22.00.45:777][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/bar_wall_Inside24F421BD48CF0AAB4E2E008CE7ACDCE3.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/bar_wall_Inside.uasset'
+[2021.03.02-22.00.45:810][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/Props/BP_Bottle" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/Props/BP_Bottle.uasset" SILENT=true
+[2021.03.02-22.00.45:834][555]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_Bottle1C8D74E6404DC265BAE775BBC24E0DE2.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/Props/BP_Bottle.uasset'
+[2021.03.02-22.00.46:414][555]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Bar_Stove.Bar_Stove
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Cloud_Inst.Cloud_Inst
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating ObjectRedirector /Game/MyContent/VN/Mesh/Materials/Cloud_Inst.Cloud_Inst
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_Aircon.Mat_Aircon
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_bar_building.Mat_bar_building
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_bar_ceiling.Mat_bar_ceiling
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_bar_exterior1.Mat_bar_exterior1
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_counter1.Mat_counter1
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_counter2.Mat_counter2
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_counter3.Mat_counter3
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_dishRack.Mat_dishRack
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_door.Mat_door
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_freezer.Mat_freezer
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_frontLight.Mat_frontLight
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_hood1.Mat_hood1
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_hood2.Mat_hood2
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_hood3.Mat_hood3
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_Light.Mat_Light
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_Prop1.Mat_Prop1
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_RandomTile_Inst.Mat_RandomTile_Inst
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_roof.Mat_roof
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_Shelf1.Mat_Shelf1
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_shelf_metal.Mat_shelf_metal
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_sideWalk.Mat_sideWalk
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_sideWalk_edge.Mat_sideWalk_edge
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_sink.Mat_sink
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_sink2.Mat_sink2
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_sink3.Mat_sink3
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_wall_inside.Mat_wall_inside
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/MI_Coil.MI_Coil
+[2021.03.02-22.00.46:414][555]LogContentValidation: Display: Validating ObjectRedirector /Game/MyContent/VN/Mesh/Materials/MI_Coil.MI_Coil
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/MI_Glass_Dark.MI_Glass_Dark
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/MI_Liquid.MI_Liquid
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/MI_Neon1.MI_Neon1
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating ObjectRedirector /Game/MyContent/VN/Mesh/Materials/MI_Neon1.MI_Neon1
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/MI_Neon_barCode.MI_Neon_barCode
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating ObjectRedirector /Game/MyContent/VN/Mesh/Materials/MI_Neon_barCode.MI_Neon_barCode
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/MI_Pond3.MI_Pond3
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating ObjectRedirector /Game/MyContent/VN/Mesh/Materials/MI_Pond3.MI_Pond3
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/MI_roadLine1.MI_roadLine1
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating ObjectRedirector /Game/MyContent/VN/Mesh/Materials/MI_roadLine1.MI_roadLine1
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/bar_stove.bar_stove
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/Props/AirCon_Out.AirCon_Out
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/bar_building.bar_building
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/bar_ceiling.bar_ceiling
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/Mesh/bar_pillar.bar_pillar
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/Mesh/roof.roof
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/Bar_Counter.Bar_Counter
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/Props/dishRack.dishRack
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/bar_Door.bar_Door
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/Bar_Freezer.Bar_Freezer
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/bar_frontLight.bar_frontLight
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/bar_hood1.bar_hood1
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/bar_hood2.bar_hood2
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/bar_hood3.bar_hood3
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/Mesh/bar_light.bar_light
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/Props/PropSet_1_O_chopstickHolder.PropSet_1_O_chopstickHolder
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/Props/PropSet_1_O_dish_1.PropSet_1_O_dish_1
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/Props/PropSet_1_O_paperdish_noodle.PropSet_1_O_paperdish_noodle
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/Props/PropSet_1_O_paperdish_skewer.PropSet_1_O_paperdish_skewer
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/Props/PropSet_1_O_pot_1.PropSet_1_O_pot_1
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/Props/PropSet_1_O_pot_2.PropSet_1_O_pot_2
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/Props/PropSet_1_O_pot_lid.PropSet_1_O_pot_lid
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/Mesh/wall1.wall1
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/roof.roof
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/bar_shelf1.bar_shelf1
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/bar_shelf_metal.bar_shelf_metal
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/sidewalk_100x100.sidewalk_100x100
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/sidewalkEdge_100x5.sidewalkEdge_100x5
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/sidewalkEdge_mirror_100x5.sidewalkEdge_mirror_100x5
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/Bar_Sink.Bar_Sink
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/bar_sink2.bar_sink2
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/bar_table_3.bar_table_3
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/bar_wall_Inside.bar_wall_Inside
+[2021.03.02-22.00.46:415][555]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/Props/BP_Bottle.BP_Bottle
+[2021.03.02-22.00.50:581][806]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2021.03.02-22.00.51:028][806]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1AF4510454D577BA2BAE0029C40977818.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.02-22.00.51:079][806]LogFileHelpers: Saving map 'Map_VN_lv1' took 0.536
+[2021.03.02-22.00.51:180][806]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2021.03.02-22.00.56:390][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2021.03.02-22.00.56:423][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2021.03.02-22.00.56:454][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.03.02-22.00.56:485][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.03.02-22.00.56:515][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2021.03.02-22.00.56:547][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.03.02-22.00.56:584][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.03.02-22.00.56:617][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2021.03.02-22.00.56:629][806]AssetCheck: New page: Asset Save: Map_VN_lv1
+[2021.03.02-22.00.56:630][806]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.02-22.01.21:820][ 14]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/fence_mesh_Mat_BaseColor.png)
+[2021.03.02-22.01.21:896][ 14]LogTexture: Display: Building textures: fence_mesh_Mat_BaseColor (AutoDXT, 2048X2048)
+[2021.03.02-22.01.22:077][ 14]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/fence_mesh_Mat_Normal.png)
+[2021.03.02-22.01.22:147][ 14]LogTexture: Display: Building textures: fence_mesh_Mat_Normal (BC5, 2048X2048)
+[2021.03.02-22.01.22:263][ 14]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/fence_mesh_Mat_OcclusionRoughnessMetallic.png)
+[2021.03.02-22.01.22:339][ 14]LogTexture: Display: Building textures: fence_mesh_Mat_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2021.03.02-22.01.22:646][ 14]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/pipe_Mat_BaseColor.png)
+[2021.03.02-22.01.22:703][ 14]LogTexture: Display: Building textures: pipe_Mat_BaseColor (AutoDXT, 2048X2048)
+[2021.03.02-22.01.22:825][ 14]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/pipe_Mat_Normal.png)
+[2021.03.02-22.01.22:880][ 14]LogTexture: Display: Building textures: pipe_Mat_Normal (BC5, 2048X2048)
+[2021.03.02-22.01.22:995][ 14]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/pipe_Mat_OcclusionRoughnessMetallic.png)
+[2021.03.02-22.01.23:057][ 14]LogTexture: Display: Building textures: pipe_Mat_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2021.03.02-22.01.23:247][ 14]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/pipefixer_Mat_BaseColor.png)
+[2021.03.02-22.01.23:304][ 14]LogTexture: Display: Building textures: pipefixer_Mat_BaseColor (AutoDXT, 2048X2048)
+[2021.03.02-22.01.23:444][ 14]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/pipefixer_Mat_Normal.png)
+[2021.03.02-22.01.23:500][ 14]LogTexture: Display: Building textures: pipefixer_Mat_Normal (BC5, 2048X2048)
+[2021.03.02-22.01.23:615][ 14]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/pipefixer_Mat_OcclusionRoughnessMetallic.png)
+[2021.03.02-22.01.23:677][ 14]LogTexture: Display: Building textures: pipefixer_Mat_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2021.03.02-22.01.26:894][158]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/MyContent/VN/Mesh/Materials/textures/fence_mesh_Mat_OcclusionRoughnessMetallic.fence_mesh_Mat_OcclusionRoughnessMetallic
+[2021.03.02-22.01.27:770][202]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_OcclusionRoughnessMetallic.pipefixer_Mat_OcclusionRoughnessMetallic
+[2021.03.02-22.01.29:894][311]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_OcclusionRoughnessMetallic.pipe_Mat_OcclusionRoughnessMetallic
+[2021.03.02-22.01.31:774][415]LogTexture: Display: Building textures: pipe_Mat_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2021.03.02-22.01.33:238][472]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/pipe_Mat_OcclusionRoughnessMetalC89659404CA4EF41F98F77857744803F.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/textures/pipe_Mat_OcclusionRoughnessMetallic.uasset'
+[2021.03.02-22.01.33:301][472]AssetCheck: New page: Asset Save: pipe_Mat_OcclusionRoughnessMetallic
+[2021.03.02-22.01.33:301][472]LogContentValidation: Display: Validating Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_OcclusionRoughnessMetallic.pipe_Mat_OcclusionRoughnessMetallic
+[2021.03.02-22.01.35:609][622]LogTexture: Display: Building textures: pipefixer_Mat_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2021.03.02-22.01.37:030][692]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/pipefixer_Mat_OcclusionRoughnessF7696C9149E1FCB3C75405BA83148845.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_OcclusionRoughnessMetallic.uasset'
+[2021.03.02-22.01.37:046][692]AssetCheck: New page: Asset Save: pipefixer_Mat_OcclusionRoughnessMetallic
+[2021.03.02-22.01.37:046][692]LogContentValidation: Display: Validating Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_OcclusionRoughnessMetallic.pipefixer_Mat_OcclusionRoughnessMetallic
+[2021.03.02-22.01.39:082][835]LogTexture: Display: Building textures: fence_mesh_Mat_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2021.03.02-22.01.40:641][893]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/fence_mesh_Mat_OcclusionRoughnes245E8A9C46AD06AC476492B55E57E5F2.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/textures/fence_mesh_Mat_OcclusionRoughnessMetallic.uasset'
+[2021.03.02-22.01.40:687][893]AssetCheck: New page: Asset Save: fence_mesh_Mat_OcclusionRoughnessMetallic
+[2021.03.02-22.01.40:687][893]LogContentValidation: Display: Validating Texture2D /Game/MyContent/VN/Mesh/Materials/textures/fence_mesh_Mat_OcclusionRoughnessMetallic.fence_mesh_Mat_OcclusionRoughnessMetallic
+[2021.03.02-22.01.45:773][175]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/MyContent/VN/Mesh/Materials/textures/fence_mesh_Mat_Normal.fence_mesh_Mat_Normal
+[2021.03.02-22.02.19:673][ 43]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_fenceBar.Mat_fenceBar
+[2021.03.02-22.02.24:689][282]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_pipe.Mat_pipe
+[2021.03.02-22.02.25:439][312]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_pipeFixer.Mat_pipeFixer
+[2021.03.02-22.03.00:854][521]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2021.03.02-22.03.00:872][521]TextureStreamingBuild: Display: Compiling optional shaders took 0.011 seconds.
+[2021.03.02-22.03.00:910][521]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.03.02-22.03.00:924][521]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_pipeFixer92F72DAB489FAF171B5FAEA69487EC0F.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_pipeFixer.uasset'
+[2021.03.02-22.03.00:943][521]AssetCheck: New page: Asset Save: Mat_pipeFixer
+[2021.03.02-22.03.00:943][521]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_pipeFixer.Mat_pipeFixer
+[2021.03.02-22.03.02:173][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2021.03.02-22.03.02:184][598]TextureStreamingBuild: Display: Compiling optional shaders took 0.010 seconds.
+[2021.03.02-22.03.02:214][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.03.02-22.03.02:227][598]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_pipeF1E056CA4A9FD5B1284DA1B842B658DC.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_pipe.uasset'
+[2021.03.02-22.03.02:270][598]AssetCheck: New page: Asset Save: Mat_pipe
+[2021.03.02-22.03.02:270][598]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_pipe.Mat_pipe
+[2021.03.02-22.03.04:250][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.03.02-22.03.04:261][727]TextureStreamingBuild: Display: Compiling optional shaders took 0.010 seconds.
+[2021.03.02-22.03.04:295][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.03.02-22.03.04:308][727]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_fenceBar6FACBDC04560FE6370B39394C7BA3B52.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_fenceBar.uasset'
+[2021.03.02-22.03.04:340][727]AssetCheck: New page: Asset Save: Mat_fenceBar
+[2021.03.02-22.03.04:340][727]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_fenceBar.Mat_fenceBar
+[2021.03.02-22.03.18:933][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/fence_mesh" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/fence_mesh.uasset" SILENT=true
+[2021.03.02-22.03.18:955][646]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/fence_mesh0B88FB2B4074A3A980526C9C3B6266E6.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/fence_mesh.uasset'
+[2021.03.02-22.03.18:973][646]AssetCheck: New page: Asset Save: fence_mesh
+[2021.03.02-22.03.18:973][646]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/fence_mesh.fence_mesh
+[2021.03.02-22.03.26:636][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/pipe_fixer" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/pipe_fixer.uasset" SILENT=true
+[2021.03.02-22.03.26:665][157]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/pipe_fixer056F4DF243B73C3256800AB1C148D8F7.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/pipe_fixer.uasset'
+[2021.03.02-22.03.26:691][157]AssetCheck: New page: Asset Save: pipe_fixer
+[2021.03.02-22.03.26:691][157]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/pipe_fixer.pipe_fixer
+[2021.03.02-22.03.28:938][297]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2021.03.02-22.03.28:955][297]LogMaterial: Warning: /Engine/Transient.Material_1 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.03.02-22.03.28:955][297]LogMaterial: Display: 	SceneTexture expressions cannot be used in opaque materials
+[2021.03.02-22.03.33:533][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/pipe" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/pipe.uasset" SILENT=true
+[2021.03.02-22.03.33:556][584]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/pipeCAD247A9407A110532979C8C875EDBC3.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/pipe.uasset'
+[2021.03.02-22.03.33:578][584]AssetCheck: New page: Asset Save: pipe
+[2021.03.02-22.03.33:578][584]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/pipe.pipe
+[2021.03.02-22.03.37:673][873]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-22.03.37:673][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.03.39:420][996]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-22.03.39:420][996]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.03.39:967][ 27]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-22.03.39:967][ 27]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.03.40:528][ 51]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-22.03.40:528][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.03.40:985][ 75]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-22.03.40:985][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.03.41:463][101]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-22.03.41:463][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.03.41:924][126]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-22.03.41:924][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.03.42:365][152]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-22.03.42:365][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.03.42:802][179]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-22.03.42:802][179]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.04.25:986][108]BlueprintLog: New page: Compile BP_ProceduralWire
+[2021.03.02-22.04.26:370][108]LogUObjectHash: Compacting FUObjectHashTables data took   4.84ms
+[2021.03.02-22.06.32:944][214]LogSlate: Took 0.021567 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.03.02-22.06.38:649][575]BlueprintLog: New page: Compile BP_ProceduralWire
+[2021.03.02-22.06.38:698][575]LogBlueprint: Error: [Compiler BP_ProceduralWire] This blueprint (self) is not a SplineComponent, therefore ' Target ' must have a connection.
+[2021.03.02-22.06.38:698][575]LogBlueprint: Error: [Compiler BP_ProceduralWire] This blueprint (self) is not a SplineComponent, therefore ' Target ' must have a connection.
+[2021.03.02-22.06.38:698][575]LogBlueprint: Error: [Compiler BP_ProceduralWire] This blueprint (self) is not a SplineComponent, therefore ' Target ' must have a connection.
+[2021.03.02-22.06.38:698][575]LogBlueprint: Error: [Compiler BP_ProceduralWire] This blueprint (self) is not a SplineComponent, therefore ' Target ' must have a connection.
+[2021.03.02-22.06.39:084][575]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2021.03.02-22.07.15:425][172]BlueprintLog: New page: Compile BP_ProceduralWire
+[2021.03.02-22.07.15:800][172]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2021.03.02-22.07.16:440][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/BP_ProceduralWire" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralWire.uasset" SILENT=true
+[2021.03.02-22.07.16:582][197]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralWireCAF3612540C902540E0FE9AFC974E117.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralWire.uasset'
+[2021.03.02-22.07.16:600][197]AssetCheck: New page: Asset Save: BP_ProceduralWire
+[2021.03.02-22.07.16:601][197]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/BP_ProceduralWire.BP_ProceduralWire
+[2021.03.02-22.07.42:781][200]BlueprintLog: New page: Compile BP_ProceduralWire
+[2021.03.02-22.07.43:162][200]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2021.03.02-22.07.43:485][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/BP_ProceduralWire" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralWire.uasset" SILENT=true
+[2021.03.02-22.07.43:619][202]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralWire46ECD7F64B451E06546D36B426FAD9D5.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralWire.uasset'
+[2021.03.02-22.07.43:639][202]AssetCheck: New page: Asset Save: BP_ProceduralWire
+[2021.03.02-22.07.43:639][202]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/BP_ProceduralWire.BP_ProceduralWire
+[2021.03.02-22.12.36:730][295]BlueprintLog: New page: Compile BP_ProceduralWire
+[2021.03.02-22.12.37:129][295]LogUObjectHash: Compacting FUObjectHashTables data took   4.76ms
+[2021.03.02-22.13.11:225][579]BlueprintLog: New page: Compile BP_ProceduralWire
+[2021.03.02-22.13.11:628][579]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2021.03.02-22.13.25:953][478]LogMaterial: Display: Material /Game/MyContent/VN/Mesh/Materials/Mat_Master.Mat_Master needed to have new flag set bUsedWithSplineMeshes !
+[2021.03.02-22.13.25:957][478]LogMaterial: Display: Missing cached shader map for material Mat_Master, compiling. 
+[2021.03.02-22.13.26:003][478]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 104
+[2021.03.02-22.13.26:003][478]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 95
+[2021.03.02-22.13.26:003][478]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 86
+[2021.03.02-22.13.26:003][478]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 77
+[2021.03.02-22.13.26:003][478]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 68
+[2021.03.02-22.13.26:003][478]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 59
+[2021.03.02-22.13.26:003][478]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 50
+[2021.03.02-22.13.26:003][478]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 41
+[2021.03.02-22.13.26:003][478]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 32
+[2021.03.02-22.13.26:003][478]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 23
+[2021.03.02-22.13.26:003][478]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 14
+[2021.03.02-22.13.26:003][478]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 5
+[2021.03.02-22.13.26:007][478]LogMaterial: Display: Missing cached shader map for material Mat_Master, compiling. 
+[2021.03.02-22.13.26:062][478]LogMaterial: Display: Missing cached shader map for material Mat_Master, compiling. 
+[2021.03.02-22.13.26:116][478]LogMaterial: Display: Missing cached shader map for material Mat_Master, compiling. 
+[2021.03.02-22.13.26:190][478]LogMaterial: Display: Missing cached shader map for material Mat_Master, compiling. 
+[2021.03.02-22.13.27:825][513]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 536
+[2021.03.02-22.13.29:183][554]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 526
+[2021.03.02-22.13.29:215][555]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 516
+[2021.03.02-22.13.29:317][558]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 506
+[2021.03.02-22.13.29:354][559]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 496
+[2021.03.02-22.13.29:396][560]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 486
+[2021.03.02-22.13.29:474][562]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 476
+[2021.03.02-22.13.29:565][565]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 466
+[2021.03.02-22.13.29:598][566]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 456
+[2021.03.02-22.13.29:628][567]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 446
+[2021.03.02-22.13.30:172][583]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 436
+[2021.03.02-22.13.30:424][591]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 426
+[2021.03.02-22.13.31:291][616]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 416
+[2021.03.02-22.13.32:019][638]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 406
+[2021.03.02-22.13.32:141][642]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 396
+[2021.03.02-22.13.32:227][645]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 386
+[2021.03.02-22.13.32:260][646]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 376
+[2021.03.02-22.13.32:795][659]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 366
+[2021.03.02-22.13.32:865][661]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 356
+[2021.03.02-22.13.32:971][664]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 346
+[2021.03.02-22.13.33:069][667]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 336
+[2021.03.02-22.13.33:252][672]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 326
+[2021.03.02-22.13.33:606][683]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 316
+[2021.03.02-22.13.34:094][698]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 306
+[2021.03.02-22.13.34:527][712]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 296
+[2021.03.02-22.13.34:824][721]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 286
+[2021.03.02-22.13.35:068][727]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 276
+[2021.03.02-22.13.35:681][746]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 266
+[2021.03.02-22.13.36:060][758]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 256
+[2021.03.02-22.13.36:233][763]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 246
+[2021.03.02-22.13.36:380][767]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 236
+[2021.03.02-22.13.36:416][768]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 226
+[2021.03.02-22.13.36:483][770]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 216
+[2021.03.02-22.13.36:965][784]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 206
+[2021.03.02-22.13.37:257][794]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 196
+[2021.03.02-22.13.37:257][794]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 186
+[2021.03.02-22.13.37:449][799]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 176
+[2021.03.02-22.13.38:124][821]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 166
+[2021.03.02-22.13.38:311][827]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 156
+[2021.03.02-22.13.39:545][857]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 146
+[2021.03.02-22.13.39:657][859]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 136
+[2021.03.02-22.13.39:657][859]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 126
+[2021.03.02-22.13.39:821][863]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 116
+[2021.03.02-22.13.39:932][866]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 106
+[2021.03.02-22.13.40:200][875]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 97
+[2021.03.02-22.13.40:243][876]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 88
+[2021.03.02-22.13.40:275][877]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 80
+[2021.03.02-22.13.40:508][884]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 73
+[2021.03.02-22.13.40:816][893]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 66
+[2021.03.02-22.13.40:918][896]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 60
+[2021.03.02-22.13.41:806][920]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 54
+[2021.03.02-22.13.42:059][927]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 49
+[2021.03.02-22.13.42:126][929]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 44
+[2021.03.02-22.13.42:507][941]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 40
+[2021.03.02-22.13.42:710][948]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 36
+[2021.03.02-22.13.42:749][949]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 32
+[2021.03.02-22.13.42:844][952]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 29
+[2021.03.02-22.13.42:891][953]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 26
+[2021.03.02-22.13.42:968][954]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 23
+[2021.03.02-22.13.43:189][960]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 21
+[2021.03.02-22.13.43:415][965]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 19
+[2021.03.02-22.13.43:516][968]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 17
+[2021.03.02-22.13.43:648][972]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 15
+[2021.03.02-22.13.43:683][973]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 13
+[2021.03.02-22.13.43:715][974]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 11
+[2021.03.02-22.13.43:749][975]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 10
+[2021.03.02-22.13.43:778][976]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 9
+[2021.03.02-22.13.43:930][979]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 8
+[2021.03.02-22.13.43:974][980]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 7
+[2021.03.02-22.13.44:142][985]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 6
+[2021.03.02-22.13.44:142][985]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 5
+[2021.03.02-22.13.44:174][986]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 4
+[2021.03.02-22.13.44:387][986]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 3
+[2021.03.02-22.13.44:387][986]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 2
+[2021.03.02-22.13.44:387][986]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1
+[2021.03.02-22.14.09:149][693]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire)
+[2021.03.02-22.14.25:913][878]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor2)
+[2021.03.02-22.14.40:217][602]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2021.03.02-22.14.47:627][ 31]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.02-22.14.47:897][ 31]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1' with GeneratedClass '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1_C' with ClassGeneratedBy '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1'
+[2021.03.02-22.14.47:944][ 31]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.03.02-22.14.47:945][ 31]LogPlayLevel: [PlayLevel] Compiling BP_Bottle before play...
+[2021.03.02-22.14.48:292][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2021.03.02-22.14.48:296][ 31]LogPlayLevel: PlayLevel: Blueprint regeneration took 351 ms (1 blueprints)
+[2021.03.02-22.14.48:387][ 31]PIE: New page: PIE session: Map_VN_lv1 (Mar. 2, 2021, 12:14:48 p.m.)
+[2021.03.02-22.14.48:396][ 31]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.03.02-22.14.48:413][ 31]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.03.02-22.14.48:447][ 31]LogPlayLevel: Creating play world package: /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1
+[2021.03.02-22.14.48:556][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.109094s)
+[2021.03.02-22.14.48:651][ 31]LogAIModule: Creating AISystem for world Map_VN_lv1
+[2021.03.02-22.14.48:655][ 31]LogPlayLevel: PIE: World Init took: (0.099354s)
+[2021.03.02-22.14.48:663][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1 to /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1.Map_VN_lv1 (0.216406s)
+[2021.03.02-22.14.48:695][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2021.03.02-22.14.48:712][ 31]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.02-22.14.48:712][ 31]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.02-22.14.48:712][ 31]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.02-22.14.48:712][ 31]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.02-22.14.48:712][ 31]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.02-22.14.48:712][ 31]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.02-22.14.48:712][ 31]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.02-22.14.48:712][ 31]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.02-22.14.48:712][ 31]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.02-22.14.48:712][ 31]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.02-22.14.48:738][ 31]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.02-22.14.48:738][ 31]LogAudioMixer: Display: Name: Speakers (Logitech G430 Gaming Headset)
+[2021.03.02-22.14.48:738][ 31]LogAudioMixer: Display: Is Default: Yes
+[2021.03.02-22.14.48:738][ 31]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.02-22.14.48:738][ 31]LogAudioMixer: Display: Channel Count Used: 8
+[2021.03.02-22.14.48:738][ 31]LogAudioMixer: Display: Device Channel Count: 8
+[2021.03.02-22.14.48:738][ 31]LogAudioMixer: Display: Channel Order:
+[2021.03.02-22.14.48:738][ 31]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.02-22.14.48:738][ 31]LogAudioMixer: Display: 1: FrontRight
+[2021.03.02-22.14.48:738][ 31]LogAudioMixer: Display: 2: FrontCenter
+[2021.03.02-22.14.48:738][ 31]LogAudioMixer: Display: 3: LowFrequency
+[2021.03.02-22.14.48:738][ 31]LogAudioMixer: Display: 4: BackLeft
+[2021.03.02-22.14.48:738][ 31]LogAudioMixer: Display: 5: BackRight
+[2021.03.02-22.14.48:738][ 31]LogAudioMixer: Display: 6: SideLeft
+[2021.03.02-22.14.48:738][ 31]LogAudioMixer: Display: 7: SideRight
+[2021.03.02-22.14.48:748][ 31]LogAudioMixer: Display: Using Audio Device Speakers (Logitech G430 Gaming Headset)
+[2021.03.02-22.14.48:750][ 31]LogInit: FAudioDevice initialized.
+[2021.03.02-22.14.48:826][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.02-22.14.48:827][ 31]LogLoad: Game class is 'VNGameMode_C'
+[2021.03.02-22.14.49:032][ 31]LogWorld: Bringing World /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1.Map_VN_lv1 up for play (max tick rate 0) at 2021.03.02-17.14.49
+[2021.03.02-22.14.49:090][ 31]LogWorld: Bringing up level for play took: 0.064302
+[2021.03.02-22.14.49:091][ 31]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.03.02-22.14.49:349][ 31]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2021.03.02-22.14.49:605][ 31]PIE: Play in editor start time for /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1 1.69
+[2021.03.02-22.14.49:605][ 31]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1' with GeneratedClass '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1_C' with ClassGeneratedBy '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1'
+[2021.03.02-22.14.49:977][ 32]LogRenderer: Reallocating scene render targets to support 1600x932 Format 10 NumSamples 1 (Frame:1).
+[2021.03.02-22.14.51:289][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2021.03.02-22.15.00:715][696]LogSlate: Window 'ManAtArms_Project Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.03.02-22.15.00:737][696]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1' with GeneratedClass '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1_C' with ClassGeneratedBy '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1'
+[2021.03.02-22.15.00:762][696]LogWorld: BeginTearingDown for /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1
+[2021.03.02-22.15.00:762][696]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.02-22.15.00:762][696]LogWorld: UWorld::CleanupWorld for Map_VN_lv1, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-22.15.00:763][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.15.00:823][696]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.02-22.15.00:823][696]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1' with GeneratedClass '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1_C' with ClassGeneratedBy '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1'
+[2021.03.02-22.15.00:830][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.15.00:863][696]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.02-22.15.00:931][696]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2021.03.02-22.15.01:141][697]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.03.02-22.15.02:334][772]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2021.03.02-22.15.02:748][772]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv191C5A7E042232100A758F8AA20FC5D42.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.02-22.15.02:817][772]AssetCheck: New page: Asset Save: Map_VN_lv1
+[2021.03.02-22.15.02:817][772]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.02-22.15.23:057][367]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/MyContent/VN/BP/Scripts/Day1.Day1
+[2021.03.02-22.15.29:820][976]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.02-22.15.29:845][976]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1' with GeneratedClass '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1_C' with ClassGeneratedBy '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1'
+[2021.03.02-22.15.29:845][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.02-22.15.29:845][976]PIE: New page: PIE session: Map_VN_lv1 (Mar. 2, 2021, 12:15:29 p.m.)
+[2021.03.02-22.15.29:845][976]LogPlayLevel: Creating play world package: /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1
+[2021.03.02-22.15.29:905][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059928s)
+[2021.03.02-22.15.29:906][976]LogAIModule: Creating AISystem for world Map_VN_lv1
+[2021.03.02-22.15.29:906][976]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2021.03.02-22.15.29:906][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1 to /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1.Map_VN_lv1 (0.061082s)
+[2021.03.02-22.15.29:983][976]LogUObjectHash: Compacting FUObjectHashTables data took   5.29ms
+[2021.03.02-22.15.29:990][976]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.02-22.15.29:990][976]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.02-22.15.29:990][976]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.02-22.15.29:990][976]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.02-22.15.29:990][976]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.02-22.15.29:990][976]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.02-22.15.29:990][976]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.02-22.15.29:990][976]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.02-22.15.29:990][976]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.02-22.15.29:991][976]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.02-22.15.30:017][976]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.02-22.15.30:017][976]LogAudioMixer: Display: Name: Speakers (Logitech G430 Gaming Headset)
+[2021.03.02-22.15.30:017][976]LogAudioMixer: Display: Is Default: Yes
+[2021.03.02-22.15.30:017][976]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.02-22.15.30:017][976]LogAudioMixer: Display: Channel Count Used: 8
+[2021.03.02-22.15.30:017][976]LogAudioMixer: Display: Device Channel Count: 8
+[2021.03.02-22.15.30:017][976]LogAudioMixer: Display: Channel Order:
+[2021.03.02-22.15.30:017][976]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.02-22.15.30:017][976]LogAudioMixer: Display: 1: FrontRight
+[2021.03.02-22.15.30:017][976]LogAudioMixer: Display: 2: FrontCenter
+[2021.03.02-22.15.30:017][976]LogAudioMixer: Display: 3: LowFrequency
+[2021.03.02-22.15.30:017][976]LogAudioMixer: Display: 4: BackLeft
+[2021.03.02-22.15.30:017][976]LogAudioMixer: Display: 5: BackRight
+[2021.03.02-22.15.30:017][976]LogAudioMixer: Display: 6: SideLeft
+[2021.03.02-22.15.30:017][976]LogAudioMixer: Display: 7: SideRight
+[2021.03.02-22.15.30:025][976]LogAudioMixer: Display: Using Audio Device Speakers (Logitech G430 Gaming Headset)
+[2021.03.02-22.15.30:026][976]LogInit: FAudioDevice initialized.
+[2021.03.02-22.15.30:074][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.02-22.15.30:074][976]LogLoad: Game class is 'VNGameMode_C'
+[2021.03.02-22.15.30:080][976]LogWorld: Bringing World /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1.Map_VN_lv1 up for play (max tick rate 0) at 2021.03.02-17.15.30
+[2021.03.02-22.15.30:080][976]LogWorld: Bringing up level for play took: 0.005931
+[2021.03.02-22.15.30:080][976]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.03.02-22.15.30:095][976]PIE: Play in editor start time for /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1 0.179
+[2021.03.02-22.15.30:095][976]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1' with GeneratedClass '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1_C' with ClassGeneratedBy '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1'
+[2021.03.02-22.15.30:943][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2021.03.02-22.15.37:195][424]LogSlate: Window 'ManAtArms_Project Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.03.02-22.15.37:201][424]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1' with GeneratedClass '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1_C' with ClassGeneratedBy '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1'
+[2021.03.02-22.15.37:201][424]LogWorld: BeginTearingDown for /Game/MyContent/VN/Level/UEDPIE_0_Map_VN_lv1
+[2021.03.02-22.15.37:201][424]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.02-22.15.37:202][424]LogWorld: UWorld::CleanupWorld for Map_VN_lv1, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-22.15.37:203][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.15.37:263][424]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.02-22.15.37:263][424]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1' with GeneratedClass '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1_C' with ClassGeneratedBy '/Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.Map_VN_lv1'
+[2021.03.02-22.15.37:270][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-22.15.37:300][424]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.02-22.15.37:308][424]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2021.03.02-22.15.37:498][425]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.03.02-22.15.49:583][523]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire)
+[2021.03.02-22.17.04:935][238]LogEditorViewport: Clicking Background
+[2021.03.02-22.17.09:349][628]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire)
+[2021.03.02-22.17.17:448][280]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire)
+[2021.03.02-22.18.11:649][166]LogEditorViewport: Clicking on Component (LMB): SplineMeshComponent (NODE_AddSplineMeshComponent-8)
+[2021.03.02-22.18.12:591][232]LogEditorViewport: Clicking on Component (LMB): SplineMeshComponent (NODE_AddSplineMeshComponent-8)
+[2021.03.02-22.18.42:929][537]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire)
+[2021.03.02-22.18.57:035][688]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.03.02-22.18.57:469][688]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1E14F8D7542201C8D4A9C1FA08131039F.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.02-22.18.57:534][688]AssetCheck: New page: Asset Save: Map_VN_lv1
+[2021.03.02-22.18.57:534][688]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
