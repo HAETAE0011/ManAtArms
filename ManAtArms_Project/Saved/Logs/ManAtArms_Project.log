@@ -2713,3 +2713,193 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.02-22.49.17:286][327]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Cloud_Inst.Cloud_Inst
 [2021.03.02-22.49.17:286][327]LogContentValidation: Display: Validating Texture2D /Game/MyContent/VN/Mesh/Materials/textures/wall2_Mat_BaseColor.wall2_Mat_BaseColor
 [2021.03.02-22.49.17:286][327]LogContentValidation: Display: Validating Texture2D /Game/MyContent/VN/Mesh/Materials/textures/wall2_Mat_Normal.wall2_Mat_Normal
+[2021.03.02-22.50.25:759][872]MapCheck: New page: Map Check
+[2021.03.02-22.50.25:772][872]LightingResults: New page: Lighting Build - Mar. 2, 2021, 12:50:25 p.m.
+[2021.03.02-22.50.25:791][872]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.03.02-22.50.25:795][872]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.03.02-22.50.25:795][872]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.03.02-22.50.25:796][872]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.03.02-22.50.25:796][872]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9884
+[2021.03.02-22.50.30:437][872]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.03.02-22.50.30:437][872]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.03.02-22.50.30:437][872]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.03.02-22.50.30:437][872]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.03.02-22.50.30:437][872]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.03.02-22.50.30:555][872]LogEditorBuildUtils: Build time 0:04
+[2021.03.02-22.50.30:570][872]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Cloud_Inst, compiling. 
+[2021.03.02-22.50.30:582][872]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Cloud_Inst, compiling. 
+[2021.03.02-22.50.30:642][873]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.02-22.50.30:642][873]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.02-22.50.30:642][873]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2021.03.02-22.50.30:642][873]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.03.02-22.50.31:117][878]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.03.02-23.02.37:859][725]LightingResults: Warning: dishRack Object has overlapping UVs.
+[2021.03.02-23.02.37:859][725]LightingResults: dishRack Lightmap UV are overlapping by 1.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.03.03-00.07.11:101][623]Job is a success!
+[2021.03.03-00.07.11:722][624]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2021.03.03-00.07.11:722][624]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.03.03-00.07.11:722][624]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
+[2021.03.03-00.07.11:722][624]LogVolumetricLightmapImport:      Bricks at depth
+[2021.03.03-00.07.11:722][624]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
+[2021.03.03-00.07.11:722][624]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
+[2021.03.03-00.07.11:722][624]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
+[2021.03.03-00.07.11:722][624]LogVolumetricLightmapImport:      Bricks in each level
+[2021.03.03-00.07.11:722][624]LogVolumetricLightmapImport:          Map_VN_lv1 			 6 bricks 	 100.0% (Persistent Level)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 4096X2048)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 4096X4096)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 4096X4096)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 2048X1024)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 2048X2048)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 2048X1024)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 2048X2048)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 2048X2048)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 2048X2048)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 2048X1024)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 2048X2048)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 2048X2048)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 2048X1024)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 2048X2048)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 2048X2048)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 2048X1024)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 2048X2048)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 2048X2048)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: SkyOcclusion1_7 (AutoDXT, 1024X512)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 1024X1024)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 1024X1024)
+[2021.03.03-00.07.16:765][624]LogTexture: Display: Building textures: SkyOcclusion1_8 (AutoDXT, 256X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_8 (DXT1, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_9 (AutoDXT, 256X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_9 (DXT1, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_10 (AutoDXT, 256X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_10 (DXT1, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_11 (AutoDXT, 256X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_11 (DXT1, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_12 (AutoDXT, 256X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_12 (DXT1, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_13 (AutoDXT, 256X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_13 (DXT1, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_14 (AutoDXT, 256X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_14 (DXT1, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_15 (AutoDXT, 256X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_15 (DXT1, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_16 (AutoDXT, 256X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_16 (DXT1, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_17 (AutoDXT, 256X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_17 (DXT1, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_18 (AutoDXT, 128X64)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_18 (AutoDXT, 128X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_18 (DXT1, 128X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_19 (AutoDXT, 256X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_19 (AutoDXT, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_20 (AutoDXT, 256X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_19 (DXT1, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_20 (AutoDXT, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_20 (DXT1, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_21 (AutoDXT, 256X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_21 (AutoDXT, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_21 (DXT1, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_22 (AutoDXT, 256X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_22 (AutoDXT, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_22 (DXT1, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_23 (AutoDXT, 256X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_23 (AutoDXT, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_23 (DXT1, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_24 (AutoDXT, 128X64)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_24 (AutoDXT, 128X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_24 (DXT1, 128X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_25 (AutoDXT, 256X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_25 (AutoDXT, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_25 (DXT1, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_26 (AutoDXT, 256X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_26 (AutoDXT, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_26 (DXT1, 256X256)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_27 (AutoDXT, 128X64)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_27 (AutoDXT, 128X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_27 (DXT1, 128X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_28 (AutoDXT, 128X64)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_28 (AutoDXT, 128X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_28 (DXT1, 128X128)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: SkyOcclusion1_29 (AutoDXT, 64X32)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: HQ_Lightmap1_29 (AutoDXT, 64X64)
+[2021.03.03-00.07.16:766][624]LogTexture: Display: Building textures: LQ_Lightmap_1_29 (DXT1, 64X64)
+[2021.03.03-00.07.16:966][624]LogTexture: Display: Building textures: ShadowMapTexture2D_27 (BGRA8, 1024X512)
+[2021.03.03-00.07.17:173][624]LogTexture: Display: Building textures: ShadowMapTexture2D_19 (BGRA8, 1024X1024)
+[2021.03.03-00.07.17:174][624]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (BGRA8, 1024X1024)
+[2021.03.03-00.07.17:174][624]LogTexture: Display: Building textures: ShadowMapTexture2D_20 (BGRA8, 1024X1024)
+[2021.03.03-00.07.17:174][624]LogTexture: Display: Building textures: ShadowMapTexture2D_26 (BGRA8, 1024X1024)
+[2021.03.03-00.07.17:174][624]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (BGRA8, 1024X1024)
+[2021.03.03-00.07.17:174][624]LogTexture: Display: Building textures: ShadowMapTexture2D_21 (BGRA8, 1024X1024)
+[2021.03.03-00.07.17:174][624]LogTexture: Display: Building textures: ShadowMapTexture2D_23 (BGRA8, 1024X1024)
+[2021.03.03-00.07.17:174][624]LogTexture: Display: Building textures: ShadowMapTexture2D_22 (BGRA8, 1024X1024)
+[2021.03.03-00.07.17:174][624]LogTexture: Display: Building textures: ShadowMapTexture2D_18 (BGRA8, 1024X1024)
+[2021.03.03-00.07.17:174][624]LogTexture: Display: Building textures: ShadowMapTexture2D_24 (BGRA8, 1024X1024)
+[2021.03.03-00.07.17:180][624]LogTexture: Display: Building textures: ShadowMapTexture2D_19 (BGRA8, 1024X1024)
+[2021.03.03-00.07.17:372][624]LogTexture: Display: Building textures: ShadowMapTexture2D_25 (BGRA8, 1024X1024)
+[2021.03.03-00.07.17:692][624]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (BGRA8, 2048X2048)
+[2021.03.03-00.07.17:692][624]Lightmass on HAETAE02: 1:16:45 hours total, 383 ms importing, 237 ms setup, 11:33 min photons, 1:05:12 hours processing, 0 ms extra exporting [149/149 mappings]. Threads: 16:18:00 hours total, 8:27:13 hours processing.
+[2021.03.03-00.07.17:727][624]LogStaticLightingSystem: Map_VN_lv1_BuiltData storing lightmap data for 149 meshes in 40 LightmapResourceClusters (3.7 Meshes per cluster).
+[2021.03.03-00.07.17:798][624]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
+[2021.03.03-00.07.17:925][624]LogStaticLightingSystem: Illumination: 1:16:52 hours (4.12 sec encoding lightmaps, 875 ms encoding shadowmaps)
+[2021.03.03-00.07.17:925][624]LogStaticLightingSystem: Lightmap texture memory:  104.4 MB (104.4 MB streaming, 0.0 MB non-streaming), 58 textures
+[2021.03.03-00.07.17:925][624]LogStaticLightingSystem: Shadowmap texture memory: 88.6 MB (88.6 MB streaming, 0.0 MB non-streaming), 14 textures
+[2021.03.03-00.07.18:269][624]DumpUnbuiltLightIteractions
+[2021.03.03-00.07.18:269][624]Lights with unbuilt interactions: 0
+[2021.03.03-00.07.18:269][624]
+[2021.03.03-00.07.18:269][624]Primitives with unbuilt interactions: 0
+[2021.03.03-00.07.18:447][625]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.03.03-00.07.18:447][625]MapCheck: New page: Map_VN_lv1 - Mar. 2, 2021, 2:07:18 p.m.
+[2021.03.03-00.07.18:447][625]MapCheck: Warning: table_6 More overridden materials (5) on static mesh component than are referenced (3) in source mesh 'Bar_Counter' 
+[2021.03.03-00.07.18:448][625]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.924ms to complete.
+[2021.03.03-00.07.27:895][653]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.03.03-00.07.27:896][653]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/VN/Level/Map_VN_lv1' took 0.025
+[2021.03.03-00.13.14:961][692]LogSlate: Window 'Message Log' being destroyed
+[2021.03.03-00.13.14:971][692]LogSlate: Window 'Message Log' being destroyed
+[2021.03.03-00.13.18:870][954]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2021.03.03-00.13.29:838][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (chair2)
+[2021.03.03-00.13.30:438][924]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (chair3)
+[2021.03.03-00.13.31:206][984]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (chair)
+[2021.03.03-00.13.33:011][133]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bar_building)
+[2021.03.03-00.13.48:524][677]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_decal2_inst1.Mat_decal2_inst1
+[2021.03.03-00.13.51:613][875]LogSlate: Window 'Mat_decal2_inst1' being destroyed
+[2021.03.03-00.13.51:619][875]LogSlate: Window 'Mat_decal2_inst1' being destroyed
+[2021.03.03-00.13.51:670][875]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2021.03.03-00.13.51:670][875]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-00.14.34:526][734]LogEditorViewport: Clicking on Actor (LMB): DecalActor (Mat_decal2_inst1)
+[2021.03.03-00.15.10:791][547]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2021.03.03-00.15.12:858][712]LogEditorViewport: Clicking on Actor (LMB): DecalActor (Mat_decal2_inst1)
+[2021.03.03-00.15.42:281][336]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire3)
+[2021.03.03-00.15.45:336][656]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire)
+[2021.03.03-00.16.25:557][703]Cmd: TRANSACTION UNDO
+[2021.03.03-00.16.25:557][703]LogEditorTransaction: Undo Move Actors
+[2021.03.03-00.17.25:089][  5]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire4)
+[2021.03.03-00.17.35:612][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bar_building)
+[2021.03.03-00.17.36:002][952]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire4)
+[2021.03.03-00.18.24:939][540]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2021.03.03-00.18.34:403][184]Cmd: TRANSACTION UNDO
+[2021.03.03-00.18.34:403][184]LogEditorTransaction: Undo Move Actors
+[2021.03.03-00.18.41:589][691]LogSlate: Window 'Color Picker' being destroyed
+[2021.03.03-00.18.54:848][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (3_1_panel)
+[2021.03.03-00.18.56:216][673]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/MI_Neon_barCode.MI_Neon_barCode
+[2021.03.03-00.19.26:011][484]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2021.03.03-00.19.26:043][484]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.03-00.19.26:304][484]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-00.19.26:305][484]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-00.19.26:306][484]TextureStreamingBuild: Display: Compiling optional shaders took 0.271 seconds.
+[2021.03.03-00.19.26:333][484]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2021.03.03-00.19.26:354][484]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/MI_Neon_barCode1C10A3514415710431D238886660D552.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/MI_Neon_barCode.uasset'
+[2021.03.03-00.19.26:372][484]AssetCheck: New page: Asset Save: MI_Neon_barCode
+[2021.03.03-00.19.26:372][484]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/MI_Neon_barCode.MI_Neon_barCode
+[2021.03.03-00.19.27:082][530]LogSlate: Window 'MI_Neon_barCode' being destroyed
+[2021.03.03-00.19.27:088][530]LogSlate: Window 'MI_Neon_barCode' being destroyed
+[2021.03.03-00.19.27:140][530]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2021.03.03-00.19.27:140][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
