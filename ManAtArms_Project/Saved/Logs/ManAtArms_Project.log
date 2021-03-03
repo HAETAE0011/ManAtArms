@@ -3004,3 +3004,220 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.03-01.36.54:929][681]AssetCheck: New page: Asset Save: multiple assets
 [2021.03.03-01.36.54:929][681]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
 [2021.03.03-01.36.54:929][681]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyContent/VN/Level/Map_VN_lv1_BuiltData.Map_VN_lv1_BuiltData
+[2021.03.03-02.20.32:266][981]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2021.03.03-02.20.32:702][981]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv149551CE640AE42E09093C39E8615292A.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.03-02.20.32:754][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Level/Map_VN_lv1_BuiltData" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset" SILENT=true
+[2021.03.03-02.20.34:295][981]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_BuiltData54819A2F4189B4A02BA4C8B1A4EB5DCB.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset'
+[2021.03.03-02.20.34:337][981]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.03-02.20.34:337][981]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.03-02.20.34:337][981]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyContent/VN/Level/Map_VN_lv1_BuiltData.Map_VN_lv1_BuiltData
+[2021.03.03-02.37.32:516][670]LogEditorViewport: Clicking on Actor (LMB): BP_Building_C (BP_Building)
+[2021.03.03-02.37.49:274][974]LogUObjectHash: Compacting FUObjectHashTables data took   5.24ms
+[2021.03.03-02.37.52:011][157]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/VN/BP/BP_ProceduralBuilding.BP_ProceduralBuilding
+[2021.03.03-02.38.32:233][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2021.03.03-02.38.32:240][ 72]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/VN/Level/Map_VN_lv1' took 0.042
+[2021.03.03-02.38.32:241][ 72]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyContent/VN/BP/BP_ProceduralBuilding] ([1] browsable assets)...
+[2021.03.03-02.38.32:241][ 72]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/BP/BP_ProceduralBuilding]
+[2021.03.03-02.38.32:335][ 72]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralBuilding_Auto31CE5EE4546EF998828AEB79B50344091.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/BP/BP_ProceduralBuilding_Auto3.uasset'
+[2021.03.03-02.38.32:336][ 72]LogFileHelpers: Auto-saving content packages took 0.096
+[2021.03.03-03.41.03:692][258]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (3_1_panel)
+[2021.03.03-03.41.44:663][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2021.03.03-03.41.45:120][186]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_Auto48708CE6F420E5B5406EED692DBB0CB45.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Level/Map_VN_lv1_Auto4.umap'
+[2021.03.03-03.41.45:125][186]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/VN/Level/Map_VN_lv1' took 0.493
+[2021.03.03-03.41.45:125][186]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.493
+[2021.03.03-04.27.44:263][797]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-04.27.44:573][797]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2021.03.03-04.27.44:933][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/BP_ProceduralBuilding" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset" SILENT=true
+[2021.03.03-04.27.45:036][803]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralBuilding654DCFCB4985EA1B16A0EEB7C5AE1A90.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset'
+[2021.03.03-04.27.45:058][803]AssetCheck: New page: Asset Save: BP_ProceduralBuilding
+[2021.03.03-04.27.45:058][803]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/BP_ProceduralBuilding.BP_ProceduralBuilding
+[2021.03.03-04.28.16:182][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/BP_ProceduralBuilding" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset" SILENT=true
+[2021.03.03-04.28.16:295][558]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralBuilding3D1ACE20464C0DF7A5F8218A2CCEFE95.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset'
+[2021.03.03-04.28.16:309][558]AssetCheck: New page: Asset Save: BP_ProceduralBuilding
+[2021.03.03-04.28.16:309][558]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/BP_ProceduralBuilding.BP_ProceduralBuilding
+[2021.03.03-05.11.02:969][721]LogEditorViewport: Clicking on Actor (LMB): DecalActor (Mat_decal2_inst2)
+[2021.03.03-05.12.00:198][464]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2021.03.03-05.12.00:648][464]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1A85B4BE842DD8BFE901FB1A0BB3EC870.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.03-05.12.00:710][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Level/Map_VN_lv1_BuiltData" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset" SILENT=true
+[2021.03.03-05.12.02:287][464]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_BuiltDataE1E89AD447391736B06E50A9A06B9B39.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset'
+[2021.03.03-05.12.02:590][464]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.03-05.12.02:590][464]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.03-05.12.02:590][464]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyContent/VN/Level/Map_VN_lv1_BuiltData.Map_VN_lv1_BuiltData
+[2021.03.03-05.12.49:103][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (chair3)
+[2021.03.03-05.12.49:623][777]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (chair2)
+[2021.03.03-05.12.50:592][833]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (chair)
+[2021.03.03-05.13.05:408][710]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2021.03.03-05.13.05:839][710]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1E922CD324ADDC1EACB3682A27A55044C.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.03-05.13.05:893][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Level/Map_VN_lv1_BuiltData" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset" SILENT=true
+[2021.03.03-05.13.07:360][710]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_BuiltDataB058A3AC4B49545F22D3688F8D237F77.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset'
+[2021.03.03-05.13.07:409][710]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.03-05.13.07:410][710]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.03-05.13.07:410][710]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyContent/VN/Level/Map_VN_lv1_BuiltData.Map_VN_lv1_BuiltData
+[2021.03.03-05.13.07:891][740]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2021.03.03-05.13.08:314][740]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1281A66DE4C9740E520F6A58598E84A7F.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.03-05.13.08:367][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Level/Map_VN_lv1_BuiltData" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset" SILENT=true
+[2021.03.03-05.13.09:856][740]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_BuiltDataD7D6DCA84942B7E7589BA1B9EC18E928.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset'
+[2021.03.03-05.13.09:893][740]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.03-05.13.09:893][740]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.03-05.13.09:893][740]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyContent/VN/Level/Map_VN_lv1_BuiltData.Map_VN_lv1_BuiltData
+[2021.03.03-05.14.15:155][684]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2021.03.03-05.14.15:589][684]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv15D7FB65741721270D270468F851DF5A6.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.03-05.14.15:642][684]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Level/Map_VN_lv1_BuiltData" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset" SILENT=true
+[2021.03.03-05.14.17:178][684]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_BuiltDataECA38CC045C772F63E16EB826891021D.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset'
+[2021.03.03-05.14.17:218][684]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.03-05.14.17:218][684]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.03-05.14.17:218][684]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyContent/VN/Level/Map_VN_lv1_BuiltData.Map_VN_lv1_BuiltData
+[2021.03.03-05.16.14:196][484]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2021.03.03-05.16.14:624][484]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv17A308494487FCFF35B0D2FB1B5925FAC.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.03-05.16.14:678][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Level/Map_VN_lv1_BuiltData" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset" SILENT=true
+[2021.03.03-05.16.16:151][484]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_BuiltDataB2E4FBC14CE40F7E01F914B4A049359A.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset'
+[2021.03.03-05.16.16:188][484]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.03-05.16.16:188][484]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.03-05.16.16:188][484]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyContent/VN/Level/Map_VN_lv1_BuiltData.Map_VN_lv1_BuiltData
+[2021.03.03-05.16.51:201][142]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2021.03.03-05.16.53:019][251]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2021.03.03-05.16.53:441][251]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1BF03EDB54A086467DD4273B2105E6E85.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.03-05.16.53:499][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Level/Map_VN_lv1_BuiltData" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset" SILENT=true
+[2021.03.03-05.16.55:247][251]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_BuiltData6BF350704CB4E798D974AD9B16BDDD61.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset'
+[2021.03.03-05.16.55:285][251]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.03-05.16.55:285][251]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.03-05.16.55:285][251]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyContent/VN/Level/Map_VN_lv1_BuiltData.Map_VN_lv1_BuiltData
+[2021.03.03-06.02.48:202][829]LogEditorViewport: Clicking on Actor (LMB): BP_Building_C (BP_Building2)
+[2021.03.03-06.02.51:131][ 27]LogEditorViewport: Clicking on Actor (LMB): BP_Building_C (BP_Building2)
+[2021.03.03-06.34.43:545][189]LogUObjectHash: Compacting FUObjectHashTables data took  10.63ms
+[2021.03.03-06.34.43:573][189]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/VN/Level/Map_VN_lv1' took 0.155
+[2021.03.03-06.34.43:574][189]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyContent/VN/BP/BP_ProceduralBuilding] ([1] browsable assets)...
+[2021.03.03-06.34.43:574][189]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/BP/BP_ProceduralBuilding]
+[2021.03.03-06.34.43:990][189]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralBuilding_Auto5972C9D8E49FA74D0855BDBB5E2F095B6.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/BP/BP_ProceduralBuilding_Auto5.uasset'
+[2021.03.03-06.34.43:991][189]LogFileHelpers: Auto-saving content packages took 0.419
+[2021.03.03-06.40.10:002][678]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/MyContent/VN/BP/ST_Floor.ST_Floor
+[2021.03.03-06.44.44:448][679]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.03.03-06.44.44:462][679]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/VN/Level/Map_VN_lv1' took 0.045
+[2021.03.03-06.44.44:463][679]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyContent/VN/BP/BP_ProceduralBuilding] ([1] browsable assets)...
+[2021.03.03-06.44.44:463][679]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/BP/BP_ProceduralBuilding]
+[2021.03.03-06.44.44:840][679]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralBuilding_Auto6C826997448BA820A815AC0962C9D1A65.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/BP/BP_ProceduralBuilding_Auto6.uasset'
+[2021.03.03-06.44.44:841][679]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyContent/VN/BP/ST_Floor] ([1] browsable assets)...
+[2021.03.03-06.44.44:841][679]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/BP/ST_Floor]
+[2021.03.03-06.44.44:841][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/ST_Floor" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/BP/ST_Floor_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2021.03.03-06.44.44:847][679]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/ST_Floor_Auto675EC622B4E0746D3ADB4FA9AD9708F53.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/BP/ST_Floor_Auto6.uasset'
+[2021.03.03-06.44.44:848][679]LogFileHelpers: Auto-saving content packages took 0.386
+[2021.03.03-07.15.36:004][888]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2021.03.03-07.15.36:017][888]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/VN/Level/Map_VN_lv1' took 0.051
+[2021.03.03-07.15.36:017][888]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyContent/VN/BP/ST_Floor] ([1] browsable assets)...
+[2021.03.03-07.15.36:017][888]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/BP/ST_Floor]
+[2021.03.03-07.15.36:017][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/ST_Floor" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/BP/ST_Floor_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2021.03.03-07.15.36:026][888]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/ST_Floor_Auto7AEACF3C5466952C1F559FEA0614E3620.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/BP/ST_Floor_Auto7.uasset'
+[2021.03.03-07.15.36:027][888]LogFileHelpers: Auto-saving content packages took 0.010
+[2021.03.03-07.16.14:011][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/ST_Floor" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/ST_Floor.uasset" SILENT=true
+[2021.03.03-07.16.14:020][371]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/ST_FloorAC299E46487D9701993C22826D053CBA.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/ST_Floor.uasset'
+[2021.03.03-07.16.14:044][371]AssetCheck: New page: Asset Save: ST_Floor
+[2021.03.03-07.16.14:044][371]LogContentValidation: Display: Validating UserDefinedStruct /Game/MyContent/VN/BP/ST_Floor.ST_Floor
+[2021.03.03-07.16.16:097][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/BP_ProceduralBuilding" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset" SILENT=true
+[2021.03.03-07.16.16:229][492]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralBuildingD66AA40C4A284366FEA4FB81CFD738EC.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset'
+[2021.03.03-07.16.16:260][492]AssetCheck: New page: Asset Save: BP_ProceduralBuilding
+[2021.03.03-07.16.16:260][492]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/BP_ProceduralBuilding.BP_ProceduralBuilding
+[2021.03.03-07.16.39:152][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/ST_Floor" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/ST_Floor.uasset" SILENT=true
+[2021.03.03-07.16.39:161][ 33]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/ST_Floor779873254A80A6BBD2486692C7BF229B.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/ST_Floor.uasset'
+[2021.03.03-07.16.39:181][ 33]AssetCheck: New page: Asset Save: ST_Floor
+[2021.03.03-07.16.39:181][ 33]LogContentValidation: Display: Validating UserDefinedStruct /Game/MyContent/VN/BP/ST_Floor.ST_Floor
+[2021.03.03-07.16.41:776][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/ST_Floor" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/ST_Floor.uasset" SILENT=true
+[2021.03.03-07.16.41:784][212]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/ST_Floor54FE216B442AD8B84A19598788643C54.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/ST_Floor.uasset'
+[2021.03.03-07.16.41:800][212]AssetCheck: New page: Asset Save: ST_Floor
+[2021.03.03-07.16.41:800][212]LogContentValidation: Display: Validating UserDefinedStruct /Game/MyContent/VN/BP/ST_Floor.ST_Floor
+[2021.03.03-07.16.49:158][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/ST_Floor" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/ST_Floor.uasset" SILENT=true
+[2021.03.03-07.16.49:166][682]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/ST_FloorCBADF8274578BAA79271E6B1958338B9.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/ST_Floor.uasset'
+[2021.03.03-07.16.49:209][682]AssetCheck: New page: Asset Save: ST_Floor
+[2021.03.03-07.16.49:209][682]LogContentValidation: Display: Validating UserDefinedStruct /Game/MyContent/VN/BP/ST_Floor.ST_Floor
+[2021.03.03-07.16.56:663][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/ST_Floor" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/ST_Floor.uasset" SILENT=true
+[2021.03.03-07.16.56:673][163]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/ST_FloorDDDF4D55421ADA830893109FCB31DDE6.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/ST_Floor.uasset'
+[2021.03.03-07.16.56:690][163]AssetCheck: New page: Asset Save: ST_Floor
+[2021.03.03-07.16.56:690][163]LogContentValidation: Display: Validating UserDefinedStruct /Game/MyContent/VN/BP/ST_Floor.ST_Floor
+[2021.03.03-07.17.02:238][644]LogSlate: Window 'Toolbar' being destroyed
+[2021.03.03-07.17.03:893][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/ST_Floor" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/ST_Floor.uasset" SILENT=true
+[2021.03.03-07.17.03:901][753]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/ST_Floor2DBA8D41481C111C1515388964A5216D.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/ST_Floor.uasset'
+[2021.03.03-07.17.03:920][753]AssetCheck: New page: Asset Save: ST_Floor
+[2021.03.03-07.17.03:920][753]LogContentValidation: Display: Validating UserDefinedStruct /Game/MyContent/VN/BP/ST_Floor.ST_Floor
+[2021.03.03-07.17.32:741][654]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-07.17.33:180][654]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2021.03.03-07.17.45:694][393]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-07.17.45:713][393]LogClass: Warning: Type mismatch in Floors of BP_ProceduralBuilding_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2021.03.03-07.17.45:997][393]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2021.03.03-07.17.46:585][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/BP_ProceduralBuilding" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset" SILENT=true
+[2021.03.03-07.17.46:679][419]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralBuilding93BA0A2049B87137B247E19F4F04882A.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset'
+[2021.03.03-07.17.46:696][419]AssetCheck: New page: Asset Save: BP_ProceduralBuilding
+[2021.03.03-07.17.46:697][419]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/BP_ProceduralBuilding.BP_ProceduralBuilding
+[2021.03.03-07.20.04:279][554]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-07.20.04:585][554]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2021.03.03-07.20.35:486][553]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-07.20.35:793][553]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2021.03.03-07.23.50:287][208]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-07.23.50:594][208]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2021.03.03-07.25.44:197][695]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2021.03.03-07.25.44:202][695]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/VN/Level/Map_VN_lv1' took 0.037
+[2021.03.03-07.25.44:202][695]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyContent/VN/BP/BP_ProceduralBuilding] ([1] browsable assets)...
+[2021.03.03-07.25.44:202][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/BP/BP_ProceduralBuilding]
+[2021.03.03-07.25.44:534][695]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralBuilding_Auto832376D2640E3F72BA0B14D941329AD79.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/BP/BP_ProceduralBuilding_Auto8.uasset'
+[2021.03.03-07.25.44:535][695]LogFileHelpers: Auto-saving content packages took 0.333
+[2021.03.03-07.30.14:158][401]LogEditorTransaction: Undo Delete current selection
+[2021.03.03-07.30.18:866][641]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-07.30.18:879][641]LogBlueprint: Error: [Compiler BP_ProceduralBuilding] This blueprint (self) is not a SplineComponent, therefore ' Target ' must have a connection.
+[2021.03.03-07.30.19:174][641]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2021.03.03-07.30.23:898][907]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-07.30.24:201][907]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2021.03.03-07.32.14:486][131]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-07.32.14:500][131]LogBlueprint: Error: [Compiler BP_ProceduralBuilding] This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2021.03.03-07.32.14:500][131]LogBlueprint: Error: [Compiler BP_ProceduralBuilding] This blueprint (self) is not a SplineComponent, therefore ' Target ' must have a connection.
+[2021.03.03-07.32.14:790][131]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2021.03.03-07.32.15:640][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/BP_ProceduralBuilding" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset" SILENT=true
+[2021.03.03-07.32.15:832][172]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralBuildingCFD157D348C474DEB023E6A998A5F881.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset'
+[2021.03.03-07.32.15:850][172]AssetCheck: New page: Asset Save: BP_ProceduralBuilding
+[2021.03.03-07.32.15:850][172]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/BP_ProceduralBuilding.BP_ProceduralBuilding
+[2021.03.03-07.32.28:359][956]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-07.32.28:659][956]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2021.03.03-07.32.29:673][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/BP_ProceduralBuilding" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset" SILENT=true
+[2021.03.03-07.32.30:043][  8]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralBuilding476D86FA4A403873D38C499ABD8FFEFC.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset'
+[2021.03.03-07.32.30:059][  8]AssetCheck: New page: Asset Save: BP_ProceduralBuilding
+[2021.03.03-07.32.30:060][  8]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/BP_ProceduralBuilding.BP_ProceduralBuilding
+[2021.03.03-07.32.47:751][ 12]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-07.32.48:060][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2021.03.03-07.32.48:474][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/BP_ProceduralBuilding" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset" SILENT=true
+[2021.03.03-07.32.48:545][ 28]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralBuilding5E92432C43DE7E3865A3F688C0220B41.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset'
+[2021.03.03-07.32.48:562][ 28]AssetCheck: New page: Asset Save: BP_ProceduralBuilding
+[2021.03.03-07.32.48:562][ 28]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/BP_ProceduralBuilding.BP_ProceduralBuilding
+[2021.03.03-07.32.50:505][118]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/MyContent/VN/BP/ST_Floor.ST_Floor
+[2021.03.03-07.32.54:690][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/ST_Floor" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/ST_Floor.uasset" SILENT=true
+[2021.03.03-07.32.54:703][380]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/ST_FloorD488765B45A93DF5274B8B9AC0E041B4.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/ST_Floor.uasset'
+[2021.03.03-07.32.54:726][380]AssetCheck: New page: Asset Save: ST_Floor
+[2021.03.03-07.32.54:726][380]LogContentValidation: Display: Validating UserDefinedStruct /Game/MyContent/VN/BP/ST_Floor.ST_Floor
+[2021.03.03-07.33.05:272][974]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-07.33.05:585][974]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2021.03.03-07.33.25:053][643]LogSlate: Window 'Message' being destroyed
+[2021.03.03-07.33.25:058][643]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/wall_250x250.fbx)
+[2021.03.03-07.33.25:060][643]LogEditorFactories: Performing atomic reimport of [C:/Users/john0/Desktop/Capstone/environment/wall_250x250.fbx]
+[2021.03.03-07.33.25:071][643]LogFbx: Loading FBX Scene from C:/Users/john0/Desktop/Capstone/environment/wall_250x250.fbx
+[2021.03.03-07.33.25:077][643]LogFbx: FBX Scene Loaded Succesfully
+[2021.03.03-07.33.25:079][643]LogFbx: Display: Triangulating static mesh Plane004
+[2021.03.03-07.33.25:082][643]LogStaticMesh: Building static mesh wall_250x250...
+[2021.03.03-07.33.25:083][643]LogStaticMesh: Built static mesh [0.00s] /Game/MyContent/VN/Mesh/wall_250x250.wall_250x250
+[2021.03.03-07.33.25:092][643]LogEditorFactories: -- imported successfully
+[2021.03.03-07.33.31:404][905]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-07.33.31:716][905]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2021.03.03-07.37.12:699][490]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-07.37.13:008][490]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2021.03.03-07.37.13:451][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/BP_ProceduralBuilding" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset" SILENT=true
+[2021.03.03-07.37.13:547][510]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralBuilding37BF71BD4F76448FFACEA0B880479014.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset'
+[2021.03.03-07.37.13:564][510]AssetCheck: New page: Asset Save: BP_ProceduralBuilding
+[2021.03.03-07.37.13:564][510]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/BP_ProceduralBuilding.BP_ProceduralBuilding
+[2021.03.03-07.37.20:636][914]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2021.03.03-07.37.21:200][914]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv17759BE1441375C6ED9B074B4FF1FAEEB.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.03-07.37.21:264][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Level/Map_VN_lv1_BuiltData" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset" SILENT=true
+[2021.03.03-07.37.25:583][914]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_BuiltDataBD65414D4A1FBBDEF6F1B8B3F21BDBD0.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset'
+[2021.03.03-07.37.25:635][914]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.03-07.37.25:635][914]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.03-07.37.25:635][914]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyContent/VN/Level/Map_VN_lv1_BuiltData.Map_VN_lv1_BuiltData
+[2021.03.03-07.37.26:251][962]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2021.03.03-07.37.27:302][962]LogSlate: Window 'Save Content' being destroyed
+[2021.03.03-07.37.27:347][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/wall_250x250" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/wall_250x250.uasset" SILENT=true
+[2021.03.03-07.37.27:416][962]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/wall_250x25057EAEA294ECACE267CB946B712568D04.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/wall_250x250.uasset'
+[2021.03.03-07.37.27:433][962]AssetCheck: New page: Asset Save: wall_250x250
+[2021.03.03-07.37.27:433][962]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/wall_250x250.wall_250x250
