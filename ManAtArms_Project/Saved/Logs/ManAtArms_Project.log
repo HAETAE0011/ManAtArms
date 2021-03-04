@@ -1237,3 +1237,519 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.03-15.29.54:633][452]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_decal3_inst2_Auto1E8ACF0FB450A84026B4A46B4C128B874.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_decal3_inst2_Auto1.uasset'
 [2021.03.03-15.29.54:634][452]LogFileHelpers: Auto-saving content packages took 0.935
 [2021.03.03-15.30.04:607][772]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2021.03.03-15.40.29:063][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2021.03.03-15.40.29:733][ 32]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_Auto24A9A48194D465DA503A12D8ED0B77CCA.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Level/Map_VN_lv1_Auto2.umap'
+[2021.03.03-15.40.29:735][ 32]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/VN/Level/Map_VN_lv1' took 0.703
+[2021.03.03-15.40.29:735][ 32]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.703
+[2021.03.03-15.43.43:632][ 78]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{4f69fe94-acee-4f2a-9553-df2f697e7bc2}.
+[2021.03.03-15.43.43:632][ 78]LogTemp: Resetting audio stream to device id 
+[2021.03.03-15.43.43:692][ 78]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.03-15.43.43:692][ 78]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2021.03.03-15.43.43:692][ 78]LogAudioMixer: Display: Is Default: Yes
+[2021.03.03-15.43.43:692][ 78]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.03-15.43.43:692][ 78]LogAudioMixer: Display: Channel Count Used: 2
+[2021.03.03-15.43.43:692][ 78]LogAudioMixer: Display: Device Channel Count: 2
+[2021.03.03-15.43.43:692][ 78]LogAudioMixer: Display: Channel Order:
+[2021.03.03-15.43.43:692][ 78]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.03-15.43.43:692][ 78]LogAudioMixer: Display: 1: FrontRight
+[2021.03.03-18.11.50:991][692]LogSlate: Window 'Message' being destroyed
+[2021.03.03-18.11.53:469][692]LogMaterial: Display: Missing cached shader map for material Mat_RandomTile, compiling. 
+[2021.03.03-18.11.53:506][692]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 11
+[2021.03.03-18.11.53:507][692]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 10
+[2021.03.03-18.11.53:507][692]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 9
+[2021.03.03-18.11.53:507][692]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 8
+[2021.03.03-18.11.53:507][692]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 7
+[2021.03.03-18.11.53:507][692]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 6
+[2021.03.03-18.11.53:507][692]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 5
+[2021.03.03-18.11.53:507][692]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
+[2021.03.03-18.11.53:507][692]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 3
+[2021.03.03-18.11.53:507][692]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 2
+[2021.03.03-18.11.53:507][692]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 1
+[2021.03.03-18.11.53:575][692]LogMaterial: Display: Missing cached shader map for material Mat_RandomTile, compiling. 
+[2021.03.03-18.11.53:834][692]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 45
+[2021.03.03-18.11.53:843][692]LogUObjectHash: Compacting FUObjectHashTables data took   8.16ms
+[2021.03.03-18.11.53:862][692]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.03-18.11.55:441][692]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 43
+[2021.03.03-18.11.55:441][692]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 42
+[2021.03.03-18.11.55:441][692]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 41
+[2021.03.03-18.11.55:441][692]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 37
+[2021.03.03-18.11.55:441][692]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 33
+[2021.03.03-18.11.55:441][692]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 30
+[2021.03.03-18.11.55:441][692]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 27
+[2021.03.03-18.11.55:441][692]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 24
+[2021.03.03-18.11.55:441][692]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 21
+[2021.03.03-18.11.55:441][692]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 19
+[2021.03.03-18.11.55:441][692]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 17
+[2021.03.03-18.11.55:441][692]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 15
+[2021.03.03-18.11.55:441][692]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 13
+[2021.03.03-18.11.55:448][692]TextureStreamingBuild: Display: Compiling optional shaders took 1.596 seconds.
+[2021.03.03-18.11.55:519][692]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2021.03.03-18.11.56:100][692]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 11
+[2021.03.03-18.11.56:118][692]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 10
+[2021.03.03-18.11.56:136][692]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 9
+[2021.03.03-18.11.56:226][692]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 8
+[2021.03.03-18.11.56:263][692]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 7
+[2021.03.03-18.11.56:300][692]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 6
+[2021.03.03-18.11.56:394][692]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 5
+[2021.03.03-18.11.56:529][692]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2021.03.03-18.11.56:566][692]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 3
+[2021.03.03-18.11.56:603][692]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 2
+[2021.03.03-18.11.56:639][692]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 1
+[2021.03.03-18.11.57:320][692]LogSlate: Window 'Message' being destroyed
+[2021.03.03-18.11.57:726][692]LogMaterial: Display: Missing cached shader map for material M_Decal, compiling. 
+[2021.03.03-18.11.57:800][692]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 24
+[2021.03.03-18.11.57:800][692]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 23
+[2021.03.03-18.11.57:800][692]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 22
+[2021.03.03-18.11.57:800][692]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 21
+[2021.03.03-18.11.57:800][692]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 20
+[2021.03.03-18.11.57:800][692]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 19
+[2021.03.03-18.11.57:800][692]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 18
+[2021.03.03-18.11.57:800][692]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 17
+[2021.03.03-18.11.57:800][692]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 16
+[2021.03.03-18.11.57:800][692]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 15
+[2021.03.03-18.11.57:800][692]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 14
+[2021.03.03-18.11.57:800][692]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 13
+[2021.03.03-18.11.57:826][692]LogMaterial: Display: Missing cached shader map for material M_Decal, compiling. 
+[2021.03.03-18.11.57:971][692]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 46
+[2021.03.03-18.11.57:971][692]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 45
+[2021.03.03-18.11.57:971][692]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2021.03.03-18.11.57:973][692]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2021.03.03-18.11.58:018][692]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 44
+[2021.03.03-18.11.58:018][692]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.03.03-18.11.58:169][692]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 43
+[2021.03.03-18.11.58:169][692]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 42
+[2021.03.03-18.11.58:169][692]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 41
+[2021.03.03-18.11.58:388][692]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 40
+[2021.03.03-18.11.58:422][692]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 39
+[2021.03.03-18.11.58:440][692]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 38
+[2021.03.03-18.11.58:457][692]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 37
+[2021.03.03-18.11.58:457][692]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 36
+[2021.03.03-18.11.58:475][692]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 35
+[2021.03.03-18.11.58:545][692]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 34
+[2021.03.03-18.11.58:599][692]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 31
+[2021.03.03-18.11.58:658][692]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 28
+[2021.03.03-18.11.58:697][692]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 25
+[2021.03.03-18.11.58:777][692]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 22
+[2021.03.03-18.11.58:870][692]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 20
+[2021.03.03-18.11.58:907][692]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 18
+[2021.03.03-18.11.58:959][692]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 16
+[2021.03.03-18.11.58:996][692]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 14
+[2021.03.03-18.11.59:031][692]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 12
+[2021.03.03-18.11.59:068][692]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 10
+[2021.03.03-18.11.59:178][692]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 9
+[2021.03.03-18.11.59:197][692]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 8
+[2021.03.03-18.11.59:272][692]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 7
+[2021.03.03-18.11.59:401][692]LogSlate: Window 'Message' being destroyed
+[2021.03.03-18.11.59:962][692]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 6
+[2021.03.03-18.11.59:962][692]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 5
+[2021.03.03-18.11.59:962][692]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.03.03-18.11.59:962][692]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 3
+[2021.03.03-18.11.59:962][692]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-18.11.59:962][692]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 1
+[2021.03.03-18.11.59:995][692]LogMaterial: Display: Missing cached shader map for material Cloud, compiling. 
+[2021.03.03-18.12.00:076][692]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 40
+[2021.03.03-18.12.00:077][692]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 39
+[2021.03.03-18.12.00:077][692]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 38
+[2021.03.03-18.12.00:077][692]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 37
+[2021.03.03-18.12.00:077][692]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 36
+[2021.03.03-18.12.00:136][692]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 35
+[2021.03.03-18.12.00:136][692]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 34
+[2021.03.03-18.12.00:136][692]LogMaterial: Display: Missing cached shader map for material Cloud, compiling. 
+[2021.03.03-18.12.00:237][692]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 33
+[2021.03.03-18.12.00:237][692]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 32
+[2021.03.03-18.12.00:237][692]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 31
+[2021.03.03-18.12.00:237][692]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 30
+[2021.03.03-18.12.00:350][692]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 106
+[2021.03.03-18.12.00:350][692]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 105
+[2021.03.03-18.12.00:350][692]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 104
+[2021.03.03-18.12.00:351][692]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2021.03.03-18.12.00:370][692]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 107
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 106
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 105
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 104
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 103
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 102
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 101
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 100
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 99
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 98
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 97
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 96
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 95
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 94
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 93
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 92
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 91
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 90
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 89
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 88
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 87
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 86
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 85
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 84
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 83
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 82
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 81
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 80
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 79
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 78
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 77
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 70
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 64
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 58
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 52
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 47
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 43
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 39
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 35
+[2021.03.03-18.12.01:525][692]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 32
+[2021.03.03-18.12.01:529][692]TextureStreamingBuild: Display: Compiling optional shaders took 1.175 seconds.
+[2021.03.03-18.12.01:582][692]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 29
+[2021.03.03-18.12.01:582][692]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.03.03-18.12.01:632][692]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 26
+[2021.03.03-18.12.01:687][692]LogSlate: Window 'Cloud' being destroyed
+[2021.03.03-18.12.01:690][692]LogSlate: Window 'Cloud' being destroyed
+[2021.03.03-18.12.01:755][692]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.03.03-18.12.01:755][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-18.12.02:739][692]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 23
+[2021.03.03-18.12.02:739][692]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 21
+[2021.03.03-18.12.02:739][692]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 19
+[2021.03.03-18.12.02:739][692]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 17
+[2021.03.03-18.12.02:739][692]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 15
+[2021.03.03-18.12.02:739][692]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 13
+[2021.03.03-18.12.03:046][692]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 11
+[2021.03.03-18.12.03:047][692]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 10
+[2021.03.03-18.12.03:047][692]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 9
+[2021.03.03-18.12.03:047][692]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 8
+[2021.03.03-18.12.03:047][692]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.03.03-18.12.03:047][692]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 6
+[2021.03.03-18.12.03:047][692]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.03.03-18.12.03:047][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-18.12.03:158][692]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 5
+[2021.03.03-18.12.03:220][692]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 4
+[2021.03.03-18.12.03:220][692]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.03.03-18.12.03:221][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-18.12.03:350][692]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 3
+[2021.03.03-18.12.03:350][692]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 2
+[2021.03.03-18.12.03:350][692]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.03.03-18.12.03:462][692]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2021.03.03-18.12.03:505][692]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2021.03.03-18.12.03:561][692]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2021.03.03-18.12.03:649][692]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.03.03-18.12.03:649][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-18.12.03:750][692]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.03.03-18.12.03:750][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-18.12.03:857][692]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.03.03-18.12.03:857][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-18.12.04:174][692]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.03.03-18.12.04:174][692]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.03.03-18.12.04:174][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-18.12.04:371][692]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.03.03-18.12.04:417][692]TextureStreamingBuild: Display: Compiling optional shaders took 0.013 seconds.
+[2021.03.03-18.12.04:442][692]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2021.03.03-18.12.04:499][692]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.03.03-18.12.04:499][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-18.12.04:571][692]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.03.03-18.12.04:571][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-18.12.15:116][337]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire4)
+[2021.03.03-18.12.16:772][428]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2021.03.03-18.12.16:777][428]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/VN/Level/Map_VN_lv1' took 0.035
+[2021.03.03-18.12.16:777][428]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/VN/Mesh/Materials/Mat_RandomTile] ([1] browsable assets)...
+[2021.03.03-18.12.16:785][428]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MyContent/VN/Mesh/Materials/Mat_RandomTile.Mat_RandomTile]
+[2021.03.03-18.12.16:785][428]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/Mesh/Materials/Mat_RandomTile]
+[2021.03.03-18.12.16:835][428]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_RandomTile_Auto391D38FFC47CFAB23D491918C9B6FF0C5.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Mesh/Materials/Mat_RandomTile_Auto3.uasset'
+[2021.03.03-18.12.16:836][428]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/VN/Mesh/Materials/Cloud] ([1] browsable assets)...
+[2021.03.03-18.12.16:844][428]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MyContent/VN/Mesh/Materials/Cloud.Cloud]
+[2021.03.03-18.12.16:844][428]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/Mesh/Materials/Cloud]
+[2021.03.03-18.12.16:863][428]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Cloud_Auto3F3908CC349B31EE469BF65A1EF75459D.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Mesh/Materials/Cloud_Auto3.uasset'
+[2021.03.03-18.12.16:864][428]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/VN/Mesh/Materials/M_Decal] ([1] browsable assets)...
+[2021.03.03-18.12.16:871][428]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MyContent/VN/Mesh/Materials/M_Decal.M_Decal]
+[2021.03.03-18.12.16:872][428]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/Mesh/Materials/M_Decal]
+[2021.03.03-18.12.16:906][428]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/M_Decal_Auto35EC55F6D417082D50F9311BAFE896857.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Mesh/Materials/M_Decal_Auto3.uasset'
+[2021.03.03-18.12.16:907][428]LogFileHelpers: Auto-saving content packages took 0.130
+[2021.03.03-18.12.22:836][813]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire4)
+[2021.03.03-18.12.23:278][839]LogEditorViewport: Clicking on Component (CTRL LMB): SplineMeshComponent (NODE_AddSplineMeshComponent-8_2)
+[2021.03.03-18.12.24:310][909]LogEditorViewport: Clicking on Component (LMB): SplineMeshComponent (NODE_AddSplineMeshComponent-8_2)
+[2021.03.03-18.12.29:985][198]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2021.03.03-18.12.30:498][198]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv17548A83644435A6454430A818D03FDE6.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.03-18.12.30:575][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Level/Map_VN_lv1_BuiltData" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset" SILENT=true
+[2021.03.03-18.12.34:571][198]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_BuiltData4563FF904A712607B6960DBB5F720924.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset'
+[2021.03.03-18.12.34:619][198]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.03-18.12.34:619][198]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.03-18.12.34:619][198]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyContent/VN/Level/Map_VN_lv1_BuiltData.Map_VN_lv1_BuiltData
+[2021.03.03-19.36.48:199][358]Cmd: ACTOR HIDE SELECTED
+[2021.03.03-19.36.50:118][449]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralBuilding_C (BP_ProceduralBuilding)
+[2021.03.03-19.37.08:388][596]LogUObjectHash: Compacting FUObjectHashTables data took   8.05ms
+[2021.03.03-19.37.09:027][596]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv15B5982824D03288740A77C83E716FE71.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.03-19.37.09:096][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Level/Map_VN_lv1_BuiltData" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset" SILENT=true
+[2021.03.03-19.37.11:063][596]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_BuiltDataDC5267484DBDD8E8E0BEDA8D046403E5.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset'
+[2021.03.03-19.37.11:102][596]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.03-19.37.11:102][596]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.03-19.37.11:102][596]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyContent/VN/Level/Map_VN_lv1_BuiltData.Map_VN_lv1_BuiltData
+[2021.03.03-19.37.43:951][232]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralBuilding_C (BP_ProceduralBuilding2)
+[2021.03.03-19.37.50:983][518]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/VN/BP/BP_ProceduralBuilding.BP_ProceduralBuilding
+[2021.03.03-19.38.09:273][340]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-19.38.09:605][340]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2021.03.03-19.38.37:179][910]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-19.38.37:512][910]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2021.03.03-19.38.38:165][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/BP_ProceduralBuilding" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset" SILENT=true
+[2021.03.03-19.38.38:252][935]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralBuilding53258A284AA493E29CE794AB170631C3.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset'
+[2021.03.03-19.38.38:279][935]AssetCheck: New page: Asset Save: BP_ProceduralBuilding
+[2021.03.03-19.38.38:279][935]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/BP_ProceduralBuilding.BP_ProceduralBuilding
+[2021.03.03-19.39.29:974][ 80]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-19.39.30:313][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2021.03.03-19.40.03:159][833]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-19.40.03:498][833]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2021.03.03-19.40.16:938][462]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-19.40.17:280][462]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2021.03.03-19.40.36:246][605]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-19.40.36:581][605]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2021.03.03-19.41.12:180][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/BP_ProceduralBuilding" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset" SILENT=true
+[2021.03.03-19.41.12:251][222]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralBuilding2ABF97B14C3AA927884049B1AC98D13A.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset'
+[2021.03.03-19.41.12:266][222]AssetCheck: New page: Asset Save: BP_ProceduralBuilding
+[2021.03.03-19.41.12:266][222]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/BP_ProceduralBuilding.BP_ProceduralBuilding
+[2021.03.03-19.43.04:043][473]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-19.43.04:383][473]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2021.03.03-19.43.04:910][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/BP_ProceduralBuilding" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset" SILENT=true
+[2021.03.03-19.43.04:979][487]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralBuilding43559A234292C1F5722995B5BE43CF1B.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset'
+[2021.03.03-19.43.04:995][487]AssetCheck: New page: Asset Save: BP_ProceduralBuilding
+[2021.03.03-19.43.04:995][487]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/BP_ProceduralBuilding.BP_ProceduralBuilding
+[2021.03.03-19.43.19:679][186]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-19.43.20:017][186]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2021.03.03-19.43.52:748][900]LogRenderer: Reallocating scene render targets to support 1100x932 Format 10 NumSamples 1 (Frame:1).
+[2021.03.03-19.44.20:109][128]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-19.44.20:457][128]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2021.03.03-19.44.21:009][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/BP/BP_ProceduralBuilding" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset" SILENT=true
+[2021.03.03-19.44.21:187][141]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralBuilding30D7774E4E06533EBFBCD58C60215B66.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/BP/BP_ProceduralBuilding.uasset'
+[2021.03.03-19.44.21:204][141]AssetCheck: New page: Asset Save: BP_ProceduralBuilding
+[2021.03.03-19.44.21:204][141]LogContentValidation: Display: Validating Blueprint /Game/MyContent/VN/BP/BP_ProceduralBuilding.BP_ProceduralBuilding
+[2021.03.03-19.44.40:417][335]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.03.03-19.44.40:441][336]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2021.03.03-19.44.40:441][336]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2021.03.03-19.44.40:441][336]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2021.03.03-19.44.40:441][336]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.03.03-19.44.48:210][816]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/MyContent/VN/Mesh/Materials/NewMaterial.NewMaterial
+[2021.03.03-19.44.48:214][816]LogMaterial: Display: Missing cached shader map for material NewMaterial, compiling. 
+[2021.03.03-19.44.48:277][816]LogSlate: Warning: The tab "MaterialEditor_Stats" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2021.03.03-19.44.48:338][816]LogMaterial: Display: Missing cached shader map for material NewMaterial, compiling. 
+[2021.03.03-19.44.48:352][816]LogMaterial: Display: Missing cached shader map for material NewMaterial, compiling. 
+[2021.03.03-19.44.48:368][816]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 11
+[2021.03.03-19.44.48:368][816]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 10
+[2021.03.03-19.44.48:368][816]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 9
+[2021.03.03-19.44.48:368][816]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 8
+[2021.03.03-19.44.48:368][816]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 7
+[2021.03.03-19.44.48:368][816]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 6
+[2021.03.03-19.44.48:368][816]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 5
+[2021.03.03-19.44.48:368][816]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
+[2021.03.03-19.44.48:368][816]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 3
+[2021.03.03-19.44.48:368][816]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 2
+[2021.03.03-19.44.48:368][816]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 1
+[2021.03.03-19.44.48:373][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.03.03-19.44.48:467][816]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 4
+[2021.03.03-19.44.48:962][827]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 3
+[2021.03.03-19.44.48:962][827]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2021.03.03-19.44.48:999][828]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.03.03-19.44.49:238][838]MaterialEditorStats: Base pass shader: 118 instructions
+[2021.03.03-19.44.49:238][838]MaterialEditorStats: Base pass shader with Surface Lightmap: 145 instructions
+[2021.03.03-19.44.49:238][838]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2021.03.03-19.44.49:238][838]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2021.03.03-19.44.49:238][838]MaterialEditorStats: Texture samplers: 2/16
+[2021.03.03-19.44.53:927][244]LogMaterial: Display: Missing cached shader map for material NewMaterial, compiling. 
+[2021.03.03-19.44.53:940][244]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.03.03-19.44.53:949][244]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 11
+[2021.03.03-19.44.53:949][244]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 10
+[2021.03.03-19.44.53:949][244]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 9
+[2021.03.03-19.44.53:949][244]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 8
+[2021.03.03-19.44.53:949][244]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 7
+[2021.03.03-19.44.53:949][244]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 6
+[2021.03.03-19.44.53:949][244]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 5
+[2021.03.03-19.44.53:949][244]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
+[2021.03.03-19.44.53:949][244]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 3
+[2021.03.03-19.44.53:949][244]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 2
+[2021.03.03-19.44.53:949][244]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 1
+[2021.03.03-19.44.53:953][244]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.03.03-19.44.53:971][244]LogMaterial: Display: Missing cached shader map for material NewMaterial, compiling. 
+[2021.03.03-19.44.53:991][244]LogMaterial: Display: Missing cached shader map for material NewMaterial, compiling. 
+[2021.03.03-19.44.54:014][244]LogMaterial: Display: Missing cached shader map for material NewMaterial, compiling. 
+[2021.03.03-19.44.54:033][244]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 15
+[2021.03.03-19.44.54:041][244]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.03.03-19.44.54:385][251]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 15
+[2021.03.03-19.44.54:436][253]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 14
+[2021.03.03-19.44.54:440][253]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 13
+[2021.03.03-19.44.54:569][258]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 12
+[2021.03.03-19.44.54:569][258]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 11
+[2021.03.03-19.44.54:593][259]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 10
+[2021.03.03-19.44.54:593][259]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 9
+[2021.03.03-19.44.54:593][259]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 8
+[2021.03.03-19.44.54:644][261]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 7
+[2021.03.03-19.44.54:644][261]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 6
+[2021.03.03-19.44.54:644][261]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 5
+[2021.03.03-19.44.54:644][261]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2021.03.03-19.44.55:019][272]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 3
+[2021.03.03-19.44.55:023][272]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 2
+[2021.03.03-19.44.55:051][273]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.03.03-19.44.55:258][282]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.03.03-19.44.55:258][282]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2021.03.03-19.44.55:258][282]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.03.03-19.44.55:258][282]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2021.03.03-19.44.55:258][282]MaterialEditorStats: Texture samplers: 2/16
+[2021.03.03-19.45.06:632][202]LogMaterialEditor: Applying material NewMaterial
+[2021.03.03-19.45.07:076][202]LogMaterial: Display: Missing cached shader map for material NewMaterial, compiling. 
+[2021.03.03-19.45.07:119][202]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 11
+[2021.03.03-19.45.07:119][202]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 10
+[2021.03.03-19.45.07:119][202]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 9
+[2021.03.03-19.45.07:119][202]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 8
+[2021.03.03-19.45.07:119][202]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 7
+[2021.03.03-19.45.07:119][202]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 6
+[2021.03.03-19.45.07:119][202]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 5
+[2021.03.03-19.45.07:119][202]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
+[2021.03.03-19.45.07:119][202]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 3
+[2021.03.03-19.45.07:119][202]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 2
+[2021.03.03-19.45.07:119][202]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 1
+[2021.03.03-19.45.07:139][202]LogMaterial: Display: Missing cached shader map for material NewMaterial, compiling. 
+[2021.03.03-19.45.07:229][202]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 24
+[2021.03.03-19.45.07:236][202]LogUObjectHash: Compacting FUObjectHashTables data took   5.17ms
+[2021.03.03-19.45.07:266][202]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.03-19.45.07:817][202]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 23
+[2021.03.03-19.45.07:817][202]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 22
+[2021.03.03-19.45.07:817][202]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 21
+[2021.03.03-19.45.07:817][202]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 19
+[2021.03.03-19.45.07:817][202]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 17
+[2021.03.03-19.45.07:817][202]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 15
+[2021.03.03-19.45.07:817][202]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 13
+[2021.03.03-19.45.07:817][202]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 11
+[2021.03.03-19.45.07:817][202]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.03.03-19.45.07:817][202]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.03.03-19.45.07:817][202]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 7
+[2021.03.03-19.45.07:817][202]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 6
+[2021.03.03-19.45.07:817][202]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 5
+[2021.03.03-19.45.07:821][202]TextureStreamingBuild: Display: Compiling optional shaders took 0.569 seconds.
+[2021.03.03-19.45.07:876][202]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.03.03-19.45.08:209][208]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 4
+[2021.03.03-19.45.08:241][209]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 3
+[2021.03.03-19.45.08:273][211]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.03.03-19.45.08:281][211]LogMaterialEditor: Saving and Compiling material NewMaterial
+[2021.03.03-19.45.08:817][211]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1
+[2021.03.03-19.45.08:831][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/Materials/NewMaterial" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/NewMaterial.uasset" SILENT=true
+[2021.03.03-19.45.08:859][211]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/NewMaterial47C28F134BBDD33E05D0A792028CF779.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/NewMaterial.uasset'
+[2021.03.03-19.45.08:886][211]AssetCheck: New page: Asset Save: NewMaterial
+[2021.03.03-19.45.08:886][211]LogContentValidation: Display: Validating Material /Game/MyContent/VN/Mesh/Materials/NewMaterial.NewMaterial
+[2021.03.03-19.45.08:886][211]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.03.03-19.45.08:886][211]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2021.03.03-19.45.08:886][211]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.03.03-19.45.08:886][211]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2021.03.03-19.45.08:886][211]MaterialEditorStats: Texture samplers: 3/16
+[2021.03.03-19.45.14:752][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/Materials/Mat_MATTE" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_MATTE.uasset" SILENT=true
+[2021.03.03-19.45.14:767][531]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_MATTED6F025EB42ECFB1FAA4495A69B22D392.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_MATTE.uasset'
+[2021.03.03-19.45.14:982][531]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2021.03.03-19.45.15:047][531]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.03.03-19.45.15:075][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2021.03.03-19.45.15:183][531]AssetCheck: New page: Asset Save: Mat_MATTE
+[2021.03.03-19.45.15:183][531]LogContentValidation: Display: Validating Material /Game/MyContent/VN/Mesh/Materials/Mat_MATTE.Mat_MATTE
+[2021.03.03-19.45.25:710][152]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_grey466358D7468D60262868F28E2B383705.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_grey.uasset'
+[2021.03.03-19.45.25:918][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.03.03-19.45.25:980][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.03.03-19.45.26:008][152]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2021.03.03-19.45.26:114][152]AssetCheck: New page: Asset Save: Mat_grey
+[2021.03.03-19.45.26:114][152]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_grey.Mat_grey
+[2021.03.03-19.45.29:427][336]LogMaterialEditor: Saving and Compiling material Mat_MATTE
+[2021.03.03-19.45.29:456][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/Materials/Mat_MATTE" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_MATTE.uasset" SILENT=true
+[2021.03.03-19.45.29:470][336]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_MATTEF1AC587D42F145CAAE21D98FC9095C4E.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Mat_MATTE.uasset'
+[2021.03.03-19.45.29:483][336]AssetCheck: New page: Asset Save: Mat_MATTE
+[2021.03.03-19.45.29:483][336]LogContentValidation: Display: Validating Material /Game/MyContent/VN/Mesh/Materials/Mat_MATTE.Mat_MATTE
+[2021.03.03-19.45.40:059][793]BlueprintLog: New page: Compile BP_ProceduralBuilding
+[2021.03.03-19.45.40:388][793]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2021.03.03-19.45.41:945][869]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_grey.Mat_grey
+[2021.03.03-19.45.44:561][ 19]LogMaterial: Display: Missing cached shader map for material Mat_MATTE, compiling. 
+[2021.03.03-19.45.44:585][ 19]LogMaterial: Display: Missing cached shader map for material Mat_MATTE, compiling. 
+[2021.03.03-19.45.44:618][ 20]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 29
+[2021.03.03-19.45.44:618][ 20]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 26
+[2021.03.03-19.45.44:618][ 20]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 23
+[2021.03.03-19.45.44:618][ 20]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 20
+[2021.03.03-19.45.44:618][ 20]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 17
+[2021.03.03-19.45.44:618][ 20]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 14
+[2021.03.03-19.45.44:618][ 20]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 11
+[2021.03.03-19.45.44:618][ 20]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 8
+[2021.03.03-19.45.44:618][ 20]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 5
+[2021.03.03-19.45.44:618][ 20]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 2
+[2021.03.03-19.45.44:708][ 22]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 29
+[2021.03.03-19.45.44:708][ 22]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 26
+[2021.03.03-19.45.45:507][ 45]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 23
+[2021.03.03-19.45.45:544][ 46]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 21
+[2021.03.03-19.45.45:547][ 46]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 19
+[2021.03.03-19.45.45:571][ 47]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 17
+[2021.03.03-19.45.45:739][ 51]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 15
+[2021.03.03-19.45.45:858][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   7.89ms
+[2021.03.03-19.45.45:879][ 51]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.03-19.45.46:703][ 51]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 15
+[2021.03.03-19.45.46:703][ 51]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 14
+[2021.03.03-19.45.46:703][ 51]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 13
+[2021.03.03-19.45.46:703][ 51]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 11
+[2021.03.03-19.45.46:703][ 51]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 10
+[2021.03.03-19.45.46:703][ 51]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 9
+[2021.03.03-19.45.46:703][ 51]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 8
+[2021.03.03-19.45.46:703][ 51]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 7
+[2021.03.03-19.45.46:703][ 51]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 6
+[2021.03.03-19.45.46:703][ 51]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 5
+[2021.03.03-19.45.46:703][ 51]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.03.03-19.45.46:703][ 51]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 3
+[2021.03.03-19.45.46:706][ 51]TextureStreamingBuild: Display: Compiling optional shaders took 0.837 seconds.
+[2021.03.03-19.45.46:757][ 51]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 2
+[2021.03.03-19.45.46:757][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.03.03-19.45.46:841][ 51]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-19.45.46:841][ 51]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_grey40F1ABCB43615B908B36089147BF9C28.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_grey.uasset'
+[2021.03.03-19.45.46:945][ 51]AssetCheck: New page: Asset Save: Mat_grey
+[2021.03.03-19.45.46:945][ 51]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_grey.Mat_grey
+[2021.03.03-19.45.48:258][133]LogSlate: Window 'Mat_grey' being destroyed
+[2021.03.03-19.45.48:265][133]LogSlate: Window 'Mat_grey' being destroyed
+[2021.03.03-19.45.48:292][133]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.03.03-19.45.48:293][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-19.45.48:443][133]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.03.03-19.45.48:443][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-19.45.48:489][133]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.03.03-19.45.48:489][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-19.45.50:109][185]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralBuilding_C (BP_ProceduralBuilding2)
+[2021.03.03-19.47.08:777][140]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.03.03-19.47.09:389][140]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_Auto4D045BBAB451248F3C9055F8DAC054302.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Level/Map_VN_lv1_Auto4.umap'
+[2021.03.03-19.47.09:392][140]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/VN/Level/Map_VN_lv1' took 0.644
+[2021.03.03-19.47.09:392][140]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.644
+[2021.03.03-19.47.09:392][140]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyContent/VN/BP/BP_ProceduralBuilding] ([1] browsable assets)...
+[2021.03.03-19.47.09:392][140]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/BP/BP_ProceduralBuilding]
+[2021.03.03-19.47.09:595][140]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/BP_ProceduralBuilding_Auto4502348E1451E2FFF31AD0A937C42CB07.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/BP/BP_ProceduralBuilding_Auto4.uasset'
+[2021.03.03-19.47.09:596][140]LogFileHelpers: Auto-saving content packages took 0.204
+[2021.03.03-19.47.10:202][166]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2021.03.03-19.47.10:645][166]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1F732769D4B928528DEE6A3BAFD02AE39.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.03-19.47.10:705][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Level/Map_VN_lv1_BuiltData" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset" SILENT=true
+[2021.03.03-19.47.13:286][166]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_BuiltData7605F4E048B9A32AD94C299EF3F84FCE.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset'
+[2021.03.03-19.47.13:933][166]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.03-19.47.13:933][166]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.03-19.47.13:933][166]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyContent/VN/Level/Map_VN_lv1_BuiltData.Map_VN_lv1_BuiltData
+[2021.03.03-21.27.03:624][823]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{32f8acd9-25b2-4890-9411-f0e09346b06a}.
+[2021.03.03-21.27.03:624][823]LogTemp: Resetting audio stream to device id 
+[2021.03.03-21.27.03:675][823]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.03-21.27.03:675][823]LogAudioMixer: Display: Name: Speakers (Logitech G430 Gaming Headset)
+[2021.03.03-21.27.03:675][823]LogAudioMixer: Display: Is Default: Yes
+[2021.03.03-21.27.03:675][823]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.03-21.27.03:675][823]LogAudioMixer: Display: Channel Count Used: 8
+[2021.03.03-21.27.03:675][823]LogAudioMixer: Display: Device Channel Count: 8
+[2021.03.03-21.27.03:675][823]LogAudioMixer: Display: Channel Order:
+[2021.03.03-21.27.03:675][823]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.03-21.27.03:675][823]LogAudioMixer: Display: 1: FrontRight
+[2021.03.03-21.27.03:675][823]LogAudioMixer: Display: 2: FrontCenter
+[2021.03.03-21.27.03:675][823]LogAudioMixer: Display: 3: LowFrequency
+[2021.03.03-21.27.03:675][823]LogAudioMixer: Display: 4: BackLeft
+[2021.03.03-21.27.03:675][823]LogAudioMixer: Display: 5: BackRight
+[2021.03.03-21.27.03:675][823]LogAudioMixer: Display: 6: SideLeft
+[2021.03.03-21.27.03:675][823]LogAudioMixer: Display: 7: SideRight
+[2021.03.04-03.00.25:146][692]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{4f69fe94-acee-4f2a-9553-df2f697e7bc2}.
+[2021.03.04-03.00.25:146][692]LogTemp: Resetting audio stream to device id 
+[2021.03.04-03.00.25:210][692]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.04-03.00.25:210][692]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2021.03.04-03.00.25:210][692]LogAudioMixer: Display: Is Default: Yes
+[2021.03.04-03.00.25:210][692]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.04-03.00.25:210][692]LogAudioMixer: Display: Channel Count Used: 2
+[2021.03.04-03.00.25:210][692]LogAudioMixer: Display: Device Channel Count: 2
+[2021.03.04-03.00.25:210][692]LogAudioMixer: Display: Channel Order:
+[2021.03.04-03.00.25:210][692]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.04-03.00.25:210][692]LogAudioMixer: Display: 1: FrontRight
