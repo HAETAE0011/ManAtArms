@@ -1,4 +1,4 @@
-﻿Log file open, 03/04/21 16:55:15
+﻿Log file open, 03/16/21 15:20:01
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: ManAtArms_Project
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.078625
+LogStats: Stats thread started at 0.337357
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -165,563 +165,781 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:1]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
-[2021.03.04-21.55.16:198][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.03.04-21.55.16:198][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
-[2021.03.04-21.55.16:198][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
-[2021.03.04-21.55.16:204][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
-[2021.03.04-21.55.16:204][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.03.04-21.55.16:204][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.03.04-21.55.16:204][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
-[2021.03.04-21.55.16:204][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.03.04-21.55.16:204][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
-[2021.03.04-21.55.16:204][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.03.04-21.55.16:205][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.03.04-21.55.16:206][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.03.04-21.55.16:207][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.03.04-21.55.16:207][  0]LogInit: Selected Device Profile: [Windows]
-[2021.03.04-21.55.16:207][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.03.04-21.55.16:209][  0]LogHAL: Display: Platform has ~ 32 GB [34301575168 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.03.04-21.55.16:209][  0]LogInit: Going up to parent DeviceProfile []
-[2021.03.04-21.55.16:209][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
-[2021.03.04-21.55.16:209][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.03.04-21.55.16:209][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
-[2021.03.04-21.55.16:209][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
-[2021.03.04-21.55.16:209][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
-[2021.03.04-21.55.16:209][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SSR.Quality:4]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SSGI.Quality:4]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:2]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:32.0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:8.0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:30.0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:20.0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:64]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:1]]
-[2021.03.04-21.55.16:210][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:32]]
-[2021.03.04-21.55.16:211][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.03.04-21.55.16:211][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.03.04-21.55.16:211][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.03.04-21.55.16:211][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
-[2021.03.04-21.55.16:211][  0]LogInit: Computer: HAETAE02
-[2021.03.04-21.55.16:211][  0]LogInit: User: john0
-[2021.03.04-21.55.16:211][  0]LogInit: CPU Page size=4096, Cores=8
-[2021.03.04-21.55.16:211][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.03.04-21.55.16:211][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2021.03.04-21.55.16:211][  0]LogMemory: Platform Memory Stats for Windows
-[2021.03.04-21.55.16:211][  0]LogMemory: Process Physical Memory: 109.71 MB used, 109.71 MB peak
-[2021.03.04-21.55.16:211][  0]LogMemory: Process Virtual Memory: 107.58 MB used, 107.58 MB peak
-[2021.03.04-21.55.16:211][  0]LogMemory: Physical Memory: 19966.91 MB used,  12745.63 MB free, 32712.53 MB total
-[2021.03.04-21.55.16:211][  0]LogMemory: Virtual Memory: 5161.75 MB used,  134212568.00 MB free, 134217728.00 MB total
-[2021.03.04-21.55.16:217][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.03.04-21.55.16:252][  0]LogInit: Using OS detected language (en-GB).
-[2021.03.04-21.55.16:252][  0]LogInit: Using OS detected locale (en-CA).
-[2021.03.04-21.55.16:253][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2021.03.04-21.55.16:418][  0]LogInit: Setting process to per monitor DPI aware
-[2021.03.04-21.55.16:474][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.03.04-21.55.16:474][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.03.04-21.55.16:638][  0]LogD3D12RHI: Aftermath initialized
-[2021.03.04-21.55.16:638][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/DirectX/x64).
-[2021.03.04-21.55.16:774][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 2070 SUPER (Max supported Feature Level 12_1)
-[2021.03.04-21.55.16:775][  0]LogD3D12RHI: Adapter has 8011MB of dedicated video memory, 0MB of dedicated system memory, and 16356MB of shared system memory, 2 output[s]
-[2021.03.04-21.55.16:878][  0]LogD3D12RHI: Found D3D12 adapter 1: NVIDIA GeForce RTX 2070 SUPER (Max supported Feature Level 12_1)
-[2021.03.04-21.55.16:878][  0]LogD3D12RHI: Adapter has 8011MB of dedicated video memory, 0MB of dedicated system memory, and 16356MB of shared system memory, 0 output[s]
-[2021.03.04-21.55.16:888][  0]LogD3D12RHI: Found D3D12 adapter 2: Microsoft Basic Render Driver (Max supported Feature Level 12_1)
-[2021.03.04-21.55.16:888][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 16356MB of shared system memory, 0 output[s]
-[2021.03.04-21.55.16:888][  0]LogD3D12RHI: Forcing D3D12.AsyncDeferredDeletion=0 as a workaround for a deadlock.
-[2021.03.04-21.55.16:888][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
-[2021.03.04-21.55.16:900][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
-[2021.03.04-21.55.16:986][  0]LogD3D12RHI: The system supports ID3D12Device1.
-[2021.03.04-21.55.16:986][  0]LogD3D12RHI: The system supports ID3D12Device2.
-[2021.03.04-21.55.17:065][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
-[2021.03.04-21.55.17:065][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
-[2021.03.04-21.55.17:066][  0]LogD3D12RHI:     GPU DeviceId: 0x1e84 (for the marketing name, search the web for "GPU Device Id")
-[2021.03.04-21.55.17:066][  0]LogWindows: EnumDisplayDevices:
-[2021.03.04-21.55.17:066][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070 SUPER' (P:1 D:1)
-[2021.03.04-21.55.17:066][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:1)
-[2021.03.04-21.55.17:067][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
-[2021.03.04-21.55.17:067][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
-[2021.03.04-21.55.17:067][  0]LogWindows:    4. 'Citrix Indirect Display Adapter' (P:0 D:0)
-[2021.03.04-21.55.17:067][  0]LogWindows:    5. 'Citrix Indirect Display Adapter' (P:0 D:0)
-[2021.03.04-21.55.17:067][  0]LogWindows:    6. 'Citrix Indirect Display Adapter' (P:0 D:0)
-[2021.03.04-21.55.17:067][  0]LogWindows:    7. 'Citrix Indirect Display Adapter' (P:0 D:0)
-[2021.03.04-21.55.17:068][  0]LogWindows:    8. 'Citrix Indirect Display Adapter' (P:0 D:0)
-[2021.03.04-21.55.17:068][  0]LogWindows:    9. 'Citrix Indirect Display Adapter' (P:0 D:0)
-[2021.03.04-21.55.17:068][  0]LogWindows:    10. 'Citrix Indirect Display Adapter' (P:0 D:0)
-[2021.03.04-21.55.17:068][  0]LogWindows:    11. 'Citrix Indirect Display Adapter' (P:0 D:0)
-[2021.03.04-21.55.17:068][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2021.03.04-21.55.17:068][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce RTX 2070 SUPER
-[2021.03.04-21.55.17:068][  0]LogD3D12RHI:   Driver Version: 461.40 (internal:27.21.14.6140, unified:461.40)
-[2021.03.04-21.55.17:068][  0]LogD3D12RHI:      Driver Date: 1-22-2021
-[2021.03.04-21.55.17:068][  0]LogRHI: Texture pool is 4563 MB (70% of 6518 MB)
-[2021.03.04-21.55.17:068][  0]LogD3D12RHI: Async texture creation enabled
-[2021.03.04-21.55.17:068][  0]LogD3D12RHI: RHI has support for 64 bit atomics
-[2021.03.04-21.55.17:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.03.04-21.55.17:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.03.04-21.55.17:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.03.04-21.55.17:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2021.03.04-21.55.17:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.03.04-21.55.17:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2021.03.04-21.55.17:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2021.03.04-21.55.17:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.03.04-21.55.17:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2021.03.04-21.55.17:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.03.04-21.55.17:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.03.04-21.55.17:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2021.03.04-21.55.17:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.03.04-21.55.17:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2021.03.04-21.55.17:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2021.03.04-21.55.17:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.03.04-21.55.17:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2021.03.04-21.55.17:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.03.04-21.55.17:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.03.04-21.55.17:393][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.03.04-21.55.17:393][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.03.04-21.55.17:399][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.03.04-21.55.17:405][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.03.04-21.55.17:411][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.03.04-21.55.17:417][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.03.04-21.55.17:423][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.03.04-21.55.17:429][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.03.04-21.55.17:449][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.03.04-21.55.17:449][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.03.04-21.55.17:461][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.03.04-21.55.17:461][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.03.04-21.55.17:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.03.04-21.55.17:473][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.03.04-21.55.17:479][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.03.04-21.55.17:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.03.04-21.55.17:485][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.03.04-21.55.17:488][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.03.04-21.55.17:509][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../GitHub/ManAtArms/ManAtArms_Project/Intermediate/Shaders/WorkingDirectory/27828/).
-[2021.03.04-21.55.17:509][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/john0/AppData/Local/Temp/UnrealShaderWorkingDir/1D28794045B73C8FD246EDAFF1EB2FC3/'.
-[2021.03.04-21.55.17:509][  0]LogXGEController: Cleaning working directory: C:/Users/john0/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2021.03.04-21.55.17:509][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.03.04-21.55.17:509][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.03.04-21.55.17:509][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.03.04-21.55.18:105][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.03.04-21.55.18:149][  0]LogDerivedDataCache: Loaded boot cache 0.04s 78MB C:/Users/john0/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2021.03.04-21.55.18:150][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/john0/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2021.03.04-21.55.18:150][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHub/ManAtArms/ManAtArms_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.03.04-21.55.18:150][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.03.04-21.55.18:150][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHub/ManAtArms/ManAtArms_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.03.04-21.55.18:150][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.03.04-21.55.18:159][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.03.04-21.55.18:159][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.03.04-21.55.18:159][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.03.04-21.55.18:160][  0]LogDerivedDataCache: Using Local data cache path C:/Users/john0/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.03.04-21.55.18:160][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.03.04-21.55.18:160][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.03.04-21.55.18:182][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2021.03.04-21.55.18:184][  0]LogSlate: Using FreeType 2.10.0
-[2021.03.04-21.55.18:185][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.03.04-21.55.18:234][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
-[2021.03.04-21.55.18:477][  0]LogInit: Selected Device Profile: [Windows]
-[2021.03.04-21.55.18:605][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.03.04-21.55.18:605][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.03.04-21.55.18:605][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.03.04-21.55.18:605][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.03.04-21.55.18:606][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.03.04-21.55.18:615][  0]LogNetVersion: ManAtArms_Project 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 3666147968)
-[2021.03.04-21.55.19:507][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.055090 seconds
-[2021.03.04-21.55.19:514][  0]LogUObjectArray: 46098 objects as part of root set at end of initial load.
-[2021.03.04-21.55.19:514][  0]LogUObjectAllocator: 8030680 out of 0 bytes used by permanent object pool.
-[2021.03.04-21.55.19:514][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.03.04-21.55.19:855][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.03.04-21.55.19:858][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.03.04-21.55.19:921][  0]SourceControl: Source control is disabled
-[2021.03.04-21.55.19:921][  0]SourceControl: Source control is disabled
-[2021.03.04-21.55.19:922][  0]SourceControl: Source control is disabled
-[2021.03.04-21.55.19:923][  0]SourceControl: Source control is disabled
-[2021.03.04-21.55.19:923][  0]SourceControl: Source control is disabled
-[2021.03.04-21.55.20:078][  0]LogHoudiniEngine: Starting the Houdini Engine module...
-[2021.03.04-21.55.20:079][  0]LogHoudiniEngine: Loaded libHAPIL.dll from Registry path Z:/SteamLibrary/steamapps/common/Houdini Indie/bin
-[2021.03.04-21.55.20:080][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/4.24-v2/HoudiniEngine/Content/houdini_default_material.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2021.03.04-21.55.20:084][  0]LogMaterial: Display: Missing cached shader map for material houdini_default_material, compiling. 
-[2021.03.04-21.55.20:120][  0]LogStaticMesh: Building static mesh houdini_logo...
-[2021.03.04-21.55.20:182][  0]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 29
-[2021.03.04-21.55.20:182][  0]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 26
-[2021.03.04-21.55.20:182][  0]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 23
-[2021.03.04-21.55.20:182][  0]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 20
-[2021.03.04-21.55.20:182][  0]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 17
-[2021.03.04-21.55.20:182][  0]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 14
-[2021.03.04-21.55.20:182][  0]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 11
-[2021.03.04-21.55.20:182][  0]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 8
-[2021.03.04-21.55.20:182][  0]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 5
-[2021.03.04-21.55.20:182][  0]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 2
-[2021.03.04-21.55.20:182][  0]LogStaticMesh: Built static mesh [0.06s] /HoudiniEngine/houdini_logo.houdini_logo
-[2021.03.04-21.55.20:190][  0]LogMaterial: Display: Missing cached shader map for material houdini_templated_material, compiling. 
-[2021.03.04-21.55.20:239][  0]LogTexture: Display: Building textures: big_question_mark (BGRA8, 512X513)
-[2021.03.04-21.55.20:239][  0]LogMaterial: Display: Missing cached shader map for material default_reference_static_mesh_material, compiling. 
-[2021.03.04-21.55.20:249][  0]LogStaticMesh: Building static mesh default_reference_static_mesh...
-[2021.03.04-21.55.20:252][  0]LogStaticMesh: Built static mesh [0.00s] /HoudiniEngine/default_reference_static_mesh.default_reference_static_mesh
-[2021.03.04-21.55.20:256][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.03.04-21.55.20:270][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.03.04-21.55.20:270][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.03.04-21.55.20:371][  0]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 78
-[2021.03.04-21.55.20:371][  0]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 71
-[2021.03.04-21.55.20:371][  0]LogShaderCompilers: Display: Worker (13/13): shaders left to compile 64
-[2021.03.04-21.55.20:371][  0]LogEngine: Initializing Engine...
-[2021.03.04-21.55.20:373][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.03.04-21.55.20:658][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.03.04-21.55.20:664][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.03.04-21.55.20:666][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.03.04-21.55.20:666][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.03.04-21.55.20:666][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.03.04-21.55.20:666][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.03.04-21.55.20:666][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.03.04-21.55.20:666][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.03.04-21.55.20:666][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.03.04-21.55.20:666][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.03.04-21.55.20:666][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.03.04-21.55.20:666][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.03.04-21.55.20:700][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2021.03.04-21.55.20:700][  0]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
-[2021.03.04-21.55.20:700][  0]LogAudioMixer: Display: Is Default: Yes
-[2021.03.04-21.55.20:700][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2021.03.04-21.55.20:700][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2021.03.04-21.55.20:700][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2021.03.04-21.55.20:700][  0]LogAudioMixer: Display: Channel Order:
-[2021.03.04-21.55.20:700][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.03.04-21.55.20:700][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.03.04-21.55.20:752][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
-[2021.03.04-21.55.20:758][  0]LogInit: FAudioDevice initialized.
-[2021.03.04-21.55.20:758][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.03.04-21.55.20:917][  0]LogDerivedDataCache: Saved boot cache 0.16s 80MB C:/Users/john0/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2021.03.04-21.55.20:927][  0]LogInit: Texture streaming: Enabled
-[2021.03.04-21.55.20:940][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.03.04-21.55.20:940][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.03.04-21.55.20:941][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.03.04-21.55.21:032][  0]LogInit: Transaction tracking system initialized
-[2021.03.04-21.55.21:045][  0]BlueprintLog: New page: Editor Load
-[2021.03.04-21.55.21:088][  0]LocalizationService: Localization service is disabled
-[2021.03.04-21.55.21:355][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.03.04-21.55.21:355][  0]LogCook: Display: Mobile HDR setting 1
-[2021.03.04-21.55.21:451][  0]LogFileCache: Scanning file cache for directory 'Z:/GitHub/ManAtArms/ManAtArms_Project/Content/' took 0.01s
-[2021.03.04-21.55.21:451][  0]LogHoudiniEngineEditor: Starting the Houdini Engine Editor module.
-[2021.03.04-21.55.21:755][  0]LogHoudiniEngineEditor: Houdini Spline Component Visualizer Registered!
-[2021.03.04-21.55.21:756][  0]LogHoudiniEngineEditor: Houdini Engine Editor module startup complete.
-[2021.03.04-21.55.21:836][  0]SourceControl: Source control is disabled
-[2021.03.04-21.55.21:837][  0]Cmd: MAP LOAD FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.03.04-21.55.21:837][  0]LightingResults: New page: Lighting Build
-[2021.03.04-21.55.21:838][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.03.04-21.55.21:838][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.03.04-21.55.21:838][  0]MapCheck: New page: Map Check
-[2021.03.04-21.55.21:838][  0]LightingResults: New page: Lighting Build
-[2021.03.04-21.55.21:880][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
-[2021.03.04-21.55.22:547][  0]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 57
-[2021.03.04-21.55.22:547][  0]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 52
-[2021.03.04-21.55.22:547][  0]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 47
-[2021.03.04-21.55.24:098][  0]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 43
-[2021.03.04-21.55.24:098][  0]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 39
-[2021.03.04-21.55.24:099][  0]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 35
-[2021.03.04-21.55.24:099][  0]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 32
-[2021.03.04-21.55.24:099][  0]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 29
-[2021.03.04-21.55.24:099][  0]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 26
-[2021.03.04-21.55.24:099][  0]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 23
-[2021.03.04-21.55.24:099][  0]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 21
-[2021.03.04-21.55.24:099][  0]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 19
-[2021.03.04-21.55.24:099][  0]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 17
-[2021.03.04-21.55.24:099][  0]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 15
-[2021.03.04-21.55.24:099][  0]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 13
-[2021.03.04-21.55.24:099][  0]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 11
-[2021.03.04-21.55.24:099][  0]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 10
-[2021.03.04-21.55.24:099][  0]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 9
-[2021.03.04-21.55.24:099][  0]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 8
-[2021.03.04-21.55.24:099][  0]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 7
-[2021.03.04-21.55.24:099][  0]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
-[2021.03.04-21.55.24:099][  0]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
-[2021.03.04-21.55.24:120][  0]LogAIModule: Creating AISystem for world Map_VN_lv1
-[2021.03.04-21.55.24:138][  0]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 4
-[2021.03.04-21.55.24:299][  0]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 3
-[2021.03.04-21.55.24:299][  0]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
-[2021.03.04-21.55.24:299][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.03.04-21.55.24:354][  0]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
-[2021.03.04-21.55.24:372][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.04ms
-[2021.03.04-21.55.24:374][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.03.04-21.55.24:375][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.488ms to complete.
-[2021.03.04-21.55.24:375][  0]LogFileHelpers: Loading map 'Map_VN_lv1' took 2.538
-[2021.03.04-21.55.24:580][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.03.04-21.55.24:591][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.03.04-21.55.24:604][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.03.04-21.55.24:616][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.03.04-21.55.24:623][  0]LogCollectionManager: Loaded 0 collections in 0.001872 seconds
-[2021.03.04-21.55.24:647][  0]LogFileCache: Scanning file cache for directory 'Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Collections/' took 0.00s
-[2021.03.04-21.55.24:647][  0]LogFileCache: Scanning file cache for directory 'Z:/GitHub/ManAtArms/ManAtArms_Project/Content/Developers/john0/Collections/' took 0.00s
-[2021.03.04-21.55.24:647][  0]LogFileCache: Scanning file cache for directory 'Z:/GitHub/ManAtArms/ManAtArms_Project/Content/Collections/' took 0.00s
-[2021.03.04-21.55.24:647][  0]LogContentBrowser: Native class hierarchy populated in 0.0147 seconds. Added 3101 classes and 722 folders.
-[2021.03.04-21.55.24:654][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2021.03.04-21.55.24:745][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2021.03.04-21.55.24:753][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 2 classes and 3 folders.
-[2021.03.04-21.55.24:763][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 2 classes and 3 folders.
-[2021.03.04-21.55.25:035][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.03.04-21.55.25:040][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.03.04-21.55.25:042][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.03.04-21.55.25:101][  0]LogRenderer: Reallocating scene render targets to support 1040x612 Format 10 NumSamples 1 (Frame:1).
-[2021.03.04-21.55.25:576][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2021.03.04-21.55.25:576][  0]LogLoad: (Engine Initialization) Total time: 10.48 seconds
-[2021.03.04-21.55.25:576][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.03.04-21.55.25:640][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2021.03.04-21.55.25:702][  0]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.03.04-21.55.25:771][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.03.04-21.55.25:829][  1]LogAssetRegistry: Asset discovery search completed in 7.5964 seconds
-[2021.03.04-21.55.25:833][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000009 seconds (updated 0 objects)
-[2021.03.04-21.55.57:646][607]LogSlate: Window 'Plugins' being destroyed
-[2021.03.04-21.55.57:654][607]LogSlate: Window 'Plugins' being destroyed
-[2021.03.04-21.55.57:654][607]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
-[2021.03.04-21.55.57:654][607]LogDirectoryWatcher: A directory notification for '../../../../GitHub/ManAtArms/ManAtArms_Project/Plugins/' was aborted.
-[2021.03.04-21.56.06:587][362]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
-[2021.03.04-21.56.06:966][362]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1C51BD5884FC1BA4E22B6229D5C928C3D.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
-[2021.03.04-21.56.07:020][362]LogFileHelpers: No new changes to save!
-[2021.03.04-21.56.07:022][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Level/Map_VN_lv1_BuiltData" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset" SILENT=true
-[2021.03.04-21.56.09:496][362]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_BuiltData1269955248007FD9868807831DCC8AB6.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset'
-[2021.03.04-21.56.09:588][362]AssetCheck: New page: Asset Save: multiple assets
-[2021.03.04-21.56.09:588][362]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
-[2021.03.04-21.56.09:589][362]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyContent/VN/Level/Map_VN_lv1_BuiltData.Map_VN_lv1_BuiltData
-[2021.03.04-21.56.56:147][658]LogHoudiniEngine: Successfully intialized the Houdini Engine module.
-[2021.03.04-21.57.24:763][135]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2021.03.04-21.57.24:763][135]LogWindows: Warning: URL: Z:/SteamLibrary/steamapps/common/Houdini Indie/bin//houdini "C:/Users/john0/AppData/Local/Temp/HoudiniEngineECBB3D1546494732D67B9E8606FD8304.hip"
-[2021.03.04-21.57.24:766][135]LogHoudiniEngineEditor: Opened scene in Houdini.
-[2021.03.04-22.02.45:585][406]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
-[2021.03.04-22.02.53:462][862]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
-[2021.03.04-22.02.53:876][862]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1A2B13AAE49F5706C4F7B9AA8A8AD0785.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
-[2021.03.04-22.02.53:926][862]LogFileHelpers: No new changes to save!
-[2021.03.04-22.02.53:929][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Level/Map_VN_lv1_BuiltData" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset" SILENT=true
-[2021.03.04-22.02.56:775][862]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_BuiltData1429ABF14EA29A283902EA9CCE2CEC4F.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset'
-[2021.03.04-22.02.56:811][862]AssetCheck: New page: Asset Save: multiple assets
-[2021.03.04-22.02.56:811][862]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
-[2021.03.04-22.02.56:811][862]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyContent/VN/Level/Map_VN_lv1_BuiltData.Map_VN_lv1_BuiltData
-[2021.03.04-22.10.55:957][343]LogFactory: FactoryCreateFile: HoudiniAsset with HoudiniAssetFactory (0 0 C:\Users\john0\Desktop\Capstone\Houdini\TEST_HDA.otl)
-[2021.03.04-22.11.01:555][398]LogHoudiniEngineEditor: PostSpawnActor HoudiniAssetActor_0, supplied Asset = 0x0000017EED8BB270
-[2021.03.04-22.11.02:255][425]LogHoudiniEngineEditor: PostSpawnActor HoudiniAssetActor_1, supplied Asset = 0x0000017EED8BB270
-[2021.03.04-22.11.02:904][429]LogHoudiniEngine: HAPI Asynchronous Instantiation Started for TEST_HDA_2: Asset=Object/TEST_HDA, HoudiniAsset = 0xed8bb270
-[2021.03.04-22.11.03:155][436]LogHoudiniEngine:     TEST_HDA_2 FinishedInstantiation.
-[2021.03.04-22.11.03:251][437]LogHoudiniEngine: HAPI Asynchronous Cooking Started for TEST_HDA_2., AssetId = 0
-[2021.03.04-22.11.03:481][439]LogHoudiniEngine:    TEST_HDA_2 FinishedCooking.
-[2021.03.04-22.11.03:972][440]LogStaticMesh: Building static mesh TEST_HDA_3_7_0_main_geo...
-[2021.03.04-22.11.04:094][440]LogStaticMesh: Built static mesh [0.12s] /Game/HoudiniEngine/Temp/TEST_HDA/CD362B77/TEST_HDA_3_7_0_main_geo.TEST_HDA_3_7_0_main_geo
-[2021.03.04-22.11.04:141][440]LogHoudiniEngine: StaticMesh->Build() executed in 0.169319 seconds.
-[2021.03.04-22.11.04:189][440]LogHoudiniEngine: CreateStaticMesh_RawMesh() executed in 0.429840 seconds.
-[2021.03.04-22.11.04:386][443]LogHoudiniEngineRuntime: Display: [UHoudiniAssetBlueprintComponent::NeedUpdateParameters()] Parameters need update for component: /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1:PersistentLevel.TEST_HDA_2.HoudiniAssetComponent
-[2021.03.04-22.11.04:553][445]LogHoudiniEngine: HAPI Asynchronous Cooking Started for TEST_HDA_2., AssetId = 0
-[2021.03.04-22.11.04:603][447]LogHoudiniEngine:    TEST_HDA_2 FinishedCooking.
-[2021.03.04-22.11.12:916][994]LogEditorViewport: Clicking on Actor (LMB): HoudiniAssetActor (TEST_HDA)
-[2021.03.04-22.13.37:723][509]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
-[2021.03.04-22.13.39:381][509]LogSlate: Window 'Save Content' being destroyed
-[2021.03.04-22.13.39:451][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Houdini/TEST_HDA" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/Houdini/TEST_HDA.uasset" SILENT=true
-[2021.03.04-22.13.39:463][509]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/TEST_HDA17D12DC54577ADD8947D03821F3D4141.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/Houdini/TEST_HDA.uasset'
-[2021.03.04-22.13.39:536][509]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/TEST_HDA_3_7_0_main_geoDDE220644FDF873496204C92B41A2338.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/HoudiniEngine/Temp/TEST_HDA/CD362B77/TEST_HDA_3_7_0_main_geo.uasset'
-[2021.03.04-22.13.39:563][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
-[2021.03.04-22.13.39:969][509]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv11D016B594E3ACCE36E5842914068556E.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
-[2021.03.04-22.13.40:020][509]LogFileHelpers: No new changes to save!
-[2021.03.04-22.13.40:021][509]LogFileHelpers: Saving map 'Map_VN_lv1' took 0.484
-[2021.03.04-22.13.40:038][509]AssetCheck: New page: Asset Save: multiple assets
-[2021.03.04-22.13.40:038][509]LogContentValidation: Display: Validating HoudiniAsset /Game/Houdini/TEST_HDA.TEST_HDA
-[2021.03.04-22.13.40:038][509]LogContentValidation: Display: Validating StaticMesh /Game/HoudiniEngine/Temp/TEST_HDA/CD362B77/TEST_HDA_3_7_0_main_geo.TEST_HDA_3_7_0_main_geo
-[2021.03.04-22.13.40:038][509]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.16-19.20.02:939][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.03.16-19.20.02:939][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.03.16-19.20.02:939][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
+[2021.03.16-19.20.02:940][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.03.16-19.20.02:940][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:1]]
+[2021.03.16-19.20.02:940][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2021.03.16-19.20.02:940][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
+[2021.03.16-19.20.02:940][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
+[2021.03.16-19.20.02:940][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.03.16-19.20.02:940][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.03.16-19.20.02:940][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.03.16-19.20.02:940][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.03.16-19.20.02:940][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.03.16-19.20.02:940][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.03.16-19.20.02:940][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.03.16-19.20.02:940][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.03.16-19.20.02:940][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.03.16-19.20.02:940][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.03.16-19.20.02:940][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.03.16-19.20.02:940][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.03.16-19.20.02:940][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.03.16-19.20.02:940][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.03.16-19.20.02:940][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
+[2021.03.16-19.20.02:940][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.03.16-19.20.02:940][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.03.16-19.20.02:941][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.03.16-19.20.02:941][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.03.16-19.20.02:941][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.03.16-19.20.02:941][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.03.16-19.20.02:941][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.03.16-19.20.02:941][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.03.16-19.20.02:941][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.03.16-19.20.02:941][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.03.16-19.20.02:941][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.03.16-19.20.02:941][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.03.16-19.20.02:941][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.03.16-19.20.02:941][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
+[2021.03.16-19.20.02:941][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
+[2021.03.16-19.20.02:946][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.16-19.20.02:946][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.16-19.20.02:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.16-19.20.02:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.16-19.20.02:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.16-19.20.02:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.16-19.20.02:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.16-19.20.02:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.16-19.20.02:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.16-19.20.02:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.16-19.20.02:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.16-19.20.02:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.16-19.20.02:947][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-19.20.02:947][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.16-19.20.02:947][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.16-19.20.02:947][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-19.20.02:947][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.16-19.20.02:947][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.16-19.20.02:947][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.16-19.20.02:947][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.16-19.20.02:947][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.03.16-19.20.02:954][  0]LogHAL: Display: Platform has ~ 32 GB [34301575168 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.03.16-19.20.02:954][  0]LogInit: Going up to parent DeviceProfile []
+[2021.03.16-19.20.02:954][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-19.20.02:954][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.16-19.20.02:954][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
+[2021.03.16-19.20.02:954][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-19.20.02:954][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
+[2021.03.16-19.20.02:954][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-19.20.02:954][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.16-19.20.02:954][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.16-19.20.02:955][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.SSR.Quality:4]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.SSGI.Quality:4]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:2]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:32.0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:8.0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:30.0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:20.0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.16-19.20.02:956][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@Cine] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Scalability.ini]
+[2021.03.16-19.20.02:957][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:64]]
+[2021.03.16-19.20.02:957][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:1]]
+[2021.03.16-19.20.02:957][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:32]]
+[2021.03.16-19.20.02:957][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.03.16-19.20.02:962][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.03.16-19.20.02:962][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.03.16-19.20.02:962][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Config/Windows/Engine.ini]
+[2021.03.16-19.20.02:962][  0]LogInit: Computer: HAETAE02
+[2021.03.16-19.20.02:962][  0]LogInit: User: john0
+[2021.03.16-19.20.02:962][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.03.16-19.20.02:962][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.03.16-19.20.02:962][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.03.16-19.20.02:962][  0]LogMemory: Platform Memory Stats for Windows
+[2021.03.16-19.20.02:962][  0]LogMemory: Process Physical Memory: 113.14 MB used, 113.15 MB peak
+[2021.03.16-19.20.02:962][  0]LogMemory: Process Virtual Memory: 107.36 MB used, 107.36 MB peak
+[2021.03.16-19.20.02:962][  0]LogMemory: Physical Memory: 16671.79 MB used,  16040.75 MB free, 32712.53 MB total
+[2021.03.16-19.20.02:962][  0]LogMemory: Virtual Memory: 5162.30 MB used,  134212568.00 MB free, 134217728.00 MB total
+[2021.03.16-19.20.02:966][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.03.16-19.20.03:451][  0]LogInit: Using OS detected language (en-GB).
+[2021.03.16-19.20.03:451][  0]LogInit: Using OS detected locale (en-CA).
+[2021.03.16-19.20.03:452][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2021.03.16-19.20.03:643][  0]LogInit: Setting process to per monitor DPI aware
+[2021.03.16-19.20.03:810][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.03.16-19.20.03:810][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.03.16-19.20.06:455][  0]LogD3D12RHI: Aftermath initialized
+[2021.03.16-19.20.06:455][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/DirectX/x64).
+[2021.03.16-19.20.06:708][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 2070 SUPER (Max supported Feature Level 12_1)
+[2021.03.16-19.20.06:708][  0]LogD3D12RHI: Adapter has 8011MB of dedicated video memory, 0MB of dedicated system memory, and 16356MB of shared system memory, 2 output[s]
+[2021.03.16-19.20.06:808][  0]LogD3D12RHI: Found D3D12 adapter 1: NVIDIA GeForce RTX 2070 SUPER (Max supported Feature Level 12_1)
+[2021.03.16-19.20.06:808][  0]LogD3D12RHI: Adapter has 8011MB of dedicated video memory, 0MB of dedicated system memory, and 16356MB of shared system memory, 0 output[s]
+[2021.03.16-19.20.06:818][  0]LogD3D12RHI: Found D3D12 adapter 2: Microsoft Basic Render Driver (Max supported Feature Level 12_1)
+[2021.03.16-19.20.06:818][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 16356MB of shared system memory, 0 output[s]
+[2021.03.16-19.20.06:818][  0]LogD3D12RHI: Forcing D3D12.AsyncDeferredDeletion=0 as a workaround for a deadlock.
+[2021.03.16-19.20.06:818][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2021.03.16-19.20.06:828][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2021.03.16-19.20.06:914][  0]LogD3D12RHI: The system supports ID3D12Device1.
+[2021.03.16-19.20.06:914][  0]LogD3D12RHI: The system supports ID3D12Device2.
+[2021.03.16-19.20.06:998][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2021.03.16-19.20.06:998][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2021.03.16-19.20.07:000][  0]LogD3D12RHI:     GPU DeviceId: 0x1e84 (for the marketing name, search the web for "GPU Device Id")
+[2021.03.16-19.20.07:000][  0]LogWindows: EnumDisplayDevices:
+[2021.03.16-19.20.07:000][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070 SUPER' (P:1 D:1)
+[2021.03.16-19.20.07:000][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:1)
+[2021.03.16-19.20.07:000][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2021.03.16-19.20.07:000][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2021.03.16-19.20.07:000][  0]LogWindows:    4. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2021.03.16-19.20.07:001][  0]LogWindows:    5. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2021.03.16-19.20.07:001][  0]LogWindows:    6. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2021.03.16-19.20.07:001][  0]LogWindows:    7. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2021.03.16-19.20.07:001][  0]LogWindows:    8. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2021.03.16-19.20.07:001][  0]LogWindows:    9. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2021.03.16-19.20.07:001][  0]LogWindows:    10. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2021.03.16-19.20.07:002][  0]LogWindows:    11. 'Citrix Indirect Display Adapter' (P:0 D:0)
+[2021.03.16-19.20.07:002][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.03.16-19.20.07:002][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce RTX 2070 SUPER
+[2021.03.16-19.20.07:002][  0]LogD3D12RHI:   Driver Version: 461.72 (internal:27.21.14.6172, unified:461.72)
+[2021.03.16-19.20.07:002][  0]LogD3D12RHI:      Driver Date: 2-23-2021
+[2021.03.16-19.20.07:002][  0]LogRHI: Texture pool is 4563 MB (70% of 6518 MB)
+[2021.03.16-19.20.07:002][  0]LogD3D12RHI: Async texture creation enabled
+[2021.03.16-19.20.07:002][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2021.03.16-19.20.07:553][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.03.16-19.20.07:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.03.16-19.20.07:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.03.16-19.20.07:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2021.03.16-19.20.07:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.03.16-19.20.07:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2021.03.16-19.20.07:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2021.03.16-19.20.07:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.03.16-19.20.07:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2021.03.16-19.20.07:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.03.16-19.20.07:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.03.16-19.20.07:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2021.03.16-19.20.07:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.03.16-19.20.07:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2021.03.16-19.20.07:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2021.03.16-19.20.07:636][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.03.16-19.20.07:636][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2021.03.16-19.20.07:636][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.03.16-19.20.07:636][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.03.16-19.20.07:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.03.16-19.20.07:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.03.16-19.20.07:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.03.16-19.20.07:853][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.03.16-19.20.07:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.03.16-19.20.07:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.03.16-19.20.07:964][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.03.16-19.20.08:000][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.03.16-19.20.08:113][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.03.16-19.20.08:113][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.03.16-19.20.08:149][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.03.16-19.20.08:149][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.03.16-19.20.08:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.03.16-19.20.08:207][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.03.16-19.20.08:241][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.03.16-19.20.08:273][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.03.16-19.20.08:273][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.03.16-19.20.08:417][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.03.16-19.20.09:263][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../GitHub/ManAtArms/ManAtArms_Project/Intermediate/Shaders/WorkingDirectory/24892/).
+[2021.03.16-19.20.09:263][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/john0/AppData/Local/Temp/UnrealShaderWorkingDir/E2AC7F1C4A4E0F4792F75A84D9B174E2/'.
+[2021.03.16-19.20.09:263][  0]LogXGEController: Cleaning working directory: C:/Users/john0/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.03.16-19.20.09:264][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.03.16-19.20.09:264][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.03.16-19.20.09:264][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.03.16-19.20.11:915][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.03.16-19.20.11:985][  0]LogDerivedDataCache: Loaded boot cache 0.07s 96MB C:/Users/john0/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2021.03.16-19.20.11:986][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/john0/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2021.03.16-19.20.11:986][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHub/ManAtArms/ManAtArms_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.03.16-19.20.11:986][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.03.16-19.20.11:986][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHub/ManAtArms/ManAtArms_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.16-19.20.11:986][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.03.16-19.20.12:064][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.03.16-19.20.12:064][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.16-19.20.12:064][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.03.16-19.20.12:066][  0]LogDerivedDataCache: Using Local data cache path C:/Users/john0/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.03.16-19.20.12:066][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.03.16-19.20.12:066][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.03.16-19.20.12:088][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.03.16-19.20.12:090][  0]LogSlate: Using FreeType 2.10.0
+[2021.03.16-19.20.12:103][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.03.16-19.20.12:952][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2021.03.16-19.20.13:273][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.16-19.20.14:152][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.03.16-19.20.14:152][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.03.16-19.20.14:152][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.03.16-19.20.14:152][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.03.16-19.20.14:152][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.03.16-19.20.14:234][  0]LogNetVersion: ManAtArms_Project 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 3666147968)
+[2021.03.16-19.20.24:212][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.045331 seconds
+[2021.03.16-19.20.24:220][  0]LogUObjectArray: 46098 objects as part of root set at end of initial load.
+[2021.03.16-19.20.24:220][  0]LogUObjectAllocator: 8030680 out of 0 bytes used by permanent object pool.
+[2021.03.16-19.20.24:220][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.03.16-19.20.27:805][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.03.16-19.20.27:836][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.03.16-19.20.29:246][  0]SourceControl: Source control is disabled
+[2021.03.16-19.20.29:246][  0]SourceControl: Source control is disabled
+[2021.03.16-19.20.29:312][  0]SourceControl: Source control is disabled
+[2021.03.16-19.20.29:349][  0]SourceControl: Source control is disabled
+[2021.03.16-19.20.29:385][  0]SourceControl: Source control is disabled
+[2021.03.16-19.20.30:864][  0]LogHoudiniEngine: Starting the Houdini Engine module...
+[2021.03.16-19.20.30:891][  0]LogHoudiniEngine: Loaded libHAPIL.dll from Registry path Z:/SteamLibrary/steamapps/common/Houdini Indie/bin
+[2021.03.16-19.20.31:000][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/4.24-v2/HoudiniEngine/Content/houdini_default_material.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.03.16-19.20.31:174][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.03.16-19.20.31:415][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.16-19.20.31:415][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.16-19.20.32:140][  0]LogEngine: Initializing Engine...
+[2021.03.16-19.20.32:142][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.03.16-19.20.32:854][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.03.16-19.20.32:885][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.03.16-19.20.32:929][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.16-19.20.32:929][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.16-19.20.32:929][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.16-19.20.32:929][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.16-19.20.32:929][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.16-19.20.32:929][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.16-19.20.32:929][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.16-19.20.32:929][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.16-19.20.32:929][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.16-19.20.32:929][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.16-19.20.32:964][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.16-19.20.32:964][  0]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2021.03.16-19.20.32:964][  0]LogAudioMixer: Display: Is Default: Yes
+[2021.03.16-19.20.32:964][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.16-19.20.32:964][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2021.03.16-19.20.32:964][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2021.03.16-19.20.32:964][  0]LogAudioMixer: Display: Channel Order:
+[2021.03.16-19.20.32:964][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.16-19.20.32:964][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.03.16-19.20.33:010][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.16-19.20.33:012][  0]LogInit: FAudioDevice initialized.
+[2021.03.16-19.20.33:012][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.03.16-19.20.33:169][  0]LogDerivedDataCache: Saved boot cache 0.16s 80MB C:/Users/john0/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2021.03.16-19.20.33:173][  0]LogInit: Texture streaming: Enabled
+[2021.03.16-19.20.33:401][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.03.16-19.20.33:401][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.03.16-19.20.33:402][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.03.16-19.20.33:523][  0]LogInit: Transaction tracking system initialized
+[2021.03.16-19.20.34:264][  0]BlueprintLog: New page: Editor Load
+[2021.03.16-19.20.35:023][  0]LocalizationService: Localization service is disabled
+[2021.03.16-19.20.36:543][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.03.16-19.20.36:543][  0]LogCook: Display: Mobile HDR setting 1
+[2021.03.16-19.20.37:013][  0]LogFileCache: Scanning file cache for directory 'Z:/GitHub/ManAtArms/ManAtArms_Project/Content/' took 0.02s
+[2021.03.16-19.20.37:876][  0]LogHoudiniEngineEditor: Starting the Houdini Engine Editor module.
+[2021.03.16-19.20.38:029][  0]LogHoudiniEngineEditor: Houdini Spline Component Visualizer Registered!
+[2021.03.16-19.20.38:029][  0]LogHoudiniEngineEditor: Houdini Engine Editor module startup complete.
+[2021.03.16-19.20.38:583][  0]SourceControl: Source control is disabled
+[2021.03.16-19.20.38:583][  0]Cmd: MAP LOAD FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.16-19.20.38:584][  0]LightingResults: New page: Lighting Build
+[2021.03.16-19.20.38:584][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-19.20.38:584][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-19.20.38:584][  0]MapCheck: New page: Map Check
+[2021.03.16-19.20.38:584][  0]LightingResults: New page: Lighting Build
+[2021.03.16-19.20.38:612][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2021.03.16-19.20.46:269][  0]LogAIModule: Creating AISystem for world Map_VN_lv1
+[2021.03.16-19.20.46:941][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.16-19.20.46:992][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.03.16-19.20.46:992][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.16-19.20.46:993][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.124ms to complete.
+[2021.03.16-19.20.46:993][  0]LogFileHelpers: Loading map 'Map_VN_lv1' took 8.409
+[2021.03.16-19.20.47:167][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-19.20.47:173][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-19.20.47:179][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-19.20.47:185][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.16-19.20.47:223][  0]LogCollectionManager: Loaded 0 collections in 0.001043 seconds
+[2021.03.16-19.20.47:236][  0]LogFileCache: Scanning file cache for directory 'Z:/GitHub/ManAtArms/ManAtArms_Project/Saved/Collections/' took 0.00s
+[2021.03.16-19.20.47:237][  0]LogFileCache: Scanning file cache for directory 'Z:/GitHub/ManAtArms/ManAtArms_Project/Content/Developers/john0/Collections/' took 0.00s
+[2021.03.16-19.20.47:237][  0]LogFileCache: Scanning file cache for directory 'Z:/GitHub/ManAtArms/ManAtArms_Project/Content/Collections/' took 0.00s
+[2021.03.16-19.20.47:237][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 3101 classes and 722 folders.
+[2021.03.16-19.20.47:241][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.03.16-19.20.47:670][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.03.16-19.20.47:709][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2021.03.16-19.20.47:864][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2021.03.16-19.20.48:089][  0]LogSlate: Took 0.005282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.03.16-19.20.48:097][  0]LogSlate: Took 0.004174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.03.16-19.20.48:103][  0]LogSlate: Took 0.003970 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.03.16-19.20.48:183][  0]LogRenderer: Reallocating scene render targets to support 1128x572 Format 10 NumSamples 1 (Frame:1).
+[2021.03.16-19.20.48:632][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.03.16-19.20.48:632][  0]LogLoad: (Engine Initialization) Total time: 50.01 seconds
+[2021.03.16-19.20.48:632][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.03.16-19.20.48:725][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2021.03.16-19.20.48:793][  0]LogSlate: Took 0.004975 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.16-19.20.52:233][ 52]LogAssetRegistry: Asset discovery search completed in 39.2825 seconds
+[2021.03.16-19.20.52:236][ 52]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
+[2021.03.16-19.21.42:351][664]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.16-19.21.42:405][664]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.03.16-19.21.42:793][664]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1776A127B47E31CB62AEA5DAE92D7DB04.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.16-19.21.42:844][664]LogFileHelpers: No new changes to save!
+[2021.03.16-19.21.42:847][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Level/Map_VN_lv1_BuiltData" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset" SILENT=true
+[2021.03.16-19.21.45:537][664]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_BuiltDataDB9226584F7BD6358B19BF98CCB03358.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset'
+[2021.03.16-19.21.45:566][664]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.16-19.21.45:566][664]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.16-19.21.45:566][664]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyContent/VN/Level/Map_VN_lv1_BuiltData.Map_VN_lv1_BuiltData
+[2021.03.16-22.40.59:228][183]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire5)
+[2021.03.16-22.41.03:085][458]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/MyContent/VN/Mesh/pipe.pipe
+[2021.03.16-22.41.04:465][458]LogRenderer: Reallocating scene render targets to support 1128x908 Format 10 NumSamples 1 (Frame:1).
+[2021.03.16-22.41.04:465][458]LogSlate: Took 0.020042 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.03.16-22.41.10:498][805]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_pipe.Mat_pipe
+[2021.03.16-22.41.10:788][806]LogRenderer: Reallocating scene render targets to support 1128x932 Format 10 NumSamples 1 (Frame:1).
+[2021.03.16-22.41.15:495][ 67]LogEditorFactories: Performing atomic reimport of [C:/Users/john0/Desktop/Capstone/environment/texture/pipe_Mat_OcclusionRoughnessMetallic.png]
+[2021.03.16-22.41.15:505][ 67]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/pipe_Mat_OcclusionRoughnessMetallic.png)
+[2021.03.16-22.41.15:607][ 67]LogTexture: Display: Building textures: pipe_Mat_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2021.03.16-22.41.15:794][ 67]LogEditorFactories: -- imported successfully
+[2021.03.16-22.41.15:844][ 67]LogEditorFactories: Performing atomic reimport of [C:/Users/john0/Desktop/Capstone/environment/texture/pipe_Mat_BaseColor.png]
+[2021.03.16-22.41.15:851][ 67]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/pipe_Mat_BaseColor.png)
+[2021.03.16-22.41.15:923][ 67]LogTexture: Display: Building textures: pipe_Mat_BaseColor (AutoDXT, 2048X2048)
+[2021.03.16-22.41.16:045][ 67]LogEditorFactories: -- imported successfully
+[2021.03.16-22.41.16:056][ 67]LogEditorFactories: Performing atomic reimport of [C:/Users/john0/Desktop/Capstone/environment/texture/pipe_Mat_Normal.png]
+[2021.03.16-22.41.16:060][ 67]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/pipe_Mat_Normal.png)
+[2021.03.16-22.41.16:114][ 67]LogTexture: Display: Building textures: pipe_Mat_Normal (BC5, 2048X2048)
+[2021.03.16-22.41.16:228][ 67]LogEditorFactories: -- imported successfully
+[2021.03.16-22.41.43:754][707]LogUObjectHash: Compacting FUObjectHashTables data took   8.66ms
+[2021.03.16-22.41.43:765][707]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/VN/Level/Map_VN_lv1' took 0.052
+[2021.03.16-22.41.43:930][707]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_BaseColor] ([1] browsable assets)...
+[2021.03.16-22.41.43:938][707]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_BaseColor.pipe_Mat_BaseColor]
+[2021.03.16-22.41.43:938][707]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_BaseColor]
+[2021.03.16-22.41.44:049][707]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/pipe_Mat_BaseColor_Auto1C69D3D8E4CF352AD95D50899C4C20C07.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_BaseColor_Auto1.uasset'
+[2021.03.16-22.41.44:062][707]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_Normal] ([1] browsable assets)...
+[2021.03.16-22.41.44:068][707]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_Normal.pipe_Mat_Normal]
+[2021.03.16-22.41.44:068][707]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_Normal]
+[2021.03.16-22.41.44:182][707]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/pipe_Mat_Normal_Auto1BCEC022644881152BF526C8180858B51.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_Normal_Auto1.uasset'
+[2021.03.16-22.41.44:183][707]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_OcclusionRoughnessMetallic] ([1] browsable assets)...
+[2021.03.16-22.41.44:188][707]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_OcclusionRoughnessMetallic.pipe_Mat_OcclusionRoughnessMetallic]
+[2021.03.16-22.41.44:188][707]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_OcclusionRoughnessMetallic]
+[2021.03.16-22.41.44:247][707]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/pipe_Mat_OcclusionRoughnessMetal26AF338B466F4720501E6FB0943A9357.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_OcclusionRoughnessMetallic_Auto1.uasset'
+[2021.03.16-22.41.44:248][707]LogFileHelpers: Auto-saving content packages took 0.483
+[2021.03.16-22.42.06:075][495]LogEditorFactories: Performing atomic reimport of [C:/Users/john0/Desktop/Capstone/environment/texture/plane_Mat_BaseColor.png]
+[2021.03.16-22.42.06:078][495]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/plane_Mat_BaseColor.png)
+[2021.03.16-22.42.06:157][495]LogTexture: Display: Building textures: pipe_Mat_BaseColor (AutoDXT, 2048X2048)
+[2021.03.16-22.42.06:310][495]LogEditorFactories: -- imported successfully
+[2021.03.16-22.42.11:488][722]LogEditorFactories: Performing atomic reimport of [C:/Users/john0/Desktop/Capstone/environment/texture/plane_Mat_Normal.png]
+[2021.03.16-22.42.11:489][722]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/plane_Mat_Normal.png)
+[2021.03.16-22.42.11:543][722]LogTexture: Display: Building textures: pipe_Mat_Normal (BC5, 2048X2048)
+[2021.03.16-22.42.11:655][722]LogEditorFactories: -- imported successfully
+[2021.03.16-22.42.18:241][870]LogEditorFactories: Performing atomic reimport of [C:/Users/john0/Desktop/Capstone/environment/texture/plane_Mat_OcclusionRoughnessMetallic.png]
+[2021.03.16-22.42.18:244][870]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/plane_Mat_OcclusionRoughnessMetallic.png)
+[2021.03.16-22.42.18:314][870]LogTexture: Display: Building textures: pipe_Mat_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2021.03.16-22.42.18:442][870]LogEditorFactories: -- imported successfully
+[2021.03.16-22.42.48:177][946]LogEditorFactories: Performing atomic reimport of [C:/Users/john0/Desktop/Capstone/environment/texture/plane_Mat_BaseColor.png]
+[2021.03.16-22.42.48:179][946]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/plane_Mat_BaseColor.png)
+[2021.03.16-22.42.48:243][946]LogTexture: Display: Building textures: pipe_Mat_BaseColor (AutoDXT, 2048X2048)
+[2021.03.16-22.42.48:373][946]LogEditorFactories: -- imported successfully
+[2021.03.16-22.43.08:830][599]LogEditorFactories: Performing atomic reimport of [C:/Users/john0/Desktop/Capstone/environment/texture/plane_Mat_BaseColor.png]
+[2021.03.16-22.43.08:834][599]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/plane_Mat_BaseColor.png)
+[2021.03.16-22.43.08:904][599]LogTexture: Display: Building textures: pipe_Mat_BaseColor (AutoDXT, 2048X2048)
+[2021.03.16-22.43.09:055][599]LogEditorFactories: -- imported successfully
+[2021.03.16-22.43.12:602][763]LogEditorViewport: Clicking on Actor (LMB): BP_Building_C (BP_Building2)
+[2021.03.16-22.43.16:077][981]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire5)
+[2021.03.16-22.43.39:923][258]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/MyContent/VN/Mesh/pipe_fixer.pipe_fixer
+[2021.03.16-22.43.41:612][337]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_pipeFixer.Mat_pipeFixer
+[2021.03.16-22.45.40:827][847]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_OcclusionRoughnessMetallic.pipefixer_Mat_OcclusionRoughnessMetallic
+[2021.03.16-22.45.40:913][847]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2021.03.16-22.45.46:040][121]LogEditorFactories: Performing atomic reimport of [C:/Users/john0/Desktop/Capstone/environment/texture/pipefixer_Mat_BaseColor.png]
+[2021.03.16-22.45.46:047][121]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/pipefixer_Mat_BaseColor.png)
+[2021.03.16-22.45.46:110][121]LogTexture: Display: Building textures: pipefixer_Mat_BaseColor (AutoDXT, 2048X2048)
+[2021.03.16-22.45.46:264][121]LogEditorFactories: -- imported successfully
+[2021.03.16-22.45.51:412][376]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_BaseColor.pipefixer_Mat_BaseColor
+[2021.03.16-22.46.02:204][490]LogEditorFactories: Performing atomic reimport of [C:/Users/john0/Desktop/Capstone/environment/texture/pipe_fixer_Mat_BaseColor.png]
+[2021.03.16-22.46.02:204][490]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/pipe_fixer_Mat_BaseColor.png)
+[2021.03.16-22.46.02:208][490]LogTexture: Display: Building textures: pipefixer_Mat_BaseColor (BGRA8, 2048X2048)
+[2021.03.16-22.46.02:397][490]LogTexture: Display: Building textures: pipefixer_Mat_BaseColor (BGRA8, 2048X2048)
+[2021.03.16-22.46.02:518][490]LogEditorFactories: -- imported successfully
+[2021.03.16-22.46.06:535][686]LogEditorFactories: Performing atomic reimport of [C:/Users/john0/Desktop/Capstone/environment/texture/pipe_fixer_Mat_Normal.png]
+[2021.03.16-22.46.06:535][686]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/pipe_fixer_Mat_Normal.png)
+[2021.03.16-22.46.06:601][686]LogTexture: Display: Building textures: pipefixer_Mat_Normal (BC5, 2048X2048)
+[2021.03.16-22.46.06:708][686]LogEditorFactories: -- imported successfully
+[2021.03.16-22.46.10:237][832]LogEditorFactories: Performing atomic reimport of [C:/Users/john0/Desktop/Capstone/environment/texture/pipe_fixer_Mat_OcclusionRoughnessMetallic.png]
+[2021.03.16-22.46.10:237][832]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/pipe_fixer_Mat_OcclusionRoughnessMetallic.png)
+[2021.03.16-22.46.10:304][832]LogTexture: Display: Building textures: pipefixer_Mat_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2021.03.16-22.46.10:389][832]LogEditorFactories: -- imported successfully
+[2021.03.16-22.46.14:665][ 70]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_pipeFixer57AA058E41160E100F7F0CAAD0F585D0.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_pipeFixer.uasset'
+[2021.03.16-22.46.14:711][ 70]AssetCheck: New page: Asset Save: Mat_pipeFixer
+[2021.03.16-22.46.14:711][ 70]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_pipeFixer.Mat_pipeFixer
+[2021.03.16-22.46.15:629][122]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-22.46.15:629][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-22.46.17:957][260]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-22.46.17:957][260]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-22.46.35:800][829]LogEditorFactories: Performing atomic reimport of [C:/Users/john0/Desktop/Capstone/environment/texture/pipe_fixer_Mat_BaseColor.png]
+[2021.03.16-22.46.35:800][829]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/pipe_fixer_Mat_BaseColor.png)
+[2021.03.16-22.46.35:868][829]LogTexture: Display: Building textures: pipefixer_Mat_BaseColor (BGRA8, 2048X2048)
+[2021.03.16-22.46.35:993][829]LogEditorFactories: -- imported successfully
+[2021.03.16-22.46.36:863][864]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire5)
+[2021.03.16-22.48.37:165][500]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_pipeB5FF43A74ED07BFA5ADA2286102C5296.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_pipe.uasset'
+[2021.03.16-22.48.37:180][500]AssetCheck: New page: Asset Save: Mat_pipe
+[2021.03.16-22.48.37:180][500]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_pipe.Mat_pipe
+[2021.03.16-22.48.44:218][927]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire)
+[2021.03.16-22.52.10:778][630]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2021.03.16-22.52.11:588][630]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_Auto2F0B61A374B9BC460A7A9329428E4DF72.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Level/Map_VN_lv1_Auto2.umap'
+[2021.03.16-22.52.11:589][630]LogFileHelpers: No new changes to save!
+[2021.03.16-22.52.11:593][630]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/VN/Level/Map_VN_lv1' took 1.124
+[2021.03.16-22.52.11:593][630]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.124
+[2021.03.16-22.52.11:593][630]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_BaseColor] ([1] browsable assets)...
+[2021.03.16-22.52.11:599][630]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_BaseColor.pipe_Mat_BaseColor]
+[2021.03.16-22.52.11:599][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_BaseColor]
+[2021.03.16-22.52.11:650][630]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/pipe_Mat_BaseColor_Auto2577D8643499688BD15196B91735808B5.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_BaseColor_Auto2.uasset'
+[2021.03.16-22.52.11:651][630]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_Normal] ([1] browsable assets)...
+[2021.03.16-22.52.11:656][630]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_Normal.pipe_Mat_Normal]
+[2021.03.16-22.52.11:657][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_Normal]
+[2021.03.16-22.52.11:713][630]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/pipe_Mat_Normal_Auto2CEEC51A943CF24E3054167817164742B.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_Normal_Auto2.uasset'
+[2021.03.16-22.52.11:714][630]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_OcclusionRoughnessMetallic] ([1] browsable assets)...
+[2021.03.16-22.52.11:719][630]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_OcclusionRoughnessMetallic.pipe_Mat_OcclusionRoughnessMetallic]
+[2021.03.16-22.52.11:719][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_OcclusionRoughnessMetallic]
+[2021.03.16-22.52.12:453][630]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/pipe_Mat_OcclusionRoughnessMetalA5F5972D4083BA3DDE97129F38BB20DC.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_OcclusionRoughnessMetallic_Auto2.uasset'
+[2021.03.16-22.52.12:454][630]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_BaseColor] ([1] browsable assets)...
+[2021.03.16-22.52.12:459][630]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_BaseColor.pipefixer_Mat_BaseColor]
+[2021.03.16-22.52.12:459][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_BaseColor]
+[2021.03.16-22.52.12:530][630]LogTexture: Display: Building textures: pipefixer_Mat_BaseColor (AutoDXT, 2048X2048)
+[2021.03.16-22.52.13:239][630]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/pipefixer_Mat_BaseColor_Auto23D3E51AD4EF76A9F48DED09E6CB1B8DB.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_BaseColor_Auto2.uasset'
+[2021.03.16-22.52.13:240][630]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_Normal] ([1] browsable assets)...
+[2021.03.16-22.52.13:245][630]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_Normal.pipefixer_Mat_Normal]
+[2021.03.16-22.52.13:245][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_Normal]
+[2021.03.16-22.52.13:299][630]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/pipefixer_Mat_Normal_Auto215874BFE41967235181478A09F38D239.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_Normal_Auto2.uasset'
+[2021.03.16-22.52.13:300][630]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_OcclusionRoughnessMetallic] ([1] browsable assets)...
+[2021.03.16-22.52.13:305][630]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_OcclusionRoughnessMetallic.pipefixer_Mat_OcclusionRoughnessMetallic]
+[2021.03.16-22.52.13:305][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_OcclusionRoughnessMetallic]
+[2021.03.16-22.52.13:976][630]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/pipefixer_Mat_OcclusionRoughness0AF63E8F4B6760ADB12643A80C637103.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Mesh/Materials/textures/pipefixer_Mat_OcclusionRoughnessMetallic_Auto2.uasset'
+[2021.03.16-22.52.13:976][630]LogFileHelpers: Auto-saving content packages took 2.383
+[2021.03.16-22.54.08:397][995]LogEditorFactories: Performing atomic reimport of [C:/Users/john0/Desktop/Capstone/environment/texture/plane_Mat_BaseColor.png]
+[2021.03.16-22.54.08:400][995]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/plane_Mat_BaseColor.png)
+[2021.03.16-22.54.08:470][995]LogTexture: Display: Building textures: pipe_Mat_BaseColor (AutoDXT, 2048X2048)
+[2021.03.16-22.54.08:598][995]LogEditorFactories: -- imported successfully
+[2021.03.16-22.54.09:661][ 36]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire5)
+[2021.03.16-22.56.00:455][676]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.03.16-22.56.00:519][677]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2021.03.16-22.56.00:519][677]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2021.03.16-22.56.00:519][677]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2021.03.16-22.56.00:519][677]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.03.16-22.56.04:216][797]LogAssetEditorSubsystem: Opening Asset editor for MaterialFunction /Game/MyContent/VN/Mesh/Materials/MatF_Random.MatF_Random
+[2021.03.16-22.56.04:297][797]LogSlate: Warning: The tab "MaterialEditor_Stats" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2021.03.16-22.56.04:354][797]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2021.03.16-22.56.04:363][797]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.03.16-22.56.04:368][797]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2021.03.16-22.56.04:368][797]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2021.03.16-22.56.04:368][797]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2021.03.16-22.56.04:368][797]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.03.16-22.56.04:372][797]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2021.03.16-22.56.04:382][797]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.03.16-22.56.04:391][797]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2021.03.16-22.56.04:396][797]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 2
+[2021.03.16-22.56.04:396][797]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 1
+[2021.03.16-22.56.04:408][797]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_0, compiling. 
+[2021.03.16-22.56.04:423][797]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 4
+[2021.03.16-22.56.04:423][797]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2021.03.16-22.56.04:423][797]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 2
+[2021.03.16-22.56.04:423][797]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1
+[2021.03.16-22.56.04:423][797]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_0, compiling. 
+[2021.03.16-22.56.04:550][797]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 4
+[2021.03.16-22.56.04:550][797]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 3
+[2021.03.16-22.56.04:550][797]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.16-22.56.04:606][797]LogSlate: Took 0.030219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.03.16-22.56.04:638][797]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.16-22.56.07:286][874]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2021.03.16-22.56.07:303][874]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2021.03.16-22.56.07:303][874]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2021.03.16-22.56.07:303][874]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2021.03.16-22.56.07:303][874]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.03.16-22.57.10:701][141]LogSlate: Window 'Message' being destroyed
+[2021.03.16-22.57.10:770][141]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-22.57.10:770][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-23.02.14:664][121]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2021.03.16-23.02.14:670][121]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/VN/Level/Map_VN_lv1' took 0.277
+[2021.03.16-23.02.14:672][121]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_BaseColor] ([1] browsable assets)...
+[2021.03.16-23.02.14:677][121]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_BaseColor.pipe_Mat_BaseColor]
+[2021.03.16-23.02.14:677][121]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_BaseColor]
+[2021.03.16-23.02.14:726][121]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/pipe_Mat_BaseColor_Auto3F95F00384198AE0F15D3E09E07A07074.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Mesh/Materials/textures/pipe_Mat_BaseColor_Auto3.uasset'
+[2021.03.16-23.02.14:735][121]LogFileHelpers: Auto-saving content packages took 0.064
+[2021.03.16-23.03.25:222][459]LogSlate: Window 'Mat_pipe' being destroyed
+[2021.03.16-23.03.25:229][459]LogSlate: Window 'Mat_pipe' being destroyed
+[2021.03.16-23.03.25:257][459]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-23.03.25:258][459]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-23.03.25:401][459]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-23.03.25:401][459]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-23.04.36:224][900]LogEditorViewport: Clicking on Actor (LMB): DecalActor (MI_Pond10)
+[2021.03.16-23.12.14:904][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.03.16-23.12.15:753][ 71]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_Auto45D698C184D632349C749E2AA72449B5C.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Level/Map_VN_lv1_Auto4.umap'
+[2021.03.16-23.12.15:794][ 71]LogFileHelpers: No new changes to save!
+[2021.03.16-23.12.15:795][ 71]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/VN/Level/Map_VN_lv1' took 0.917
+[2021.03.16-23.12.15:795][ 71]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.917
+[2021.03.16-23.26.30:958][301]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire5)
+[2021.03.16-23.26.33:020][429]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/MyContent/VN/Mesh/pipe.pipe
+[2021.03.16-23.29.33:643][ 52]LogEditorFactories: Performing atomic reimport of [C:/Users/john0/Desktop/Capstone/environment/pipe.fbx]
+[2021.03.16-23.29.33:700][ 52]LogFbx: Loading FBX Scene from C:/Users/john0/Desktop/Capstone/environment/pipe.fbx
+[2021.03.16-23.29.33:710][ 52]LogFbx: FBX Scene Loaded Succesfully
+[2021.03.16-23.29.33:723][ 52]LogFbx: Display: Triangulating static mesh Cylinder001
+[2021.03.16-23.29.33:777][ 52]LogStaticMesh: Building static mesh pipe...
+[2021.03.16-23.29.33:797][ 52]LogStaticMesh: Built static mesh [0.01s] /Game/MyContent/VN/Mesh/pipe.pipe
+[2021.03.16-23.29.33:826][ 52]LogEditorFactories: -- imported successfully
+[2021.03.16-23.29.42:878][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/pipe" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/pipe.uasset" SILENT=true
+[2021.03.16-23.29.42:905][556]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/pipe29CCD75B4CB733465E3C318E131435B5.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/pipe.uasset'
+[2021.03.16-23.29.42:929][556]AssetCheck: New page: Asset Save: pipe
+[2021.03.16-23.29.42:929][556]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/pipe.pipe
+[2021.03.16-23.30.08:034][682]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2021.03.16-23.30.08:563][682]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_Auto56343314444E03D7B31D0A0A57E1ADA68.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Level/Map_VN_lv1_Auto5.umap'
+[2021.03.16-23.30.08:571][682]LogFileHelpers: No new changes to save!
+[2021.03.16-23.30.08:576][682]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/VN/Level/Map_VN_lv1' took 0.585
+[2021.03.16-23.30.08:576][682]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.585
+[2021.03.16-23.41.50:838][851]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/square_pipe_Mat_BaseColor.png)
+[2021.03.16-23.41.50:909][851]LogTexture: Display: Building textures: square_pipe_Mat_BaseColor (AutoDXT, 2048X2048)
+[2021.03.16-23.41.51:035][851]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/square_pipe_Mat_Normal.png)
+[2021.03.16-23.41.51:111][851]LogTexture: Display: Building textures: square_pipe_Mat_Normal (BC5, 2048X2048)
+[2021.03.16-23.41.51:257][851]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/texture/square_pipe_Mat_OcclusionRoughnessMetallic.png)
+[2021.03.16-23.41.51:331][851]LogTexture: Display: Building textures: square_pipe_Mat_OcclusionRoughnessMetallic (BC5, 2048X2048)
+[2021.03.16-23.41.54:303][964]LogTexture: Display: Building textures: square_pipe_Mat_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2021.03.16-23.41.54:996][986]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.03.16-23.41.55:006][986]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/VN/Level/Map_VN_lv1' took 0.037
+[2021.03.16-23.41.55:006][986]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/VN/Mesh/Materials/textures/square_pipe_Mat_BaseColor] ([1] browsable assets)...
+[2021.03.16-23.41.55:011][986]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MyContent/VN/Mesh/Materials/textures/square_pipe_Mat_BaseColor.square_pipe_Mat_BaseColor]
+[2021.03.16-23.41.55:011][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/Mesh/Materials/textures/square_pipe_Mat_BaseColor]
+[2021.03.16-23.41.55:120][986]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/square_pipe_Mat_BaseColor_Auto62D87D3534C80573E1380CCB5541F37F5.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Mesh/Materials/textures/square_pipe_Mat_BaseColor_Auto6.uasset'
+[2021.03.16-23.41.55:121][986]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/VN/Mesh/Materials/textures/square_pipe_Mat_Normal] ([1] browsable assets)...
+[2021.03.16-23.41.55:126][986]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MyContent/VN/Mesh/Materials/textures/square_pipe_Mat_Normal.square_pipe_Mat_Normal]
+[2021.03.16-23.41.55:126][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/Mesh/Materials/textures/square_pipe_Mat_Normal]
+[2021.03.16-23.41.55:157][986]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/square_pipe_Mat_Normal_Auto68E31F9364544FAC3E8620EA02AD04597.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Mesh/Materials/textures/square_pipe_Mat_Normal_Auto6.uasset'
+[2021.03.16-23.41.55:158][986]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/VN/Mesh/Materials/textures/square_pipe_Mat_OcclusionRoughnessMetallic] ([1] browsable assets)...
+[2021.03.16-23.41.55:162][986]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MyContent/VN/Mesh/Materials/textures/square_pipe_Mat_OcclusionRoughnessMetallic.square_pipe_Mat_OcclusionRoughnessMetallic]
+[2021.03.16-23.41.55:162][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/VN/Mesh/Materials/textures/square_pipe_Mat_OcclusionRoughnessMetallic]
+[2021.03.16-23.41.55:324][986]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/square_pipe_Mat_OcclusionRoughne34E88ED94106CD57A93EDC838808DD93.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Autosaves/Game/MyContent/VN/Mesh/Materials/textures/square_pipe_Mat_OcclusionRoughnessMetallic_Auto6.uasset'
+[2021.03.16-23.41.55:325][986]LogFileHelpers: Auto-saving content packages took 0.319
+[2021.03.16-23.41.57:161][ 65]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/MyContent/VN/Mesh/Materials/textures/square_pipe_Mat_OcclusionRoughnessMetallic.square_pipe_Mat_OcclusionRoughnessMetallic
+[2021.03.16-23.41.58:717][132]LogTexture: Display: Building textures: square_pipe_Mat_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2021.03.16-23.42.00:198][194]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/square_pipe_Mat_OcclusionRoughneE15F935444FE6904C48B3AA5BE69F53C.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/textures/square_pipe_Mat_OcclusionRoughnessMetallic.uasset'
+[2021.03.16-23.42.00:224][194]AssetCheck: New page: Asset Save: square_pipe_Mat_OcclusionRoughnessMetallic
+[2021.03.16-23.42.00:224][194]LogContentValidation: Display: Validating Texture2D /Game/MyContent/VN/Mesh/Materials/textures/square_pipe_Mat_OcclusionRoughnessMetallic.square_pipe_Mat_OcclusionRoughnessMetallic
+[2021.03.16-23.42.03:493][380]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/MyContent/VN/Mesh/Materials/textures/square_pipe_Mat_BaseColor.square_pipe_Mat_BaseColor
+[2021.03.16-23.42.11:682][619]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/john0/Desktop/Capstone/environment/square_pipe.fbx)
+[2021.03.16-23.42.11:692][619]LogFbx: Loading FBX Scene from C:/Users/john0/Desktop/Capstone/environment/square_pipe.fbx
+[2021.03.16-23.42.11:702][619]LogFbx: FBX Scene Loaded Succesfully
+[2021.03.16-23.42.13:125][619]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.03.16-23.42.13:188][619]LogFbx: Display: Triangulating static mesh Box001
+[2021.03.16-23.42.13:195][619]LogStaticMesh: Building static mesh square_pipe...
+[2021.03.16-23.42.13:200][619]LogStaticMesh: Built static mesh [0.01s] /Game/MyContent/VN/Mesh/square_pipe.square_pipe
+[2021.03.16-23.42.14:677][683]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/MyContent/VN/Mesh/square_pipe.square_pipe
+[2021.03.16-23.42.36:643][  2]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_Square_pipe.Mat_Square_pipe
+[2021.03.16-23.43.39:406][669]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.03.16-23.43.39:736][669]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.16-23.43.40:169][669]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.16-23.43.40:169][669]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.16-23.43.40:197][669]TextureStreamingBuild: Display: Compiling optional shaders took 0.787 seconds.
+[2021.03.16-23.43.40:303][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2021.03.16-23.43.40:318][669]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Mat_Square_pipe2ACD9D1A47D9D6C1104C89BDF6D91696.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/Materials/Material_Instance/Mat_Square_pipe.uasset'
+[2021.03.16-23.43.40:394][669]AssetCheck: New page: Asset Save: Mat_Square_pipe
+[2021.03.16-23.43.40:394][669]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/MyContent/VN/Mesh/Materials/Material_Instance/Mat_Square_pipe.Mat_Square_pipe
+[2021.03.16-23.43.45:278][946]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-23.43.45:278][946]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-23.43.46:495][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/square_pipe" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/square_pipe.uasset" SILENT=true
+[2021.03.16-23.43.46:515][ 11]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/square_pipe192ED6C440FAF046DC47F694A19D8B8D.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/square_pipe.uasset'
+[2021.03.16-23.43.46:533][ 11]AssetCheck: New page: Asset Save: square_pipe
+[2021.03.16-23.43.46:533][ 11]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/square_pipe.square_pipe
+[2021.03.16-23.43.57:918][664]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-23.43.57:918][664]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-23.44.13:811][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Mesh/square_pipe" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/square_pipe.uasset" SILENT=true
+[2021.03.16-23.44.13:924][568]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/square_pipe3FE1735D4D3EE058352E5C9D96D3136B.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Mesh/square_pipe.uasset'
+[2021.03.16-23.44.13:950][568]AssetCheck: New page: Asset Save: square_pipe
+[2021.03.16-23.44.13:950][568]LogContentValidation: Display: Validating StaticMesh /Game/MyContent/VN/Mesh/square_pipe.square_pipe
+[2021.03.16-23.44.18:446][831]Cmd: TRANSACTION UNDO
+[2021.03.16-23.44.18:446][831]LogEditorTransaction: Undo Move Actors
+[2021.03.16-23.44.42:691][163]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire6)
+[2021.03.16-23.45.25:424][254]Cmd: TRANSACTION UNDO
+[2021.03.16-23.45.25:424][254]LogEditorTransaction: Undo Move Actors
+[2021.03.16-23.45.33:191][699]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire6)
+[2021.03.16-23.45.42:932][207]LogSlate: Window 'square_pipe' being destroyed
+[2021.03.16-23.45.42:938][207]LogSlate: Window 'square_pipe' being destroyed
+[2021.03.16-23.45.42:965][207]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.03.16-23.45.42:965][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.16-23.46.08:446][617]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire6)
+[2021.03.16-23.46.15:837][137]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire6)
+[2021.03.16-23.46.24:956][518]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire6)
+[2021.03.16-23.46.28:272][679]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire6)
+[2021.03.16-23.46.35:506][202]Cmd: TRANSACTION UNDO
+[2021.03.16-23.46.35:506][202]LogEditorTransaction: Undo Move Actors
+[2021.03.16-23.47.02:866][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.03.16-23.47.03:328][131]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv115E8A9164F62F124367FD495394C21EB.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.16-23.47.03:386][131]LogFileHelpers: No new changes to save!
+[2021.03.16-23.47.03:387][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Level/Map_VN_lv1_BuiltData" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset" SILENT=true
+[2021.03.16-23.47.06:590][131]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_BuiltData4A2E9AC0496E60F13E3D73B2D9B04FD2.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset'
+[2021.03.16-23.47.06:631][131]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.16-23.47.06:631][131]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.16-23.47.06:631][131]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyContent/VN/Level/Map_VN_lv1_BuiltData.Map_VN_lv1_BuiltData
+[2021.03.16-23.47.10:513][334]LogEditorViewport: Clicking on Actor (LMB): BP_ProceduralWire_C (BP_ProceduralWire6)
+[2021.03.16-23.47.26:775][264]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.03.16-23.47.27:186][264]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1BAD94BB4481A0679087426B15CCCDF69.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.16-23.47.27:237][264]LogFileHelpers: No new changes to save!
+[2021.03.16-23.47.27:238][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Level/Map_VN_lv1_BuiltData" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset" SILENT=true
+[2021.03.16-23.47.28:732][264]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_BuiltData6CD7CED445E70FB2B81E5ABD9A42A36D.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset'
+[2021.03.16-23.47.28:859][264]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.16-23.47.28:859][264]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.16-23.47.28:859][264]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyContent/VN/Level/Map_VN_lv1_BuiltData.Map_VN_lv1_BuiltData
+[2021.03.16-23.55.17:291][336]LogEditorViewport: Clicking on Actor (LMB): BP_Building_C (BP_Building)
+[2021.03.16-23.55.21:432][735]LogEditorViewport: Clicking on Actor (CTRL LMB): DecalActor (Mat_decal2_inst4)
+[2021.03.16-23.55.21:996][797]LogEditorViewport: Clicking on Actor (CTRL LMB): DecalActor (Mat_decal2_inst3)
+[2021.03.16-23.55.22:808][890]LogEditorViewport: Clicking on Actor (CTRL LMB): DecalActor (Mat_decal2_inst5)
+[2021.03.16-23.55.25:900][225]Cmd: TRANSACTION UNDO
+[2021.03.16-23.55.25:901][225]LogEditorTransaction: Undo Move Actors
+[2021.03.16-23.55.37:540][303]LogEditorViewport: Clicking on Actor (LMB): BP_Building_C (BP_Building)
+[2021.03.16-23.55.42:629][635]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.03.16-23.55.43:039][635]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1F0A03F52468094F48F2210B543B14DEA.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1.umap'
+[2021.03.16-23.55.43:090][635]LogFileHelpers: No new changes to save!
+[2021.03.16-23.55.43:092][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/VN/Level/Map_VN_lv1_BuiltData" FILE="../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset" SILENT=true
+[2021.03.16-23.55.44:767][635]LogSavePackage: Moving '../../../../GitHub/ManAtArms/ManAtArms_Project/Saved/Map_VN_lv1_BuiltData641665464012C46C2C87E5BB1448949E.tmp' to '../../../../GitHub/ManAtArms/ManAtArms_Project/Content/MyContent/VN/Level/Map_VN_lv1_BuiltData.uasset'
+[2021.03.16-23.55.45:241][635]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.16-23.55.45:241][635]LogContentValidation: Display: Validating World /Game/MyContent/VN/Level/Map_VN_lv1.Map_VN_lv1
+[2021.03.16-23.55.45:241][635]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyContent/VN/Level/Map_VN_lv1_BuiltData.Map_VN_lv1_BuiltData
+[2021.03.17-04.50.08:762][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (3_1_panel)
