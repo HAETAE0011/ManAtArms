@@ -50,7 +50,15 @@ void AVNPlayer_parent::HandleCooldown(float deltaTime)
 		}
 		else {
 			cooldownDone = true;
-			foodReady = ServingFood;
+			if (cooking == true) {
+				foodReady = ServingFood;
+				cooking = false;
+			}
+			if (drinkServing == true) {
+				drinkReady = ServingDrink;
+				drinkServing = false;
+			}
+			checkingOrder = true;
 			
 		}
 	}
@@ -59,19 +67,21 @@ void AVNPlayer_parent::HandleCooldown(float deltaTime)
 
 void AVNPlayer_parent::CookNoodle()
 {
+	cooking = true;
 	switch (noodleType) {
 		case 0: {
 			if (sauceType == 1) {
 				if (toppingType == 0) {
 					//Seafood noodles!
-					if (GEngine) {
+					/*if (GEngine) {
 						GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("SeafoodNoodle"));
-					}
+					}*/
 					ServingFood = 1;
 
 				}
 				else {
-					ServingFood = 10;
+					//wrong recipe
+					ServingFood = 7;
 				}
 			}
 			else if (sauceType == 2) {
@@ -80,11 +90,11 @@ void AVNPlayer_parent::CookNoodle()
 					ServingFood = 2;
 				}
 				else {
-					ServingFood = 10;
+					ServingFood = 7;
 				}
 			}
 			else {
-				ServingFood = 10;
+				ServingFood = 7;
 			}
 		}
 			  break;
@@ -95,7 +105,7 @@ void AVNPlayer_parent::CookNoodle()
 					ServingFood = 3;
 				}
 				else {
-					ServingFood = 10;
+					ServingFood = 7;
 				}
 			}
 			else if (sauceType == 2) {
@@ -104,11 +114,11 @@ void AVNPlayer_parent::CookNoodle()
 					ServingFood = 4;
 				}
 				else {
-					ServingFood = 10;
+					ServingFood = 7;
 				}
 			}
 			else {
-				ServingFood = 10;
+				ServingFood = 7;
 			}
 		}
 			  break;
@@ -123,11 +133,11 @@ void AVNPlayer_parent::CookNoodle()
 					ServingFood = 6;
 				}
 				else {
-					ServingFood = 10;
+					ServingFood = 7;
 				}
 			}
 			else {
-				ServingFood = 10;
+				ServingFood = 7;
 			}
 			
 		}
@@ -139,9 +149,10 @@ void AVNPlayer_parent::ResetServed()
 {
 	ServingDrink = 0;
 	ServingFood = 0;
-	servedDrink = 0;
-	servedFood = 0;
+	//servedDrink = 0;
+	//servedFood = 0;
 	foodReady = 0;
+	drinkReady = 0;
 
 }
 
@@ -167,6 +178,7 @@ void AVNPlayer_parent::getMoney(float moneyToGet)
 {
 	money = money + moneyToGet;
 }
+
 
 
 

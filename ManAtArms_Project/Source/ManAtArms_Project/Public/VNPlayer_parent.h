@@ -43,11 +43,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Customer")
 		TArray<FCustomer_struct> customers;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cooking")
-		int servedFood;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cooking")
+	//	int servedFood;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cooking")
-		int servedDrink;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cooking")
+	//	int servedDrink;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Customer")
 		float default_satisfaction_level;
@@ -66,6 +66,15 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cooldown")
 		bool cooldownDone;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cooldown")
+		bool cooking;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cooldown")
+		bool drinkServing;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cooldown")
+		bool checkingOrder;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Customer")
 		int customerBonus;
@@ -94,10 +103,7 @@ public:
 		4 = Syoyu ramen
 		5 = Soba
 		6 = Yakisoba
-		7 = Lamb skewer
-		8 = Pork skewer
-		9 = Chicken skewer
-		10 = wrong recipe!
+		7 = wrong recipe!
 	*/
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cooking")
 		int ServingFood;
@@ -162,6 +168,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Manage")
 	void getMoney(float moneyToGet);
 
+	
 };
 
 

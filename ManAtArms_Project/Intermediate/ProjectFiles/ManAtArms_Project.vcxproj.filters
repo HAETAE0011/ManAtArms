@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ManAtArms_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1ADE8080-E8DB-4401-BC51-EE176492F2CD}</UniqueIdentifier>
+      <UniqueIdentifier>{EF331DDB-F9FE-40FB-9B10-7CCDDBF43535}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ManAtArms_Project.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\ManAtArms_ProjectEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\ManAtArms_Project.png" />
     <Filter Include="Config">
-      <UniqueIdentifier>{750A820D-2DB0-46EF-B728-57805BECDF7A}</UniqueIdentifier>
+      <UniqueIdentifier>{9A3EAC34-32E0-4D58-BE39-2328EB783146}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,22 +31,22 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{EFE067ED-321F-4906-A56D-5433590DB51D}</UniqueIdentifier>
+      <UniqueIdentifier>{446E3342-966A-44B1-8991-99FE7414F6E1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\TestAIPlugin">
-      <UniqueIdentifier>{5FB43CED-46D9-4A27-8939-CEEABC1E16A0}</UniqueIdentifier>
+      <UniqueIdentifier>{760F9B5C-BE07-4CEE-90B2-0942EE19C1C0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\TestAIPlugin\Source">
-      <UniqueIdentifier>{733802F6-C4AF-4446-B068-EC5244B8D3A7}</UniqueIdentifier>
+      <UniqueIdentifier>{EA6C9A96-78A7-48D4-997D-B44544097B39}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\TestAIPlugin\Source\TestAIPlugin">
-      <UniqueIdentifier>{C3942E84-3A44-44A6-B7F2-024FDD4DBEBE}</UniqueIdentifier>
+      <UniqueIdentifier>{4C6015BC-9BD7-47B9-8F95-CC0F62EE2AA3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\TestAIPlugin\Source\TestAIPlugin\TestAIPlugin.Build.cs">
       <Filter>Plugins\TestAIPlugin\Source\TestAIPlugin</Filter>
     </None>
     <Filter Include="Plugins\TestAIPlugin\Source\TestAIPlugin\Private">
-      <UniqueIdentifier>{6843496D-384F-4524-AF87-1EBBFE1418D5}</UniqueIdentifier>
+      <UniqueIdentifier>{151D9933-790A-4E12-941A-286BBE740025}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\TestAIPlugin\Source\TestAIPlugin\Private\Pathfinder.cpp">
       <Filter>Plugins\TestAIPlugin\Source\TestAIPlugin\Private</Filter>
@@ -63,7 +64,7 @@
       <Filter>Plugins\TestAIPlugin\Source\TestAIPlugin\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\TestAIPlugin\Source\TestAIPlugin\Public">
-      <UniqueIdentifier>{151568DC-99D9-4724-92FE-7648C4D8582D}</UniqueIdentifier>
+      <UniqueIdentifier>{7D4EB6BE-1BAE-431D-98E3-4C342F20CC00}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\TestAIPlugin\Source\TestAIPlugin\Public\Pathfinder.h">
       <Filter>Plugins\TestAIPlugin\Source\TestAIPlugin\Public</Filter>
@@ -84,13 +85,13 @@
       <Filter>Plugins\TestAIPlugin</Filter>
     </None>
     <Filter Include="Plugins\TestAIPlugin\Resources">
-      <UniqueIdentifier>{31319721-C165-4AA0-B273-3BE79C7FD766}</UniqueIdentifier>
+      <UniqueIdentifier>{5EEE3723-B975-482E-B353-AB796BF847E1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\TestAIPlugin\Resources\Icon128.png">
       <Filter>Plugins\TestAIPlugin\Resources</Filter>
     </None>
     <Filter Include="Source\ManAtArms_Project">
-      <UniqueIdentifier>{0C95B1FA-385A-42EB-B185-057CD4AC24B2}</UniqueIdentifier>
+      <UniqueIdentifier>{8FB85B0E-3823-48A4-99B9-8A1628149772}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ManAtArms_Project\ManAtArms_Project.Build.cs">
       <Filter>Source\ManAtArms_Project</Filter>
@@ -102,7 +103,7 @@
       <Filter>Source\ManAtArms_Project</Filter>
     </ClInclude>
     <Filter Include="Source\ManAtArms_Project\Private">
-      <UniqueIdentifier>{2B50F94D-40EC-430D-A03D-288BF02FDB94}</UniqueIdentifier>
+      <UniqueIdentifier>{DCC3688C-8FEB-405A-BCEC-BFECD23E37C8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ManAtArms_Project\Private\Customer.cpp">
       <Filter>Source\ManAtArms_Project\Private</Filter>
@@ -129,7 +130,7 @@
       <Filter>Source\ManAtArms_Project\Private</Filter>
     </ClCompile>
     <Filter Include="Source\ManAtArms_Project\Public">
-      <UniqueIdentifier>{EBD02D88-7DF8-42AA-A7F6-C40DD59921BC}</UniqueIdentifier>
+      <UniqueIdentifier>{0D0A6E92-FBCD-4760-87A9-AAD1D500831A}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ManAtArms_Project\Public\Customer.h">
       <Filter>Source\ManAtArms_Project\Public</Filter>

@@ -326,6 +326,21 @@ void EmptyLinkFunctionForGeneratedCodeVNPlayer_parent() {}
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_customerBonus;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_checkingOrder_MetaData[];
+#endif
+		static void NewProp_checkingOrder_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_checkingOrder;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_drinkServing_MetaData[];
+#endif
+		static void NewProp_drinkServing_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_drinkServing;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_cooking_MetaData[];
+#endif
+		static void NewProp_cooking_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_cooking;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_cooldownDone_MetaData[];
 #endif
 		static void NewProp_cooldownDone_SetBit(void* Obj);
@@ -350,14 +365,6 @@ void EmptyLinkFunctionForGeneratedCodeVNPlayer_parent() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_default_satisfaction_level_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_default_satisfaction_level;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_servedDrink_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_servedDrink;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_servedFood_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_servedFood;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_customers_MetaData[];
 #endif
@@ -473,9 +480,9 @@ void EmptyLinkFunctionForGeneratedCodeVNPlayer_parent() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_ServingFood_MetaData[] = {
 		{ "Category", "Cooking" },
-		{ "Comment", "/*\n\x09\x09""0 = none\n\x09\x09""1 = Seafood noodles\n\x09\x09""2 = Bacon noodles\n\x09\x09""3 = Pork ramen\n\x09\x09""4 = Syoyu ramen\n\x09\x09""5 = Soba\n\x09\x09""6 = Yakisoba\n\x09\x09""7 = Lamb skewer\n\x09\x09""8 = Pork skewer\n\x09\x09""9 = Chicken skewer\n\x09\x09""10 = wrong recipe!\n\x09*/" },
+		{ "Comment", "/*\n\x09\x09""0 = none\n\x09\x09""1 = Seafood noodles\n\x09\x09""2 = Bacon noodles\n\x09\x09""3 = Pork ramen\n\x09\x09""4 = Syoyu ramen\n\x09\x09""5 = Soba\n\x09\x09""6 = Yakisoba\n\x09\x09""7 = wrong recipe!\n\x09*/" },
 		{ "ModuleRelativePath", "Public/VNPlayer_parent.h" },
-		{ "ToolTip", "0 = none\n1 = Seafood noodles\n2 = Bacon noodles\n3 = Pork ramen\n4 = Syoyu ramen\n5 = Soba\n6 = Yakisoba\n7 = Lamb skewer\n8 = Pork skewer\n9 = Chicken skewer\n10 = wrong recipe!" },
+		{ "ToolTip", "0 = none\n1 = Seafood noodles\n2 = Bacon noodles\n3 = Pork ramen\n4 = Syoyu ramen\n5 = Soba\n6 = Yakisoba\n7 = wrong recipe!" },
 	};
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_ServingFood = { "ServingFood", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVNPlayer_parent, ServingFood), METADATA_PARAMS(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_ServingFood_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_ServingFood_MetaData)) };
@@ -522,6 +529,39 @@ void EmptyLinkFunctionForGeneratedCodeVNPlayer_parent() {}
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_customerBonus = { "customerBonus", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVNPlayer_parent, customerBonus), METADATA_PARAMS(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_customerBonus_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_customerBonus_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_checkingOrder_MetaData[] = {
+		{ "Category", "Cooldown" },
+		{ "ModuleRelativePath", "Public/VNPlayer_parent.h" },
+	};
+#endif
+	void Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_checkingOrder_SetBit(void* Obj)
+	{
+		((AVNPlayer_parent*)Obj)->checkingOrder = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_checkingOrder = { "checkingOrder", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AVNPlayer_parent), &Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_checkingOrder_SetBit, METADATA_PARAMS(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_checkingOrder_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_checkingOrder_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_drinkServing_MetaData[] = {
+		{ "Category", "Cooldown" },
+		{ "ModuleRelativePath", "Public/VNPlayer_parent.h" },
+	};
+#endif
+	void Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_drinkServing_SetBit(void* Obj)
+	{
+		((AVNPlayer_parent*)Obj)->drinkServing = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_drinkServing = { "drinkServing", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AVNPlayer_parent), &Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_drinkServing_SetBit, METADATA_PARAMS(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_drinkServing_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_drinkServing_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_cooking_MetaData[] = {
+		{ "Category", "Cooldown" },
+		{ "ModuleRelativePath", "Public/VNPlayer_parent.h" },
+	};
+#endif
+	void Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_cooking_SetBit(void* Obj)
+	{
+		((AVNPlayer_parent*)Obj)->cooking = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_cooking = { "cooking", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AVNPlayer_parent), &Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_cooking_SetBit, METADATA_PARAMS(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_cooking_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_cooking_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_cooldownDone_MetaData[] = {
 		{ "Category", "Cooldown" },
 		{ "ModuleRelativePath", "Public/VNPlayer_parent.h" },
@@ -563,24 +603,12 @@ void EmptyLinkFunctionForGeneratedCodeVNPlayer_parent() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_default_satisfaction_level_MetaData[] = {
 		{ "Category", "Customer" },
+		{ "Comment", "//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = \"Cooking\")\n//\x09int servedDrink;\n" },
 		{ "ModuleRelativePath", "Public/VNPlayer_parent.h" },
+		{ "ToolTip", "UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = \"Cooking\")\n       int servedDrink;" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_default_satisfaction_level = { "default_satisfaction_level", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVNPlayer_parent, default_satisfaction_level), METADATA_PARAMS(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_default_satisfaction_level_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_default_satisfaction_level_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_servedDrink_MetaData[] = {
-		{ "Category", "Cooking" },
-		{ "ModuleRelativePath", "Public/VNPlayer_parent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_servedDrink = { "servedDrink", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVNPlayer_parent, servedDrink), METADATA_PARAMS(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_servedDrink_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_servedDrink_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_servedFood_MetaData[] = {
-		{ "Category", "Cooking" },
-		{ "ModuleRelativePath", "Public/VNPlayer_parent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_servedFood = { "servedFood", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVNPlayer_parent, servedFood), METADATA_PARAMS(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_servedFood_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_servedFood_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_customers_MetaData[] = {
 		{ "Category", "Customer" },
@@ -648,14 +676,15 @@ void EmptyLinkFunctionForGeneratedCodeVNPlayer_parent() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_noodleType,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_currentDay,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_customerBonus,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_checkingOrder,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_drinkServing,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_cooking,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_cooldownDone,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_cooldownPercent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_cooldownMax,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_cooldown,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_satisfactionMultiplier,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_default_satisfaction_level,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_servedDrink,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_servedFood,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_customers,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_customers_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVNPlayer_parent_Statics::NewProp_lastCustomerIndexToday,
@@ -691,7 +720,7 @@ void EmptyLinkFunctionForGeneratedCodeVNPlayer_parent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AVNPlayer_parent, 336327666);
+	IMPLEMENT_CLASS(AVNPlayer_parent, 1172919035);
 	template<> MANATARMS_PROJECT_API UClass* StaticClass<AVNPlayer_parent>()
 	{
 		return AVNPlayer_parent::StaticClass();

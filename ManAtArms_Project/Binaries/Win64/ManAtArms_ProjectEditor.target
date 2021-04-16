@@ -69,6 +69,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/4.24-v2/HoudiniEngine/Binaries/Win64/UE4Editor-HoudiniEngine.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/4.24-v2/HoudiniEngine/Binaries/Win64/UE4Editor-HoudiniEngineEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/4.24-v2/HoudiniEngine/Binaries/Win64/UE4Editor-HoudiniEngineRuntime.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/TestAIPlugin/Binaries/Win64/UE4Editor-TestAIPlugin.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -3969,6 +3981,10 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/4.24-v2/HoudiniEngine/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/TestAIPlugin/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -4292,6 +4308,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/ApexDestruction/ApexDestruction.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/4.24-v2/HoudiniEngine/HoudiniEngine.uplugin",
 			"Type": "UFS"
 		},
 		{
