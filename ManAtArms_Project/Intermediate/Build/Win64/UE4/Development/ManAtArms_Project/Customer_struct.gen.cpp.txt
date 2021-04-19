@@ -1,5 +1,0 @@
-Z:\GitHub\ManAtArms\ManAtArms_Project\Intermediate\Build\Win64\UE4\Development\ManAtArms_Project\Definitions.ManAtArms_Project.h
-Z:\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-Z:\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-Z:\GitHub\ManAtArms\ManAtArms_Project\Source\ManAtArms_Project/Public/Customer_struct.h
-Z:\GitHub\ManAtArms\ManAtArms_Project\Intermediate\Build\Win64\UE4\Inc\ManAtArms_Project\Customer_struct.generated.h
